@@ -1,5 +1,11 @@
-
+API: upsertDpKeyword   test result is Success 
+API: cloneKeyword   test result is Success 
+API: deleteKeyword   test result is Success 
 API: upsertDpExpression   test result is Success 
 API: cloneExpression   test result is Success 
-API: upsertDpExpression   test result is Success 
-API: cloneExpression   test result is Success 
+API: deleteExpression   test result is Success 
+API: list   test result is Success 
+API: clone   test result is Success 
+API: list   test result is Success 
+API: clone   test result is Success 
+API: deletePolicy   test result is Success 

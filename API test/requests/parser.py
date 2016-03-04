@@ -31,11 +31,16 @@ def loadParameter(name, valueFromOtherAPI=0):
     elif content['method'] == 'GET': 
         getUrl = content['url'].encode('utf-8')
         if (valueFromOtherAPI != 0):
-            getUrl = getUrl.replace('policyUuid', valueFromOtherAPI)
+            getUrl = getUrl.replace('[ReplaceTag]', valueFromOtherAPI)
         response = getAPI(getUrl)
    
     elif content['method'] == 'DELETE':
-        response = deleteAPI(content['url'])
+        getUrl = content['url'].encode('utf-8')
+        if (valueFromOtherAPI != 0):
+            getUrl = getUrl.replace('[ReplaceTag]', valueFromOtherAPI)
+            print getUrl
+        response = deleteAPI(getUrl)
+        print response.status_code
     else:
         print "Wrong method in Config file"
     
@@ -139,6 +144,8 @@ def getAPI(url):
 	return r
 
 def deleteAPI(url):
+    print '&&&&&'
+    print url
     r = requests.delete(url)
     return r
     
@@ -152,8 +159,8 @@ def writeLog(name, string):
 # loadParameter('upsertDpTemplate')
 # loadParameter('upsertDpExpression')
 # loadParameter('upsertDpKeyword')
-loadParameter('cloneExpression',loadParameter('upsertDpExpression'))
-#loadParameter('cloneKeyword',loadParameter('upsertDpKeyword'))
+# loadParameter('cloneExpression',loadParameter('upsertDpExpression'))
+# loadParameter('cloneKeyword',loadParameter('upsertDpKeyword'))
 #loadParameter('cloneTemplate',loadParameter('upsertDpTemplate'))
 # loadParameter('getDpTemplate')
 # loadParameter('getDpKeyword')
@@ -161,7 +168,7 @@ loadParameter('cloneExpression',loadParameter('upsertDpExpression'))
 # loadParameter('getEOpolicy')
 # loadParameter('getODpolicy')
 # loadParameter('getSOpolicy')
-# loadParameter('clone',loadParameter('list'))
+#loadParameter('clone',loadParameter('list'))
 #loadParameter('details', loadParameter('list'))
 # loadParameter('addPolicy')
 # loadParameter('updatePolicy')
@@ -169,7 +176,7 @@ loadParameter('cloneExpression',loadParameter('upsertDpExpression'))
 # loadParameter('import')
 # loadParameter('export')
 # loadParameter('matchCAS')
-#loadParameter('getPolicy', loadParameter('list'))
+# loadParameter('getPolicy', loadParameter('list'))
 #loadParameter('policyEnabledInfo', loadParameter('list'))
 # loadParameter('getScanTarget')
 #loadParameter('getPolicyTarget', loadParameter('list'))
@@ -180,3 +187,8 @@ loadParameter('cloneExpression',loadParameter('upsertDpExpression'))
 # loadParameter('Validation')
 
 
+# loadParameter('deleteTemplate', loadParameter('cloneTemplate',loadParameter('upsertDpTemplate')))
+
+#loadParameter('deleteKeyword', loadParameter('cloneKeyword',loadParameter('upsertDpKeyword')))
+#loadParameter('deleteExpression', loadParameter('cloneExpression',loadParameter('upsertDpExpression')))
+loadParameter('deletePolicy', loadParameter('clone',loadParameter('list')))

@@ -60,14 +60,14 @@
 	},
     "getPolicy":{
         "method": "GET",
-        "url": "http://localhost:8080/policy/policyId/policyUuid",
+        "url": "http://localhost:8080/policy/policyId/[ReplaceTag]",
         "validation": {
             "isPolicyUpdated": true
         }
 	},
     "policyEnabledInfo":{
         "method": "GET",
-        "url": "http://localhost:8080/policy/policyEnabledInfo/policyUuid",
+        "url": "http://localhost:8080/policy/policyEnabledInfo/[ReplaceTag]",
         "validation": {
             "companyId": "TestCompanyForPolicySimulate"
         }
@@ -81,7 +81,7 @@
 	},
     "getPolicyTarget":{
         "method": "GET",
-        "url": "http://localhost:8080/policy/targets/policyId/policyUuid",
+        "url": "http://localhost:8080/policy/targets/policyId/[ReplaceTag]",
         "validation": {
             "groupList": []
         }
@@ -140,7 +140,7 @@
    
     "details":{
         "method": "GET",
-        "url": "http://localhost:8080/policy/details/policyUuid",
+        "url": "http://localhost:8080/policy/details/[ReplaceTag]",
         "validation": {
             "companyId": "TestCompanyForPolicySimulate"
         }
@@ -150,6 +150,7 @@
         "url": "http://localhost:8080/policy/clonePolicy",
 		"content": [{"valid":"clone.json"}],
         "replace": "policyUuid",
+        "return": "id",
 		"validation": {
 			"status": true
 		}
@@ -204,6 +205,7 @@
         "url": "http://localhost:8080/policy/cloneExpression",
 		"content": [{"valid":"cloneExpression.json"}],
         "replace": "cfgIndex",
+        "return": "id",
 		"validation": {
 			"name": "Copy of US: SSN (Social Security Number)--zzzzz"
 		}
@@ -213,6 +215,7 @@
         "url": "http://localhost:8080/policy/cloneKeyword",
 		"content": [{"valid":"cloneKeyword.json"}],
         "replace": "cfgIndex",
+        "return": "id",
 		"validation": {
 			"status": true
 		}
@@ -222,6 +225,7 @@
         "url": "http://localhost:8080/policy/cloneTemplate",
 		"content": [{"valid":"cloneTemplate.json"}],
         "replace": "cfgIndex",
+        "return": "id",
 		"validation": {
 			"status": true
 		}
@@ -246,6 +250,34 @@
 		"method": "POST",
         "url": "http://localhost:8080/policy/addDefaultPolicyForProduct",
 		"content": [{"valid":"addDefaultPolicyForProduct.json"}],
+		"validation": {
+			"status": true
+		}
+	},
+    "deletePolicy":{
+		"method": "DELETE",
+        "url": "http://localhost:8080/policy/deletePolicy/TestCompanyForPolicySimulate/[ReplaceTag]",
+		"validation": {
+			"status": true
+		}
+	},
+    "deleteTemplate":{
+		"method": "DELETE",
+        "url": "http://localhost:8080/policy/deleteTemplate/TestCompanyForPolicySimulate/[ReplaceTag]",
+		"validation": {
+			"status": true
+		}
+	},
+    "deleteKeyword":{
+		"method": "DELETE",
+        "url": "http://localhost:8080/policy/deleteKeyword/TestCompanyForPolicySimulate/[ReplaceTag]",
+		"validation": {
+			"status": true
+		}
+	},
+    "deleteExpression":{
+		"method": "DELETE",
+        "url": "http://localhost:8080/policy/deleteExpression/TestCompanyForPolicySimulate/[ReplaceTag]",
 		"validation": {
 			"status": true
 		}
