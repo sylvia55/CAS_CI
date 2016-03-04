@@ -1,0 +1,253 @@
+{
+	"list":{
+        "method": "GET",
+        "url": "http://localhost:8080/policy/list/TestCompanyForPolicySimulate/1",
+        "return": "policyUuid",
+        "validation": {
+            "companyId": "TestCompanyForPolicySimulate"
+        }
+	},
+    
+    "getDpTemplate":{
+        "method": "GET",
+        "url": "http://localhost:8080/policy/getDpTemplate/TestCompanyForPolicySimulate/",
+        "return": "cfgIndex",
+        "validation": {
+            "dpTemplateName": "US: Phone Number"
+        }
+	},
+    "getDpKeyword":{
+        "method": "GET",
+        "url": "http://localhost:8080/policy/getDpKeyword/TestCompanyForPolicySimulate/",
+        "validation": {
+            "dpKeywordBuiltin": 1
+        }
+	},
+    "getDpExpression":{
+        "method": "GET",
+        "url": "http://localhost:8080/policy/getDpExpression/TestCompanyForPolicySimulate/",
+        "validation": {
+            "dpExpressionBuiltin": 1
+        }
+	},
+    "getEOpolicy":{
+        "method": "GET",
+        "url": "http://localhost:8080/policy/match/EO/TestCompanyForPolicySimulate/testusername1@testabcsite.onmicrosoft.com",
+        "validation": {
+            "cryptoFilter": 0
+        }
+	},
+    "getODpolicy":{
+        "method": "GET",
+        "url": "http://localhost:8080/policy/match/OD/TestCompanyForPolicySimulate/https%253A%252F%252Ftestabcsite-my.sharepoint.com%252Fpersonal%252Ftestusername1_testabcsite_onmicrosoft_com%252F",
+        "validation": {
+            "cryptoFilter": 0
+        }
+	},
+    "getSOpolicy":{
+        "method": "GET",
+        "url": "http://localhost:8080/policy/match/SO/http%253a%252f%252ftestabcsite.sharepoint.com%252flevelA1%252f",
+        "validation": {
+            "cryptoFilter": 0
+        }
+	},
+    "matchCAS":{
+        "method": "GET",
+        "url": "http://localhost:8080/policy/match/CAS/TestCompanyForPolicySimulate/EO?userId=testusername1@testabcsite.onmicrosoft.com",
+        "validation": {
+            "isPolicyUpdated": true
+        }
+	},
+    "getPolicy":{
+        "method": "GET",
+        "url": "http://localhost:8080/policy/policyId/policyUuid",
+        "validation": {
+            "isPolicyUpdated": true
+        }
+	},
+    "policyEnabledInfo":{
+        "method": "GET",
+        "url": "http://localhost:8080/policy/policyEnabledInfo/policyUuid",
+        "validation": {
+            "companyId": "TestCompanyForPolicySimulate"
+        }
+	},
+    "getScanTarget":{
+        "method": "GET",
+        "url": "http://localhost:8080/policy/targets/SCAN/TestCompanyForPolicySimulate",
+        "validation": {
+            "groupList": []
+        }
+	},
+    "getPolicyTarget":{
+        "method": "GET",
+        "url": "http://localhost:8080/policy/targets/policyId/policyUuid",
+        "validation": {
+            "groupList": []
+        }
+	},
+    "serverStatus":{
+        "method": "GET",
+        "url": "http://localhost:8080/policy/serverStatus",
+        "validation": {
+            "company": "Trend Micro Incorporated"
+        }
+	},
+    "throttlingRatio":{
+        "method": "GET",
+        "url": "http://localhost:8080/policy/throttlingRatio/TestCompanyForPolicySimulate",
+        "validation": {
+            "throttlingRatio": 10
+        }
+	},
+    "throttlingRatioType":{
+        "method": "GET",
+        "url": "http://localhost:8080/policy/throttlingRatio/TestCompanyForPolicySimulate/2",
+        "validation": {
+            "throttlingRatio": 10
+        }
+	},
+    "throttlingRatioPost":{
+        "method": "POST",
+        "url": "http://localhost:8080/policy/throttlingRatio/TestCompanyForPolicySimulate",
+        "content": [{"valid":"throttlingRatio.json"}],
+        "validation": {
+            "throttlingRatio": 10
+        }
+	},
+    "throttlingRatioTypePost":{
+        "method": "POST",
+        "url": "http://localhost:8080/policy/throttlingRatio/TestCompanyForPolicySimulate/2",
+        "content": [{"valid":"throttlingRatioType.json"}],
+        "validation": {
+            "throttlingRatio": 10
+        }
+	},
+    "taskStatus":{
+        "method": "GET",
+        "url": "http://localhost:8080/policy/taskStatus/TestCompanyForPolicySimulate",
+        "validation": {
+            "companyId": "TestCompanyForPolicySimulate"
+        }
+	},
+    "Validation":{
+        "method": "GET",
+        "url": "http://localhost:8080/policy/listDict/Validation",
+        "validation": {
+            "dictClassify": "Validation"
+        }
+	},
+   
+    "details":{
+        "method": "GET",
+        "url": "http://localhost:8080/policy/details/policyUuid",
+        "validation": {
+            "companyId": "TestCompanyForPolicySimulate"
+        }
+	},
+    "clone":{
+		"method": "POST",
+        "url": "http://localhost:8080/policy/clonePolicy",
+		"content": [{"valid":"clone.json"}],
+        "replace": "policyUuid",
+		"validation": {
+			"status": true
+		}
+	},
+    "addPolicy":{
+		"method": "POST",
+        "url": "http://localhost:8080/policy/addPolicy",
+		"content": [{"valid":"addpolicy.json"}],
+		"validation": {
+			"name": "user Policy created"
+		}
+	},
+    
+    "updatePolicy":{
+		"method": "POST",
+        "url": "http://localhost:8080/policy/updatePolicy",
+		"content": [{"valid":"updatePolicy.json"}],
+		"validation": {
+			"name": "sylvia test api"
+		}
+	},
+    "upsertDpTemplate":{
+		"method": "POST",
+        "url": "http://localhost:8080/policy/upsertDpTemplate",
+		"content": [{"valid":"upsertDpTemplate.json"}],
+        "return": "id",
+		"validation": {
+			"name": "GLBA (Gramm-Leach-Bliley Act)-zzz"
+		}
+	},
+    "upsertDpExpression":{
+		"method": "POST",
+        "url": "http://localhost:8080/policy/upsertDpExpression",
+		"content": [{"valid":"upsertDpExpression.json"}],
+        "return": "id",
+		"validation": {
+			"name": "US: SSN (Social Security Number)--zzzzz"
+		}
+	},
+    
+    "upsertDpKeyword":{
+		"method": "POST",
+        "url": "http://localhost:8080/policy/upsertDpKeyword",
+		"content": [{"valid":"upsertDpKeyword.json"}],
+        "return": "id",
+		"validation": {
+			"name": "Forms: First Name, Last Name"
+		}
+	},
+    "cloneExpression":{
+		"method": "POST",
+        "url": "http://localhost:8080/policy/cloneExpression",
+		"content": [{"valid":"cloneExpression.json"}],
+        "replace": "cfgIndex",
+		"validation": {
+			"name": "Copy of US: SSN (Social Security Number)--zzzzz"
+		}
+	},
+    "cloneKeyword":{
+		"method": "POST",
+        "url": "http://localhost:8080/policy/cloneKeyword",
+		"content": [{"valid":"cloneKeyword.json"}],
+        "replace": "cfgIndex",
+		"validation": {
+			"status": true
+		}
+	},
+    "cloneTemplate":{
+		"method": "POST",
+        "url": "http://localhost:8080/policy/cloneTemplate",
+		"content": [{"valid":"cloneTemplate.json"}],
+        "replace": "cfgIndex",
+		"validation": {
+			"status": true
+		}
+	},
+    "import":{
+		"method": "POST",
+        "url": "http://localhost:8080/policy/import",
+		"content": [{"valid":"import.json"}],
+		"validation": {
+			"status": true
+		}
+	},
+    "export":{
+		"method": "POST",
+        "url": "http://localhost:8080/policy/export",
+		"content": [{"valid":"export.json"}],
+		"validation": {
+			"status": true
+		}
+	},
+    "addDefaultPolicyForProduct":{
+		"method": "POST",
+        "url": "http://localhost:8080/policy/addDefaultPolicyForProduct",
+		"content": [{"valid":"addDefaultPolicyForProduct.json"}],
+		"validation": {
+			"status": true
+		}
+	}
+}

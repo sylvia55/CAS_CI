@@ -1,0 +1,102 @@
+
+{
+  "companyId": "TestCompanyForPolicySimulate",
+
+"cfgIndex": "",
+  "cfgIgnoreFields": "",
+  "dpTemplateDesc": "test yusong ",
+  "dpTemplateIndustry": "",
+  "dpTemplateName": "GLBA (Gramm-Leach-Bliley Act)-zzz",
+  "dpTemplateRegion": "Americas;",
+  "dpTemplateSeverity": "medium",
+  "template": {
+    "matchRule": [
+      {
+        "buildingBlock": [
+          {
+            "sourceName": "00000000-0000-0000-0002-000000000002",
+            "sourceType": "KEYWORD"
+          },
+          {
+            "sourceName": "00000000-0000-0000-0001-000000000001",
+            "sourceType": "ENTITY",
+            "entityHits": 99
+          }
+        ],
+        "operation": "OR"
+      },
+      {
+        "buildingBlock": [
+          {
+            "sourceName": "00000000-0000-0000-0002-000000000003",
+            "sourceType": "KEYWORD"
+          },
+          {
+            "sourceName": "00000000-0000-0000-0001-000000000001",
+            "sourceType": "ENTITY",
+            "entityHits": 1
+          }
+        ],
+        "operation": "OR"
+      },
+      {
+        "buildingBlock": [
+          {
+            "sourceName": "00000000-0000-0000-0001-000000000013",
+            "sourceType": "ENTITY",
+            "entityHits": 1
+          },
+          {
+            "sourceName": "00000000-0000-0000-0001-000000000003",
+            "sourceType": "ENTITY",
+            "entityHits": 1
+          }
+        ],
+        "operation": "OR"
+      },
+      {
+        "buildingBlock": [
+          {
+            "sourceName": "00000000-0000-0000-0002-000000000002",
+            "sourceType": "KEYWORD"
+          },
+          {
+            "sourceName": "00000000-0000-0000-0001-000000000003",
+            "sourceType": "ENTITY",
+            "entityHits": 1
+          }
+        ],
+        "operation": "OR"
+      },
+      {
+        "buildingBlock": [
+          {
+            "sourceName": "00000000-0000-0000-0002-000000000003",
+            "sourceType": "KEYWORD"
+          },
+          {
+            "sourceName": "00000000-0000-0000-0001-000000000003",
+            "sourceType": "ENTITY",
+            "entityHits": 1
+          }
+        ],
+        "operation": "OR"
+      },
+      {
+        "buildingBlock": [
+          {
+            "sourceName": "00000000-0000-0000-0001-000000000013",
+            "sourceType": "ENTITY",
+            "entityHits": 1
+          },
+          {
+            "sourceName": "00000000-0000-0000-0001-000000000014",
+            "sourceType": "ENTITY",
+            "entityHits": 1
+          }
+        ],
+        "operation": "OR"
+      }
+    ]
+  }
+}

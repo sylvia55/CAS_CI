@@ -1,0 +1,129 @@
+{
+	"policy" : {
+		"policyDescription" : "",
+		"policyName" : "sylvia",
+		"policyTarget" : "|https://casstg12.sharepoint.com/",
+		"policyType" : "2",
+		"tmFileblockings" : [{
+				"fbActionType" : "109",
+				"fbNotifyType" : "0",
+				"fbScanningType" : "0",
+				"fbReplacementFileName" : "A_POLICY_VIOLATED_FILE_WAS_DETECTED_AND_REMOVED.TXT",
+				"fbReplacementText" : "Cloud App Security detected and removed a file named \"[Attachment Name]\" that violated file blocking policy from the original email entity. You can safely save or delete this replacement attachment.",
+				"notification" : {
+					"ntfAdminIntervalNum" : "2",
+					"ntfAdminIntervalType" : "0",
+					"ntfAdminNotifySettingType" : "2",
+					"ntfAdminOccurenceNum" : "50",
+					"ntfEnableNotifyAdmin" : "1",
+					"ntfEnableNotifyRecipient" : "0",
+					"ntfToAccount" : "er@er.com",
+					"ntfAdminMessage" : "%Product_Name% detected a file that meets File Blocking policies.\r\n\r\nAction taken: %action%\r\nMessage details:\r\n\tLast modify time: %date% %time%\r\n\tFound in: %foundin%\r\n\tViolator: %violator%\r\n\tFile name: %filename%",
+					"ntfAdminSubject" : "Trend Micro Cloud App Security for Office 365 Advanced Threat Protection",
+					"ntfInternalRecipientMessage" : "%Product_Name% detected a file that meets File Blocking policies.Make sure that you have recently modified this file as intended. Otherwise, delete the file in the cloud.\r\n\r\nAction taken: %action%\r\nMessage details:\r\n\tLast modify time: %date% %time%\r\n\tFound in: %foundin%\r\n\tViolator: %violator%\r\n\tFile name: %filename%",
+					"ntfInternalRecipientSubject" : "Trend Micro Cloud App Security for Office 365 Advanced Threat Protection"
+				}
+			}
+		],
+		"tmVirusscans" : [{
+				"notification" : {
+					"ntfAdminIntervalNum" : "2",
+					"ntfAdminIntervalType" : "0",
+					"ntfAdminNotifySettingType" : "2",
+					"ntfAdminOccurenceNum" : "50",
+					"ntfEnableNotifyAdmin" : "1",
+					"ntfEnableNotifyRecipient" : "0",
+					"ntfToAccount" : "er@er.com",
+					"ntfAdminMessage" : "%Product_Name% found a file with %security_risk_name% characteristics.\r\n\r\nAction taken: %action%\r\nMessage details:\r\n\tReceived: %date% %time%\r\n\tFound in: %foundin%\r\n\tViolator: %violator%\r\n\tFile name: %filename%",
+					"ntfAdminSubject" : "Trend Micro Cloud App Security for Office 365 Advanced Threat Protection",
+					"ntfInternalRecipientMessage" : "%Product_Name% found a file with %security_risk_name% characteristics.Make sure that you have recently modified this file as intended. Otherwise, delete the file in the cloud.\r\n\r\nAction taken: %action%\r\nMessage details:\r\n\tReceived: %date% %time%\r\n\tFound in: %foundin%\r\n\tViolator: %violator%\r\n\tFile name: %filename%",
+					"ntfInternalRecipientSubject" : "Trend Micro Cloud App Security for Office 365 Advanced Threat Protection"
+				},
+				"vsEnableVirusscan" : "1",
+				"vsActionType" : "0",
+				"vsActiveActionNotifyType" : "0",
+				"vsAdditionalThreats" : "3",
+				"vsAdditionalThreatsActionType" : "109",
+				"vsAdditionalThreatsNotifyType" : "1",
+				"vsDefaultScanningType" : "0",
+				"vsEnableScanFileExt" : "0",
+				"vsEncryptedFileActionType" : "6",
+				"vsEncryptedFileNotifyType" : "0",
+				"vsHeuristicScanActionLevel" : "2",
+				"vsMaliciousActionType" : "109",
+				"vsMaliciousNotifyType" : "1",
+				"vsPackersActionType" : "109",
+				"vsPackersNotifyType" : "1",
+				"vsReplacementFileName" : "VIRUS_DETECTED_AND_REMOVED.TXT",
+				"vsReplacementFileNameUnscannable" : "UNSCANNABLE_MESSAGE_PARTS_DETECTED_AND_REMOVED.TXT",
+				"vsReplacementText" : "Cloud App Security detected and removed a security risk from the original email message [Attachment Name].",
+				"vsReplacementTextUnscannable" : "Cloud App Security deleted the attached file which is encrypted and password protected or outside of scan restriction criteria from the original email attachment \"[Attachment Name]\". You can safely save or delete this replacement attachment.",
+				"vsSpecifiedFileExtObjects" : "",
+				"vsSpecifiedFileTypeObjects" : "",
+				"vsVirusesActionType" : "109",
+				"vsVirusesNotifyType" : "1",
+				"vsWormsTrojansActionType" : "109",
+				"vsWormsTrojansNotifyType" : "1",
+				"vsOverFilesizeRestrictionActionType" : "6",
+				"vsOverFilesizeRestrictionNotifyType" : "1",
+				"vsOverRestrictionActionType" : "6",
+				"vsOverRestrictionNotifyType" : "1"
+			}
+		],
+		"tmWebthreatprotections" : [{
+				"notification" : {
+					"ntfAdminIntervalNum" : "2",
+					"ntfAdminIntervalType" : "0",
+					"ntfAdminNotifySettingType" : "2",
+					"ntfAdminOccurenceNum" : "50",
+					"ntfEnableNotifyAdmin" : "1",
+					"ntfEnableNotifyRecipient" : "0",
+					"ntfToAccount" : "er@er.com",
+					"ntfAdminMessage" : "%Product_Name% detected a file connecting to a suspicious URL.\r\n\r\nURL: %suspicious_url%\r\nRisk level: %risk_level%\r\nAction taken: %action%\r\nMessage details:\r\n\tLast modified time: %date% %time%\r\n\tFound in: %foundin%\r\n\tFile name: %filename%\r\n\tViolator: %violator%\r\n\tCategory: %url_category%",
+					"ntfAdminSubject" : "Trend Micro Cloud App Security for Office 365 Advanced Threat Protection",
+					"ntfInternalRecipientMessage" : "%Product_Name% detected a file connecting to a suspicious URL.Make sure that you have recently modified this file as intended. Otherwise, delete the file in the cloud.\r\n\r\nURL: %suspicious_url%\r\nRisk level: %risk_level%\r\nAction taken: %action%\r\nMessage details:\r\n\tLast modified time: %date% %time%\r\n\tFound in: %foundin%\r\n\tFile name: %filename%\r\n\tViolator: %violator%\r\n\tCategory: %url_category%",
+					"ntfInternalRecipientSubject" : "Trend Micro Cloud App Security for Office 365 Advanced Threat Protection"
+				},
+				"wtpActionType" : "109",
+				"wtpApprovedUrlListEnabled" : "0",
+				"wtpApprovedSenderEmailEnabled" : "0",
+				"wtpExtractAttachmentUrl" : "0",
+				"wtpNotifyType" : "0",
+				"wtpSecurityLevel" : "1",
+				"wtpSuspiciousTag" : "Suspicious URL: ",
+				"wtpUnratedAction" : "0"
+			}
+		],
+		"tmDdafilters" : [{
+				"notification" : {
+					"ntfAdminIntervalNum" : "2",
+					"ntfAdminIntervalType" : "0",
+					"ntfAdminNotifySettingType" : "2",
+					"ntfAdminOccurenceNum" : "50",
+					"ntfEnableNotifyAdmin" : "1",
+					"ntfEnableNotifyRecipient" : "0",
+					"ntfToAccount" : "er@er.com",
+					"ntfAdminMessage" : "%Product_Name% detected a file with suspicious characteristics during sandbox analysis.\r\n\r\nRisk level: %risk_level%\r\nAction taken: %action%\r\nMessage details:\r\n\tLast modify time: %date% %time%\r\n\tFound in: %foundin%\r\n\tFile name: %filename%\r\n\tViolator: %violator%",
+					"ntfAdminSubject" : "Trend Micro Cloud App Security for Office 365 Advanced Threat Protection (Virtual Analyzer)",
+					"ntfInternalRecipientMessage" : "%Product_Name% detected a file with suspicious characteristics during sandbox analysis.Make sure that you have recently modified this file as intended. Otherwise, delete the file in the cloud.\r\n\r\nRisk level: %risk_level%\r\nAction taken: %action%\r\nMessage details:\r\n\tLast modify time: %date% %time%\r\n\tFound in: %foundin%\r\n\tFile name: %filename%\r\n\tViolator: %violator%",
+					"ntfInternalRecipientSubject" : "Trend Micro Cloud App Security for Office 365 Advanced Threat Protection (Virtual Analyzer)"
+				},
+				"ddaActionHighRisk" : "103",
+				"ddaActionLowRisk" : "103",
+				"ddaActionMediumRisk" : "103",
+				"ddaEnabled" : "1",
+				"ddaSuspiciousTagHighRisk" : "",
+				"ddaSuspiciousTagMediumRisk" : "",
+				"ddaSuspiciousTagLowRisk" : "",
+				"ddaActionUnknowRisk" : "6",
+				"ddaSuspiciousTagUnknowRisk" : "",
+				"ddaActionUnknowRiskEnabled" : "1",
+				"ddaHighRiskNotifyType" : "0",
+				"ddaMediumRiskNotifyType" : "0",
+				"ddaLowRiskNotifyType" : "0",
+				"ddaUnknowRiskNotifyType" : "0"
+			}
+		],
+		"policyRealtimeEnabled" : "1"
+	}
+}

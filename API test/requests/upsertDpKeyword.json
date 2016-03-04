@@ -1,0 +1,26 @@
+{
+  "companyId": "TestCompanyForPolicySimulate",
+  "cfgIgnoreFields": "zzz",
+  "dpKeywordCondition": "Distance",
+  "dpKeywordDesc": "test Common use of the (First Name) and (Last Name) fields in documents such as forms",
+  "dpKeywordModified": 0,
+  "dpKeywordName": "Forms: First Name, Last Name",
+  "dpKeywordNumber": 52,
+  "dpKeywordThreshold": 0,
+  "dictionary": {
+    "keyword": [
+      {
+        "value": "First Name111",
+        "caseSensitive": "false",
+        "score": 0,
+        "description": "test"
+      },
+      {
+        "value": "Last Name222",
+        "caseSensitive": "false",
+        "score": 0,
+        "description": "yusong"
+      }
+    ]
+  }
+}

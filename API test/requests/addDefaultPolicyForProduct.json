@@ -1,0 +1,9 @@
+{
+	"companyId" : "TestCompanyForPolicySimulate",
+	"policyTypes" : [1, 2, 3, 4, 5, 6],
+	"policy" : {
+		"policyRealtimeEnabled" : 0,
+		"adminEmail" : "admin@testabcsite.com",
+		"policyLang" : "en-US"
+	}
+}

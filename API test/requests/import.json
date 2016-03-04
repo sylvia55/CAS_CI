@@ -1,0 +1,23 @@
+{
+	"companyId":"TestCompanyForPolicySimulate",
+	"xmlString": "<?xml version='1.0' encoding='UTF-8'?>
+ <SAPolicy localization_language='' template_version='' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'>
+  <digitalAssets>
+    <dictionary description='' display_name='' name='' pre-defined='true' type=''>
+      <keyword caseSensitive='true' description='' score='0'>keyword</keyword>
+    </dictionary>
+    <entity caseSensitive='true' description='' display_name='' name='' pre-defined='false' type='' validator=''>
+      <regularExpression>regularExpression</regularExpression>
+      <patternForDisplay>patternForDisplay</patternForDisplay>
+      <examples>examples</examples>
+    </entity>
+  </digitalAssets>
+  <complianceTemplates>
+    <template description='' display_name='' name='' pre-defined='true' severity=''>
+      <matchRule>
+        <buildingBlock sourceName='' sourceType=''/>
+      </matchRule>
+    </template>
+  </complianceTemplates>
+</SAPolicy>"
+}

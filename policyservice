@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+JETTY_HOME=/opt/o365/policy/jetty-8.1.12
+JETTY_LOGS=/var/log
+JETTY_PID=/opt/o365/policy/jetty-8.1.12/pid/jetty.pid
+
+if [ "$1" == "start" ]
+then
+/bin/cp /opt/o365/policy/conf/configure.properties /opt/o365/policy/bin/WEB-INF/classes
+cd /opt/o365/policy/bin
+jar uvf /opt/o365/policy/jetty-8.1.12/webapps/policy.war ./WEB-INF/classes/log4j.properties ./WEB-INF/classes/configure.properties
+fi
+source /opt/o365/policy/jetty-8.1.12/bin/jetty.sh $*

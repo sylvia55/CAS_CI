@@ -1,0 +1,22 @@
+{
+"companyId": "TestCompanyForPolicySimulate",
+"cfgIndex": "",
+  "cfgIgnoreFields": "none",
+  "dpExpressionAlphabetcharset": "012345678-9",
+  "dpExpressionCasesensitive": 0,
+  "dpExpressionDesc": "Issued to citizens, permanent residents and eligible foreign nationals; used for taxpayer identification, income reporting, and record keeping",
+  "dpExpressionDisplayformat": "nnnnnnnnn OR nnn-nn-nnnn",
+  "dpExpressionExample": "",
+  "dpExpressionMaxleftradius": 0,
+  "dpExpressionMaxlength": 11,
+  "dpExpressionMaxrightradius": 0,
+  "dpExpressionMinleftradius": 0,
+  "dpExpressionMinlength": 9,
+  "dpExpressionModified": 0,
+  "dpExpressionName": "US: SSN (Social Security Number)--zzzzz",
+  "dpExpressionPattern": "[^\\w\\\\\\/\\{\\.+\\-=&\"](\\d{9}|\\d{3}-\\d{2}-\\d{4})[^\\w-\\}+]",
+  "dpExpressionSuffixlength": 0,
+  "dpExpressionType": "Type 1",
+  "dpExpressionValidator": "SSN",
+  "dpExpressionInternalname": "sylvia"
+}
