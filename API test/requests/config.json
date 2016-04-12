@@ -145,6 +145,20 @@
             "companyId": "TestCompanyForPolicySimulate"
         }
 	},
+    "policyList":{
+        "method": "GET",
+        "url": "http://localhost:8080/policy/policyList/TestCompanyForPolicySimulate?policyType=1&policyHolderType=1&realtimeEnabled=true",
+        "validation": {
+            "companyId": "TestCompanyForPolicySimulate"
+        }
+	},
+    "policyContent":{
+        "method": "GET",
+        "url": "http://localhost:8080/policy/policyContent/TestCompanyForPolicySimulate/[ReplaceTag]",
+        "validation": {
+            "cryptoFilter": 0
+        }
+	},
     "clone":{
 		"method": "POST",
         "url": "http://localhost:8080/policy/clonePolicy",
@@ -159,6 +173,7 @@
 		"method": "POST",
         "url": "http://localhost:8080/policy/addPolicy",
 		"content": [{"valid":"addpolicy.json"}],
+        "return": "id",
 		"validation": {
 			"name": "user Policy created"
 		}
@@ -168,6 +183,7 @@
 		"method": "POST",
         "url": "http://localhost:8080/policy/updatePolicy",
 		"content": [{"valid":"updatePolicy.json"}],
+        "replace": "policyUuid",
 		"validation": {
 			"name": "sylvia test api"
 		}
@@ -278,6 +294,14 @@
     "deleteExpression":{
 		"method": "DELETE",
         "url": "http://localhost:8080/policy/deleteExpression/TestCompanyForPolicySimulate/[ReplaceTag]",
+		"validation": {
+			"status": true
+		}
+	},
+    "deletePolicyByType":{
+		"method": "POST",
+        "url": "http://localhost:8080/policy/deletePolicyByType",
+        "content": [{"valid":"deletePolicyByType.json"}],
 		"validation": {
 			"status": true
 		}

@@ -8,8 +8,8 @@
     "policyIsglobal": 0,
     "policyName": "user Policy created",
     "policyRealtimeEnabled": 0,
-    "policyType": 1,
-    "policyholderId": 1,
+    "policyType": 2,
+    "policyholderId": 2,
     "tmVirusscans": [
       {
         "vsActionType": 1,

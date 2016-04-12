@@ -1,10 +1,2141 @@
-API: upsertDpKeyword   test result is Success 
-API: cloneKeyword   test result is Success 
-API: deleteKeyword   test result is Success 
-API: upsertDpExpression   test result is Success 
-API: cloneExpression   test result is Success 
-API: deleteExpression   test result is Success 
-API: list   test result is Success 
-API: clone   test result is Success 
-API: list   test result is Success 
-API: clone   test result is Success 
+2016-03-11 13:41:20.336896: API: addDefaultPolicyForProduct   test result is Failed 
+2016-03-11 13:41:20.338011: API: 500   test result is error code 
+2016-03-11 13:41:25.281810: API: list   test result is Failed 
+2016-03-11 13:41:25.281932: API: 500   test result is error code 
+2016-03-11 13:58:01.331755: API: addDefaultPolicyForProduct   test result is Failed 
+2016-03-11 13:58:01.331897: API: 500   test result is error code 
+2016-03-11 13:58:03.371220: API: list   test result is Failed 
+2016-03-11 13:58:03.371353: API: 500   test result is error code 
+2016-03-11 14:18:27.539256: API: addDefaultPolicyForProduct   test result is Failed 
+2016-03-11 14:18:27.539611: API: 500   test result is error code 
+2016-03-11 14:18:29.293420: API: addDefaultPolicyForProduct   test result is Failed 
+2016-03-11 14:18:29.293633: API: 500   test result is error code 
+2016-03-11 14:18:31.063343: API: list   test result is Failed 
+2016-03-11 14:18:31.063488: API: 500   test result is error code 
+2016-03-11 14:18:33.902124: API: list   test result is Failed 
+2016-03-11 14:18:33.902240: API: 500   test result is error code 
+2016-03-11 14:31:24.192456: API: addDefaultPolicyForProduct   test result is Success 
+2016-03-11 14:31:24.879803: API: list   test result is Success 
+2016-03-11 14:31:25.191609: API: upsertDpTemplate   test result is Success 
+2016-03-11 14:31:25.292170: API: upsertDpExpression   test result is Success 
+2016-03-11 14:31:25.357940: API: upsertDpKeyword   test result is Success 
+2016-03-11 14:31:25.424044: API: upsertDpExpression   test result is Success 
+2016-03-11 14:31:25.559115: API: cloneExpression   test result is Success 
+2016-03-11 14:31:25.627973: API: upsertDpKeyword   test result is Success 
+2016-03-11 14:31:25.743880: API: cloneKeyword   test result is Success 
+2016-03-11 14:31:25.825206: API: upsertDpTemplate   test result is Success 
+2016-03-11 14:31:25.950270: API: cloneTemplate   test result is Success 
+2016-03-11 14:31:26.378135: API: getDpTemplate   test result is Success 
+2016-03-11 16:01:07.003957: API: addDefaultPolicyForProduct   test result is Success 
+2016-03-11 16:01:07.201985: API: list   test result is Success 
+2016-03-11 16:01:07.334486: API: upsertDpTemplate   test result is Success 
+2016-03-11 16:01:07.402899: API: upsertDpExpression   test result is Success 
+2016-03-11 16:01:07.512389: API: upsertDpKeyword   test result is Success 
+2016-03-11 16:01:07.575915: API: upsertDpExpression   test result is Success 
+2016-03-11 16:01:07.713997: API: cloneExpression   test result is Success 
+2016-03-11 16:01:07.791957: API: upsertDpKeyword   test result is Success 
+2016-03-11 16:01:07.874512: API: cloneKeyword   test result is Success 
+2016-03-11 16:01:07.932386: API: upsertDpTemplate   test result is Success 
+2016-03-11 16:01:08.066266: API: cloneTemplate   test result is Success 
+2016-03-11 16:01:08.327672: API: getDpTemplate   test result is Success 
+2016-03-11 23:02:11.002160: API: addDefaultPolicyForProduct   test result is Success 
+2016-03-11 23:02:11.420889: API: list   test result is Failed 
+2016-03-11 23:02:11.421066: API: 500   test result is error code 
+2016-03-12 23:01:32.292995: API: addDefaultPolicyForProduct   test result is Success 
+2016-03-12 23:01:32.693815: API: list   test result is Success 
+2016-03-12 23:01:32.852165: API: upsertDpTemplate   test result is Success 
+2016-03-12 23:01:32.913691: API: upsertDpExpression   test result is Success 
+2016-03-12 23:01:32.984109: API: upsertDpKeyword   test result is Success 
+2016-03-12 23:01:33.088914: API: upsertDpExpression   test result is Success 
+2016-03-12 23:01:33.181040: API: cloneExpression   test result is Success 
+2016-03-12 23:01:33.238980: API: upsertDpKeyword   test result is Success 
+2016-03-12 23:01:33.355572: API: cloneKeyword   test result is Success 
+2016-03-12 23:01:33.470810: API: upsertDpTemplate   test result is Success 
+2016-03-12 23:01:33.541135: API: cloneTemplate   test result is Failed 
+2016-03-12 23:01:33.541243: API: 404   test result is error code 
+2016-03-13 23:01:26.029691: API: addDefaultPolicyForProduct   test result is Success 
+2016-03-13 23:01:26.770182: API: list   test result is Success 
+2016-03-13 23:01:26.778499: API: upsertDpTemplate   test result is Failed 
+2016-03-13 23:01:26.778602: API: 404   test result is error code 
+2016-03-14 15:16:58.111830: API: addDefaultPolicyForProduct   test result is Success 
+2016-03-14 15:16:58.534038: API: list   test result is Success 
+2016-03-14 15:16:58.686049: API: upsertDpTemplate   test result is Success 
+2016-03-14 15:16:58.744405: API: upsertDpExpression   test result is Success 
+2016-03-14 15:16:58.794109: API: upsertDpKeyword   test result is Success 
+2016-03-14 15:16:58.852375: API: upsertDpExpression   test result is Success 
+2016-03-14 15:16:58.927436: API: cloneExpression   test result is Success 
+2016-03-14 15:16:58.981837: API: upsertDpKeyword   test result is Success 
+2016-03-14 15:16:59.069618: API: cloneKeyword   test result is Success 
+2016-03-14 15:16:59.128961: API: upsertDpTemplate   test result is Success 
+2016-03-14 15:16:59.211264: API: cloneTemplate   test result is Success 
+2016-03-14 15:16:59.541203: API: getDpTemplate   test result is Success 
+2016-03-14 15:16:59.706042: API: getDpKeyword   test result is Success 
+2016-03-14 15:17:00.242160: API: getDpExpression   test result is Success 
+2016-03-14 15:17:00.389361: API: getEOpolicy   test result is Success 
+2016-03-14 15:17:00.480684: API: getODpolicy   test result is Success 
+2016-03-14 15:17:00.713048: API: getSOpolicy   test result is Success 
+2016-03-14 15:17:00.905342: API: list   test result is Success 
+2016-03-14 15:17:01.263308: API: clone   test result is Success 
+2016-03-14 15:17:01.491472: API: list   test result is Success 
+2016-03-14 15:17:01.578241: API: details   test result is Success 
+2016-03-14 15:17:01.810462: API: addPolicy   test result is Success 
+2016-03-14 15:17:02.079443: API: addPolicy   test result is Success 
+2016-03-14 15:17:02.294302: API: updatePolicy   test result is Success 
+2016-03-14 15:17:05.575613: API: export   test result is Failed 
+2016-03-14 15:17:05.575757: API: 400   test result is error code 
+2016-03-14 15:17:05.616481: API: matchCAS   test result is Success 
+2016-03-14 15:17:05.802634: API: list   test result is Success 
+2016-03-14 15:17:05.925796: API: getPolicy   test result is Success 
+2016-03-14 15:17:06.278487: API: list   test result is Success 
+2016-03-14 15:17:06.300237: API: policyEnabledInfo   test result is Success 
+2016-03-14 15:17:06.312896: API: getScanTarget   test result is Success 
+2016-03-14 15:17:06.320977: API: serverStatus   test result is Success 
+2016-03-14 15:17:07.460531: API: throttlingRatio   test result is Success 
+2016-03-14 15:17:07.472498: API: throttlingRatioType   test result is Success 
+2016-03-14 15:17:07.489796: API: taskStatus   test result is Success 
+2016-03-14 15:17:07.539607: API: Validation   test result is Success 
+2016-03-14 15:17:07.625727: API: upsertDpTemplate   test result is Success 
+2016-03-14 15:17:07.720078: API: cloneTemplate   test result is Success 
+2016-03-14 15:17:07.743096: API: deleteTemplate   test result is Success 
+2016-03-14 15:17:07.793907: API: upsertDpKeyword   test result is Success 
+2016-03-14 15:17:07.914923: API: cloneKeyword   test result is Success 
+2016-03-14 15:17:08.061172: API: deleteKeyword   test result is Success 
+2016-03-14 15:17:09.417183: API: upsertDpExpression   test result is Success 
+2016-03-14 15:17:09.492459: API: cloneExpression   test result is Success 
+2016-03-14 15:17:09.542141: API: deleteExpression   test result is Success 
+2016-03-14 15:17:09.971818: API: list   test result is Success 
+2016-03-14 15:17:12.010346: API: clone   test result is Failed 
+2016-03-14 15:17:12.010476: API: 500   test result is error code 
+2016-03-14 18:56:00.667869: API: addDefaultPolicyForProduct   test result is Success 
+2016-03-14 18:56:01.167109: API: list   test result is Success 
+2016-03-14 18:56:01.323594: API: upsertDpTemplate   test result is Success 
+2016-03-14 18:56:01.406943: API: upsertDpExpression   test result is Success 
+2016-03-14 18:56:01.575583: API: upsertDpKeyword   test result is Success 
+2016-03-14 18:56:01.648503: API: upsertDpExpression   test result is Success 
+2016-03-14 18:56:01.740221: API: cloneExpression   test result is Success 
+2016-03-14 18:56:01.781328: API: upsertDpKeyword   test result is Success 
+2016-03-14 18:56:01.883371: API: cloneKeyword   test result is Success 
+2016-03-14 18:56:01.940765: API: upsertDpTemplate   test result is Success 
+2016-03-14 18:56:02.024200: API: cloneTemplate   test result is Success 
+2016-03-14 18:56:02.422901: API: getDpTemplate   test result is Success 
+2016-03-14 18:56:02.615499: API: getDpKeyword   test result is Success 
+2016-03-14 18:56:03.082027: API: getDpExpression   test result is Success 
+2016-03-14 18:56:03.210216: API: getEOpolicy   test result is Success 
+2016-03-14 18:56:03.287521: API: getODpolicy   test result is Success 
+2016-03-14 18:56:03.525605: API: getSOpolicy   test result is Success 
+2016-03-14 18:56:03.787635: API: list   test result is Success 
+2016-03-14 18:56:03.988133: API: clone   test result is Failed 
+2016-03-14 18:56:03.988281: API: 500   test result is error code 
+2016-03-14 18:56:04.745116: API: list   test result is Success 
+2016-03-14 18:56:04.943059: API: details   test result is Success 
+2016-03-14 18:56:05.449560: API: addPolicy   test result is Success 
+2016-03-14 18:56:05.715101: API: addPolicy   test result is Success 
+2016-03-14 18:56:05.882213: API: updatePolicy   test result is Success 
+2016-03-14 18:56:08.442226: API: export   test result is Failed 
+2016-03-14 18:56:08.442368: API: 400   test result is error code 
+2016-03-14 18:56:08.466169: API: matchCAS   test result is Success 
+2016-03-14 18:56:08.717092: API: list   test result is Success 
+2016-03-14 18:56:08.773221: API: getPolicy   test result is Success 
+2016-03-14 18:56:09.168426: API: list   test result is Success 
+2016-03-14 18:56:09.190126: API: policyEnabledInfo   test result is Success 
+2016-03-14 18:56:09.203068: API: getScanTarget   test result is Success 
+2016-03-14 18:56:09.210422: API: serverStatus   test result is Success 
+2016-03-14 18:56:09.224464: API: throttlingRatio   test result is Success 
+2016-03-14 18:56:09.233796: API: throttlingRatioType   test result is Success 
+2016-03-14 18:56:09.245643: API: taskStatus   test result is Success 
+2016-03-14 18:56:09.286990: API: Validation   test result is Success 
+2016-03-14 18:56:09.347637: API: upsertDpTemplate   test result is Success 
+2016-03-14 18:56:09.421752: API: cloneTemplate   test result is Success 
+2016-03-14 18:56:09.438070: API: deleteTemplate   test result is Success 
+2016-03-14 18:56:09.480484: API: upsertDpKeyword   test result is Success 
+2016-03-14 18:56:09.546585: API: cloneKeyword   test result is Success 
+2016-03-14 18:56:09.656299: API: deleteKeyword   test result is Success 
+2016-03-14 18:56:09.706262: API: upsertDpExpression   test result is Success 
+2016-03-14 18:56:09.763464: API: cloneExpression   test result is Success 
+2016-03-14 18:56:09.831178: API: deleteExpression   test result is Success 
+2016-03-14 18:56:09.984365: API: list   test result is Success 
+2016-03-14 18:56:10.051188: API: clone   test result is Failed 
+2016-03-14 18:56:10.051322: API: 500   test result is error code 
+2016-03-16 14:32:34.270324: API: addDefaultPolicyForProduct   test result is Success 
+2016-03-16 14:32:34.711299: API: getDpTemplate   test result is Success 
+2016-03-16 14:36:15.959989: API: addDefaultPolicyForProduct   test result is Success 
+2016-03-16 14:36:16.351158: API: getDpTemplate   test result is Success 
+2016-03-16 14:36:16.351844: API: getDpTemplate   test result is <type 'exceptions.Exception'> 
+2016-03-16 14:36:16.492891: API: getDpKeyword   test result is Success 
+2016-03-16 14:36:16.932558: API: getDpExpression   test result is Failed 
+2016-03-16 14:36:16.932728: API: 500   test result is error code 
+2016-03-16 14:36:16.980627: API: getEOpolicy   test result is Failed 
+2016-03-16 14:36:16.980746: API: 404   test result is error code 
+2016-03-16 14:36:16.987833: API: getODpolicy   test result is Failed 
+2016-03-16 14:36:16.987950: API: 404   test result is error code 
+2016-03-16 14:36:16.994121: API: getSOpolicy   test result is Failed 
+2016-03-16 14:36:16.994243: API: 404   test result is error code 
+2016-03-16 14:36:17.000062: API: list   test result is Failed 
+2016-03-16 14:36:17.000177: API: 404   test result is error code 
+2016-03-16 14:36:17.000729: API: list   test result is <type 'exceptions.Exception'> 
+2016-03-16 14:36:17.001391: API: details   test result is <type 'exceptions.Exception'> 
+2016-03-16 14:36:17.007520: API: addPolicy   test result is Failed 
+2016-03-16 14:36:17.007630: API: 404   test result is error code 
+2016-03-16 14:36:17.007799: API: addPolicy   test result is <type 'exceptions.Exception'> 
+2016-03-16 14:36:17.014475: API: updatePolicy   test result is Failed 
+2016-03-16 14:36:17.014587: API: 404   test result is error code 
+2016-03-16 14:36:17.021349: API: export   test result is Failed 
+2016-03-16 14:36:17.021460: API: 404   test result is error code 
+2016-03-16 14:36:17.027845: API: matchCAS   test result is Failed 
+2016-03-16 14:36:17.027959: API: 404   test result is error code 
+2016-03-16 14:36:17.033687: API: list   test result is Failed 
+2016-03-16 14:36:17.033826: API: 404   test result is error code 
+2016-03-16 14:36:17.033977: API: list   test result is <type 'exceptions.Exception'> 
+2016-03-16 14:36:17.034632: API: getPolicy   test result is <type 'exceptions.Exception'> 
+2016-03-16 14:36:17.040128: API: list   test result is Failed 
+2016-03-16 14:36:17.040237: API: 404   test result is error code 
+2016-03-16 14:36:17.040385: API: list   test result is <type 'exceptions.Exception'> 
+2016-03-16 14:36:17.041063: API: policyEnabledInfo   test result is <type 'exceptions.Exception'> 
+2016-03-16 14:36:17.047204: API: getScanTarget   test result is Failed 
+2016-03-16 14:36:17.047318: API: 404   test result is error code 
+2016-03-16 14:36:17.053689: API: serverStatus   test result is Failed 
+2016-03-16 14:36:17.053830: API: 404   test result is error code 
+2016-03-16 14:36:17.059777: API: throttlingRatio   test result is Failed 
+2016-03-16 14:36:17.059888: API: 404   test result is error code 
+2016-03-16 14:36:17.066257: API: throttlingRatioType   test result is Failed 
+2016-03-16 14:36:17.066373: API: 404   test result is error code 
+2016-03-16 14:36:17.072966: API: taskStatus   test result is Failed 
+2016-03-16 14:36:17.073075: API: 404   test result is error code 
+2016-03-16 14:36:17.079483: API: Validation   test result is Failed 
+2016-03-16 14:36:17.079599: API: 404   test result is error code 
+2016-03-16 14:36:17.085894: API: upsertDpTemplate   test result is Failed 
+2016-03-16 14:36:17.086004: API: 404   test result is error code 
+2016-03-16 14:36:17.086146: API: upsertDpTemplate   test result is <type 'exceptions.Exception'> 
+2016-03-16 14:36:17.093567: API: cloneTemplate   test result is Failed 
+2016-03-16 14:36:17.093683: API: 404   test result is error code 
+2016-03-16 14:36:17.093855: API: cloneTemplate   test result is <type 'exceptions.Exception'> 
+2016-03-16 14:36:17.094542: API: deleteTemplate   test result is <type 'exceptions.Exception'> 
+2016-03-16 14:36:17.100585: API: upsertDpKeyword   test result is Failed 
+2016-03-16 14:36:17.100718: API: 404   test result is error code 
+2016-03-16 14:39:20.591673: API: addDefaultPolicyForProduct   test result is Success 
+2016-03-16 14:39:20.949624: API: getDpTemplate   test result is Success 
+2016-03-16 14:39:21.179206: API: getDpKeyword   test result is Success 
+2016-03-16 14:39:21.662058: API: getDpExpression   test result is Success 
+2016-03-16 14:39:21.781972: API: getEOpolicy   test result is Success 
+2016-03-16 14:39:21.846812: API: getODpolicy   test result is Success 
+2016-03-16 14:39:22.069248: API: getSOpolicy   test result is Success 
+2016-03-16 14:39:22.375251: API: list   test result is Success 
+2016-03-16 14:39:22.376181: API: details   test result is <type 'exceptions.Exception'> 
+2016-03-16 14:39:22.792296: API: addPolicy   test result is Success 
+2016-03-16 14:39:22.809804: API: updatePolicy   test result is Failed 
+2016-03-16 14:39:22.809935: API: 400   test result is error code 
+2016-03-16 14:39:25.295740: API: export   test result is Failed 
+2016-03-16 14:39:25.295865: API: 400   test result is error code 
+2016-03-16 14:39:25.318058: API: matchCAS   test result is Success 
+2016-03-16 14:39:25.385091: API: list   test result is Success 
+2016-03-16 14:39:25.386127: API: getPolicy   test result is <type 'exceptions.Exception'> 
+2016-03-16 14:39:25.489472: API: list   test result is Success 
+2016-03-16 14:39:25.490415: API: policyEnabledInfo   test result is <type 'exceptions.Exception'> 
+2016-03-16 14:39:25.501843: API: getScanTarget   test result is Success 
+2016-03-16 14:39:25.508100: API: serverStatus   test result is Success 
+2016-03-16 14:39:25.523592: API: throttlingRatio   test result is Success 
+2016-03-16 14:39:25.537153: API: throttlingRatioType   test result is Success 
+2016-03-16 14:39:25.553140: API: taskStatus   test result is Success 
+2016-03-16 14:39:25.598774: API: Validation   test result is Success 
+2016-03-16 14:39:25.682111: API: upsertDpTemplate   test result is Success 
+2016-03-16 14:39:25.699180: API: cloneTemplate   test result is Failed 
+2016-03-16 14:39:25.699300: API: 400   test result is error code 
+2016-03-16 14:39:25.700072: API: deleteTemplate   test result is <type 'exceptions.Exception'> 
+2016-03-16 14:39:25.749433: API: upsertDpKeyword   test result is Success 
+2016-03-16 14:39:25.842293: API: cloneKeyword   test result is Success 
+2016-03-16 14:39:25.925477: API: deleteKeyword   test result is Success 
+2016-03-16 14:39:25.982399: API: upsertDpExpression   test result is Success 
+2016-03-16 14:39:26.040462: API: cloneExpression   test result is Success 
+2016-03-16 14:39:26.163375: API: deleteExpression   test result is Success 
+2016-03-16 14:39:26.240219: API: list   test result is Success 
+2016-03-16 14:39:26.617276: API: clone   test result is Success 
+2016-03-16 14:39:26.641125: API: deletePolicy   test result is Success 
+2016-03-16 14:55:45.779187: API: addDefaultPolicyForProduct   test result is Success 
+2016-03-16 14:55:45.868936: API: list   test result is Success 
+2016-03-16 14:55:45.932782: API: upsertDpTemplate   test result is Success 
+2016-03-16 14:55:45.983943: API: upsertDpExpression   test result is Success 
+2016-03-16 14:55:46.024236: API: upsertDpKeyword   test result is Success 
+2016-03-16 14:55:46.065785: API: upsertDpExpression   test result is Success 
+2016-03-16 14:55:46.124635: API: cloneExpression   test result is Success 
+2016-03-16 14:55:46.183159: API: upsertDpKeyword   test result is Success 
+2016-03-16 14:55:46.241640: API: cloneKeyword   test result is Success 
+2016-03-16 14:55:46.293102: API: upsertDpTemplate   test result is Success 
+2016-03-16 14:55:46.383031: API: cloneTemplate   test result is Success 
+2016-03-16 14:55:46.510088: API: getDpTemplate   test result is Success 
+2016-03-16 14:55:46.573015: API: getDpKeyword   test result is Success 
+2016-03-16 14:55:46.743048: API: getDpExpression   test result is Success 
+2016-03-16 14:55:46.775890: API: getEOpolicy   test result is Success 
+2016-03-16 14:55:46.804576: API: getODpolicy   test result is Success 
+2016-03-16 14:55:46.876945: API: getSOpolicy   test result is Success 
+2016-03-16 14:55:46.947382: API: list   test result is Success 
+2016-03-16 14:55:47.191174: API: clone   test result is Success 
+2016-03-16 14:55:47.265193: API: list   test result is Success 
+2016-03-16 14:55:47.310876: API: details   test result is Success 
+2016-03-16 14:55:47.534841: API: addPolicy   test result is Success 
+2016-03-16 14:55:47.741290: API: addPolicy   test result is Success 
+2016-03-16 14:55:47.858596: API: updatePolicy   test result is Success 
+2016-03-16 14:57:33.379031: API: addDefaultPolicyForProduct   test result is Success 
+2016-03-16 14:57:33.462847: API: list   test result is Success 
+2016-03-16 14:57:33.563844: API: getDpTemplate   test result is Success 
+2016-03-16 14:57:33.661814: API: getDpKeyword   test result is Success 
+2016-03-16 14:57:33.827885: API: getDpExpression   test result is Success 
+2016-03-16 14:57:33.860451: API: getEOpolicy   test result is Success 
+2016-03-16 14:57:33.888016: API: getODpolicy   test result is Success 
+2016-03-16 14:57:33.961990: API: getSOpolicy   test result is Success 
+2016-03-16 14:57:34.035920: API: list   test result is Success 
+2016-03-16 14:57:34.076832: API: details   test result is Success 
+2016-03-16 14:57:34.361814: API: addPolicy   test result is Success 
+2016-03-16 14:57:34.611668: API: addPolicy   test result is Success 
+2016-03-16 14:57:34.732460: API: updatePolicy   test result is Success 
+2016-03-16 14:57:34.748385: API: matchCAS   test result is Success 
+2016-03-16 14:57:34.838166: API: list   test result is Success 
+2016-03-16 14:57:34.880037: API: getPolicy   test result is Success 
+2016-03-16 14:57:34.940130: API: list   test result is Success 
+2016-03-16 14:57:34.965117: API: policyEnabledInfo   test result is Success 
+2016-03-16 14:57:34.974968: API: getScanTarget   test result is Success 
+2016-03-16 14:57:34.981593: API: serverStatus   test result is Success 
+2016-03-16 14:57:34.997036: API: throttlingRatio   test result is Success 
+2016-03-16 14:57:35.006329: API: throttlingRatioType   test result is Success 
+2016-03-16 14:57:35.017012: API: taskStatus   test result is Success 
+2016-03-16 14:57:35.025670: API: Validation   test result is Success 
+2016-03-16 14:57:35.121586: API: upsertDpTemplate   test result is Success 
+2016-03-16 14:57:35.203508: API: cloneTemplate   test result is Success 
+2016-03-16 14:57:35.278858: API: deleteTemplate   test result is Success 
+2016-03-16 14:57:35.328429: API: upsertDpKeyword   test result is Success 
+2016-03-16 14:57:35.410619: API: cloneKeyword   test result is Success 
+2016-03-16 14:57:35.495281: API: deleteKeyword   test result is Success 
+2016-03-16 14:57:35.561645: API: upsertDpExpression   test result is Success 
+2016-03-16 14:57:35.631464: API: cloneExpression   test result is Success 
+2016-03-16 14:57:35.703339: API: deleteExpression   test result is Success 
+2016-03-16 14:57:35.764461: API: list   test result is Success 
+2016-03-16 14:57:36.012174: API: clone   test result is Success 
+2016-03-16 14:57:36.054201: API: deletePolicy   test result is Success 
+2016-03-16 23:02:43.861197: API: addDefaultPolicyForProduct   test result is Success 
+2016-03-16 23:02:44.034950: API: list   test result is Success 
+2016-03-16 23:02:44.146691: API: getDpTemplate   test result is Success 
+2016-03-17 23:02:35.323502: API: addDefaultPolicyForProduct   test result is Success 
+2016-03-17 23:02:35.689781: API: list   test result is Success 
+2016-03-17 23:02:36.157055: API: getDpTemplate   test result is Success 
+2016-03-18 23:02:41.353771: API: addDefaultPolicyForProduct   test result is Success 
+2016-03-18 23:02:41.477323: API: list   test result is Success 
+2016-03-18 23:02:41.736132: API: getDpTemplate   test result is Success 
+2016-03-19 23:01:22.056517: API: addDefaultPolicyForProduct   test result is Success 
+2016-03-19 23:01:22.360109: API: list   test result is Success 
+2016-03-19 23:01:22.690788: API: getDpTemplate   test result is Success 
+2016-03-20 23:01:29.298840: API: addDefaultPolicyForProduct   test result is Success 
+2016-03-20 23:01:29.620323: API: list   test result is Success 
+2016-03-20 23:01:29.972987: API: getDpTemplate   test result is Success 
+2016-03-21 23:02:05.885252: API: addDefaultPolicyForProduct   test result is Success 
+2016-03-21 23:02:06.480936: API: list   test result is Success 
+2016-03-21 23:02:07.081400: API: getDpTemplate   test result is Failed 
+2016-03-21 23:02:07.081548: API: 500   test result is error code 
+2016-03-22 23:02:02.249382: API: addDefaultPolicyForProduct   test result is Success 
+2016-03-22 23:02:02.673193: API: list   test result is Success 
+2016-03-22 23:02:03.035563: API: getDpTemplate   test result is Success 
+2016-03-23 23:03:07.221341: API: addDefaultPolicyForProduct   test result is Failed 
+2016-03-23 23:03:07.225548: API: 500   test result is error code 
+2016-03-23 23:03:37.241972: API: list   test result is Failed 
+2016-03-23 23:03:37.242158: API: 500   test result is error code 
+2016-03-23 23:04:37.248242: API: getDpTemplate   test result is Failed 
+2016-03-23 23:04:37.248357: API: 500   test result is error code 
+2016-03-23 23:05:07.256473: API: getDpKeyword   test result is Failed 
+2016-03-23 23:05:07.256573: API: 500   test result is error code 
+2016-03-23 23:06:07.262069: API: getDpExpression   test result is Failed 
+2016-03-23 23:06:07.262203: API: 500   test result is error code 
+2016-03-23 23:06:37.316591: API: getEOpolicy   test result is Failed 
+2016-03-23 23:06:37.316689: API: 500   test result is error code 
+2016-03-23 23:07:37.305200: API: getODpolicy   test result is Failed 
+2016-03-23 23:07:37.305301: API: 500   test result is error code 
+2016-03-23 23:08:07.333258: API: getSOpolicy   test result is Failed 
+2016-03-23 23:08:07.333363: API: 500   test result is error code 
+2016-03-23 23:09:07.335424: API: list   test result is Failed 
+2016-03-23 23:09:07.335532: API: 500   test result is error code 
+2016-03-24 13:48:25.881307: API: addDefaultPolicyForProduct   test result is Failed 
+2016-03-24 13:48:25.900558: API: 500   test result is error code 
+2016-03-24 13:48:55.911123: API: list   test result is Failed 
+2016-03-24 13:48:55.911225: API: 500   test result is error code 
+2016-03-24 14:04:03.151251: API: addDefaultPolicyForProduct   test result is Failed 
+2016-03-24 14:04:03.151369: API: 500   test result is error code 
+2016-03-24 23:02:45.024482: API: addDefaultPolicyForProduct   test result is Failed 
+2016-03-24 23:02:45.024821: API: 500   test result is error code 
+2016-03-24 23:03:15.034733: API: list   test result is Failed 
+2016-03-24 23:03:15.034858: API: 500   test result is error code 
+2016-03-24 23:04:15.043805: API: getDpTemplate   test result is Failed 
+2016-03-24 23:04:15.043904: API: 500   test result is error code 
+2016-03-24 23:04:45.051645: API: getDpKeyword   test result is Failed 
+2016-03-24 23:04:45.051740: API: 500   test result is error code 
+2016-03-24 23:05:45.055653: API: getDpExpression   test result is Failed 
+2016-03-24 23:05:45.055762: API: 500   test result is error code 
+2016-03-24 23:06:15.093507: API: getEOpolicy   test result is Failed 
+2016-03-24 23:06:15.093625: API: 500   test result is error code 
+2016-03-24 23:07:15.097809: API: getODpolicy   test result is Failed 
+2016-03-24 23:07:15.097913: API: 500   test result is error code 
+2016-03-24 23:07:45.124335: API: getSOpolicy   test result is Failed 
+2016-03-24 23:07:45.124439: API: 500   test result is error code 
+2016-03-24 23:08:45.127672: API: list   test result is Failed 
+2016-03-24 23:08:45.127812: API: 500   test result is error code 
+2016-03-25 23:02:16.376966: API: addDefaultPolicyForProduct   test result is Failed 
+2016-03-25 23:02:16.377071: API: 500   test result is error code 
+2016-03-25 23:02:46.447651: API: list   test result is Failed 
+2016-03-25 23:02:46.447750: API: 500   test result is error code 
+2016-03-25 23:03:16.457713: API: getDpTemplate   test result is Failed 
+2016-03-25 23:03:16.457848: API: 500   test result is error code 
+2016-03-25 23:04:16.468947: API: getDpKeyword   test result is Failed 
+2016-03-25 23:04:16.469071: API: 500   test result is error code 
+2016-03-25 23:04:46.476998: API: getDpExpression   test result is Failed 
+2016-03-25 23:04:46.477105: API: 500   test result is error code 
+2016-03-25 23:05:46.483539: API: getEOpolicy   test result is Failed 
+2016-03-25 23:05:46.483674: API: 500   test result is error code 
+2016-03-25 23:06:16.507953: API: getODpolicy   test result is Failed 
+2016-03-25 23:06:16.508104: API: 500   test result is error code 
+2016-03-25 23:07:16.515775: API: getSOpolicy   test result is Failed 
+2016-03-25 23:07:16.515898: API: 500   test result is error code 
+2016-03-25 23:07:46.523093: API: list   test result is Failed 
+2016-03-25 23:07:46.523194: API: 500   test result is error code 
+2016-03-26 23:01:16.958345: API: addDefaultPolicyForProduct   test result is Failed 
+2016-03-26 23:01:16.958459: API: 500   test result is error code 
+2016-03-26 23:01:16.973111: API: list   test result is Failed 
+2016-03-26 23:01:16.973205: API: 404   test result is error code 
+2016-03-27 23:01:58.505435: API: addDefaultPolicyForProduct   test result is Failed 
+2016-03-27 23:01:58.505568: API: 500   test result is error code 
+2016-03-27 23:01:58.510693: API: list   test result is Failed 
+2016-03-27 23:01:58.510779: API: 404   test result is error code 
+2016-03-28 23:02:36.906224: API: addDefaultPolicyForProduct   test result is Failed 
+2016-03-28 23:02:36.906359: API: 500   test result is error code 
+2016-03-28 23:03:07.006143: API: list   test result is Failed 
+2016-03-28 23:03:07.006288: API: 500   test result is error code 
+2016-03-28 23:03:37.017564: API: getDpTemplate   test result is Failed 
+2016-03-28 23:03:37.017673: API: 500   test result is error code 
+2016-03-28 23:04:07.033931: API: getDpKeyword   test result is Failed 
+2016-03-28 23:04:07.034047: API: 500   test result is error code 
+2016-03-28 23:05:07.037673: API: getDpExpression   test result is Failed 
+2016-03-28 23:05:07.037789: API: 500   test result is error code 
+2016-03-28 23:05:37.075145: API: getEOpolicy   test result is Failed 
+2016-03-28 23:05:37.075256: API: 500   test result is error code 
+2016-03-28 23:06:37.080491: API: getODpolicy   test result is Failed 
+2016-03-28 23:06:37.080603: API: 500   test result is error code 
+2016-03-28 23:07:07.111564: API: getSOpolicy   test result is Failed 
+2016-03-28 23:07:07.111697: API: 500   test result is error code 
+2016-03-28 23:08:07.115120: API: list   test result is Failed 
+2016-03-28 23:08:07.115236: API: 500   test result is error code 
+2016-03-29 10:17:16.667978: API: addDefaultPolicyForProduct   test result is Failed 
+2016-03-29 10:17:16.668072: API: 500   test result is error code 
+2016-03-29 10:18:16.673314: API: list   test result is Failed 
+2016-03-29 10:18:16.673429: API: 500   test result is error code 
+2016-03-29 10:18:46.696573: API: upsertDpTemplate   test result is Failed 
+2016-03-29 10:18:46.697223: API: 500   test result is error code 
+2016-03-29 10:19:46.716879: API: upsertDpExpression   test result is Failed 
+2016-03-29 10:19:46.716988: API: 500   test result is error code 
+2016-03-29 10:20:16.743871: API: throttlingRatio   test result is Failed 
+2016-03-29 10:20:16.743977: API: 500   test result is error code 
+2016-03-29 10:21:16.740487: API: throttlingRatioType   test result is Failed 
+2016-03-29 10:21:16.740626: API: 500   test result is error code 
+2016-03-29 10:21:46.747371: API: taskStatus   test result is Failed 
+2016-03-29 10:21:46.747471: API: 500   test result is error code 
+2016-03-29 10:23:16.758974: API: Validation   test result is Failed 
+2016-03-29 10:23:16.759146: API: 500   test result is error code 
+2016-03-29 10:24:46.767711: API: upsertDpTemplate   test result is Failed 
+2016-03-29 10:24:46.767845: API: 500   test result is error code 
+2016-03-29 10:24:46.788974: API: cloneTemplate   test result is Failed 
+2016-03-29 10:24:46.789071: API: 400   test result is error code 
+2016-03-29 10:24:46.789715: API: deleteTemplate   test result is <type 'exceptions.Exception'> 
+2016-03-29 10:26:16.801853: API: upsertDpKeyword   test result is Failed 
+2016-03-29 10:26:16.801958: API: 500   test result is error code 
+2016-03-29 10:26:16.809387: API: cloneKeyword   test result is Failed 
+2016-03-29 10:26:16.809485: API: 400   test result is error code 
+2016-03-29 14:28:55.779600: API: addDefaultPolicyForProduct   test result is Failed 
+2016-03-29 14:28:55.779737: API: 500   test result is error code 
+2016-03-29 14:28:55.791077: API: list   test result is Failed 
+2016-03-29 14:28:55.791174: API: 500   test result is error code 
+2016-03-29 14:28:55.823564: API: upsertDpTemplate   test result is Failed 
+2016-03-29 14:28:55.823707: API: 500   test result is error code 
+2016-03-29 14:28:55.851827: API: upsertDpExpression   test result is Failed 
+2016-03-29 14:28:55.851926: API: 500   test result is error code 
+2016-03-29 14:28:55.893796: API: throttlingRatio   test result is Failed 
+2016-03-29 14:28:55.893896: API: 500   test result is error code 
+2016-03-29 14:28:55.908488: API: throttlingRatioType   test result is Failed 
+2016-03-29 14:28:55.908590: API: 500   test result is error code 
+2016-03-29 14:28:55.926141: API: taskStatus   test result is Failed 
+2016-03-29 14:28:55.926240: API: 500   test result is error code 
+2016-03-29 14:28:55.940593: API: Validation   test result is Failed 
+2016-03-29 14:28:55.940725: API: 500   test result is error code 
+2016-03-29 14:28:55.973601: API: upsertDpTemplate   test result is Failed 
+2016-03-29 14:28:55.973750: API: 500   test result is error code 
+2016-03-29 14:28:55.986576: API: cloneTemplate   test result is Failed 
+2016-03-29 14:28:55.986731: API: 400   test result is error code 
+2016-03-29 14:28:55.987460: API: deleteTemplate   test result is <type 'exceptions.Exception'> 
+2016-03-29 14:28:56.047753: API: upsertDpKeyword   test result is Failed 
+2016-03-29 14:28:56.047851: API: 500   test result is error code 
+2016-03-29 14:28:56.054208: API: cloneKeyword   test result is Failed 
+2016-03-29 14:28:56.054299: API: 400   test result is error code 
+2016-03-29 18:53:36.028831: API: addDefaultPolicyForProduct   test result is Success 
+2016-03-29 18:53:36.454749: API: list   test result is Success 
+2016-03-29 18:53:37.215253: API: upsertDpTemplate   test result is Success 
+2016-03-29 18:53:37.298832: API: upsertDpExpression   test result is Success 
+2016-03-29 18:53:37.315300: API: throttlingRatio   test result is Success 
+2016-03-29 18:53:37.326683: API: throttlingRatioType   test result is Success 
+2016-03-29 18:53:37.344546: API: taskStatus   test result is Success 
+2016-03-29 18:53:37.451622: API: Validation   test result is Success 
+2016-03-29 18:53:37.514521: API: upsertDpTemplate   test result is Success 
+2016-03-29 18:53:37.531310: API: cloneTemplate   test result is Failed 
+2016-03-29 18:53:37.531410: API: 400   test result is error code 
+2016-03-29 18:53:37.532134: API: deleteTemplate   test result is <type 'exceptions.Exception'> 
+2016-03-29 18:53:37.606977: API: upsertDpKeyword   test result is Success 
+2016-03-29 18:53:37.674440: API: cloneKeyword   test result is Success 
+2016-03-29 18:53:37.857485: API: deleteKeyword   test result is Success 
+2016-03-29 18:53:37.906765: API: upsertDpExpression   test result is Success 
+2016-03-29 18:53:37.982214: API: cloneExpression   test result is Success 
+2016-03-29 18:53:38.123418: API: deleteExpression   test result is Success 
+2016-03-29 18:53:38.225327: API: list   test result is Success 
+2016-03-29 18:53:38.724004: API: clone   test result is Success 
+2016-03-29 18:53:38.797989: API: deletePolicy   test result is Success 
+2016-03-29 19:25:31.439684: API: addDefaultPolicyForProduct   test result is Success 
+2016-03-29 19:25:31.523552: API: list   test result is Success 
+2016-03-29 19:25:31.769730: API: getDpTemplate   test result is Success 
+2016-03-29 19:25:32.006631: API: getDpKeyword   test result is Success 
+2016-03-29 19:25:32.353010: API: getDpExpression   test result is Success 
+2016-03-29 19:25:32.459231: API: getEOpolicy   test result is Success 
+2016-03-29 19:25:32.522216: API: getODpolicy   test result is Success 
+2016-03-29 19:25:32.646119: API: getSOpolicy   test result is Success 
+2016-03-29 19:25:32.721112: API: list   test result is Success 
+2016-03-29 19:25:32.722015: API: details   test result is <type 'exceptions.Exception'> 
+2016-03-29 19:25:32.958833: API: addPolicy   test result is Success 
+2016-03-29 19:25:32.998487: API: updatePolicy   test result is Failed 
+2016-03-29 19:25:32.998618: API: 400   test result is error code 
+2016-03-29 19:25:33.022313: API: matchCAS   test result is Success 
+2016-03-29 19:25:33.088352: API: list   test result is Success 
+2016-03-29 19:25:33.089295: API: getPolicy   test result is <type 'exceptions.Exception'> 
+2016-03-29 19:25:33.161453: API: list   test result is Success 
+2016-03-29 19:25:33.162367: API: policyEnabledInfo   test result is <type 'exceptions.Exception'> 
+2016-03-29 19:25:33.174144: API: getScanTarget   test result is Success 
+2016-03-29 19:25:33.180734: API: serverStatus   test result is Success 
+2016-03-29 19:25:33.190889: API: throttlingRatio   test result is Success 
+2016-03-29 19:25:33.199459: API: throttlingRatioType   test result is Success 
+2016-03-29 19:25:33.213559: API: taskStatus   test result is Success 
+2016-03-29 19:25:33.223948: API: Validation   test result is Success 
+2016-03-29 19:25:33.284417: API: upsertDpTemplate   test result is Success 
+2016-03-29 19:25:33.309104: API: cloneTemplate   test result is Failed 
+2016-03-29 19:25:33.309210: API: 400   test result is error code 
+2016-03-29 19:25:33.309936: API: deleteTemplate   test result is <type 'exceptions.Exception'> 
+2016-03-29 19:25:33.359213: API: upsertDpKeyword   test result is Success 
+2016-03-29 19:25:33.417636: API: cloneKeyword   test result is Success 
+2016-03-29 19:25:33.501358: API: deleteKeyword   test result is Success 
+2016-03-29 19:25:33.560881: API: upsertDpExpression   test result is Success 
+2016-03-29 19:25:33.633847: API: cloneExpression   test result is Success 
+2016-03-29 19:25:33.708996: API: deleteExpression   test result is Success 
+2016-03-29 19:25:33.782839: API: list   test result is Success 
+2016-03-29 19:25:34.025583: API: clone   test result is Success 
+2016-03-29 19:25:34.041829: API: deletePolicy   test result is Success 
+2016-03-29 19:55:08.549904: API: addDefaultPolicyForProduct   test result is Success 
+2016-03-29 19:55:08.627719: API: list   test result is Success 
+2016-03-29 19:55:08.748868: API: getDpTemplate   test result is Success 
+2016-03-29 19:55:08.839744: API: getDpKeyword   test result is Success 
+2016-03-29 19:55:08.998900: API: getDpExpression   test result is Success 
+2016-03-29 19:55:09.027379: API: getEOpolicy   test result is Success 
+2016-03-29 19:55:09.057867: API: getODpolicy   test result is Success 
+2016-03-29 19:55:09.129135: API: getSOpolicy   test result is Success 
+2016-03-29 19:55:09.196604: API: list   test result is Success 
+2016-03-29 19:55:09.197496: API: details   test result is expected a string or other character buffer object 
+2016-03-29 19:55:09.419661: API: addPolicy   test result is Success 
+2016-03-29 19:55:09.433381: API: updatePolicy   test result is Failed 
+2016-03-29 19:55:09.433482: API: 400   test result is error code 
+2016-03-29 19:55:09.448165: API: matchCAS   test result is Success 
+2016-03-29 19:55:09.511572: API: list   test result is Success 
+2016-03-29 19:55:09.512513: API: getPolicy   test result is expected a string or other character buffer object 
+2016-03-29 19:55:09.586986: API: list   test result is Success 
+2016-03-29 19:55:09.587882: API: policyEnabledInfo   test result is expected a string or other character buffer object 
+2016-03-29 19:55:09.595482: API: getScanTarget   test result is Success 
+2016-03-29 19:55:09.600698: API: serverStatus   test result is Success 
+2016-03-29 19:55:09.608993: API: throttlingRatio   test result is Success 
+2016-03-29 19:55:09.616985: API: throttlingRatioType   test result is Success 
+2016-03-29 19:55:09.627025: API: taskStatus   test result is Success 
+2016-03-29 19:55:09.634847: API: Validation   test result is Success 
+2016-03-29 19:55:09.687237: API: upsertDpTemplate   test result is Success 
+2016-03-29 19:55:09.699557: API: cloneTemplate   test result is Failed 
+2016-03-29 19:55:09.699700: API: 400   test result is error code 
+2016-03-29 19:55:09.700381: API: deleteTemplate   test result is expected a string or other character buffer object 
+2016-03-29 19:55:09.744543: API: upsertDpKeyword   test result is Success 
+2016-03-29 19:55:09.803572: API: cloneKeyword   test result is Success 
+2016-03-29 19:55:09.853150: API: deleteKeyword   test result is Success 
+2016-03-29 19:55:09.928206: API: upsertDpExpression   test result is Success 
+2016-03-29 19:55:09.994689: API: cloneExpression   test result is Success 
+2016-03-29 19:55:10.044594: API: deleteExpression   test result is Success 
+2016-03-29 19:55:10.103383: API: list   test result is Success 
+2016-03-29 19:55:10.331015: API: clone   test result is Success 
+2016-03-29 19:55:10.371021: API: deletePolicy   test result is Success 
+2016-03-29 19:56:09.886866: API: serverStatus   test result is Success 
+2016-03-29 19:57:27.559717: API: serverStatus   test result is Success 
+2016-03-29 19:57:27.624160: API: upsertDpTemplate   test result is Success 
+2016-03-29 19:57:27.652625: API: cloneTemplate   test result is Failed 
+2016-03-29 19:57:27.652731: API: 400   test result is error code 
+2016-03-29 19:59:10.788621: API: serverStatus   test result is Success 
+2016-03-29 19:59:10.848191: API: upsertDpTemplate   test result is Success 
+2016-03-29 19:59:10.860395: API: cloneTemplate   test result is Failed 
+2016-03-29 19:59:10.860495: API: 400   test result is error code 
+2016-03-29 20:13:01.300627: API: upsertDpTemplate   test result is Success 
+2016-03-29 20:16:56.821144: API: upsertDpTemplate   test result is Success 
+2016-03-29 20:16:56.833678: API: cloneTemplate   test result is Failed 
+2016-03-29 20:16:56.833792: API: 400   test result is error code 
+2016-03-29 20:17:55.829131: API: upsertDpTemplate   test result is Success 
+2016-03-29 20:17:55.842449: API: cloneTemplate   test result is Failed 
+2016-03-29 20:17:55.842559: API: 400   test result is error code 
+2016-03-29 20:18:17.530943: API: upsertDpKeyword   test result is Success 
+2016-03-29 20:18:17.537814: API: cloneKeyword   test result is Failed 
+2016-03-29 20:18:17.537908: API: 400   test result is error code 
+2016-03-29 20:21:43.544540: API: upsertDpTemplate   test result is Success 
+2016-03-29 20:21:43.610205: API: cloneTemplate   test result is Success 
+2016-03-29 20:22:56.320907: API: addDefaultPolicyForProduct   test result is Success 
+2016-03-29 20:22:56.400443: API: getDpTemplate   test result is Success 
+2016-03-29 20:22:56.527238: API: getDpKeyword   test result is Success 
+2016-03-29 20:22:56.662004: API: getDpExpression   test result is Success 
+2016-03-29 20:22:56.685005: API: getEOpolicy   test result is Success 
+2016-03-29 20:22:56.708350: API: getODpolicy   test result is Success 
+2016-03-29 20:22:56.763558: API: getSOpolicy   test result is Success 
+2016-03-29 20:22:56.834883: API: list   test result is Success 
+2016-03-29 20:22:57.065695: API: clone   test result is Success 
+2016-03-29 20:22:57.146328: API: list   test result is Success 
+2016-03-29 20:22:57.180785: API: details   test result is Success 
+2016-03-29 20:22:57.382416: API: addPolicy   test result is Success 
+2016-03-29 20:22:57.581499: API: addPolicy   test result is Success 
+2016-03-29 20:22:57.732073: API: updatePolicy   test result is Success 
+2016-03-29 20:22:57.744943: API: matchCAS   test result is Success 
+2016-03-29 20:22:57.817285: API: list   test result is Success 
+2016-03-29 20:22:57.858498: API: getPolicy   test result is Success 
+2016-03-29 20:22:57.933518: API: list   test result is Success 
+2016-03-29 20:22:57.947755: API: policyEnabledInfo   test result is Success 
+2016-03-29 20:22:57.955137: API: getScanTarget   test result is Success 
+2016-03-29 20:22:57.960054: API: serverStatus   test result is Success 
+2016-03-29 20:22:57.967890: API: throttlingRatio   test result is Success 
+2016-03-29 20:22:57.976830: API: throttlingRatioType   test result is Success 
+2016-03-29 20:22:57.986297: API: taskStatus   test result is Success 
+2016-03-29 20:22:57.994131: API: Validation   test result is Success 
+2016-03-29 20:22:58.040267: API: upsertDpTemplate   test result is Success 
+2016-03-29 20:22:58.107825: API: cloneTemplate   test result is Success 
+2016-03-29 20:22:58.132303: API: deleteTemplate   test result is Success 
+2016-03-29 20:22:58.182266: API: upsertDpKeyword   test result is Success 
+2016-03-29 20:22:58.240205: API: cloneKeyword   test result is Success 
+2016-03-29 20:22:58.290041: API: deleteKeyword   test result is Success 
+2016-03-29 20:22:58.332514: API: upsertDpExpression   test result is Success 
+2016-03-29 20:22:58.382164: API: cloneExpression   test result is Success 
+2016-03-29 20:22:58.440403: API: deleteExpression   test result is Success 
+2016-03-29 20:22:58.546356: API: list   test result is Success 
+2016-03-29 20:22:58.790312: API: clone   test result is Success 
+2016-03-29 20:22:58.932313: API: deletePolicy   test result is Success 
+2016-03-29 20:24:57.573638: API: addDefaultPolicyForProduct   test result is Success 
+2016-03-29 20:24:57.652489: API: getDpTemplate   test result is Success 
+2016-03-29 20:24:57.784826: API: getDpKeyword   test result is Success 
+2016-03-29 20:24:57.917325: API: getDpExpression   test result is Success 
+2016-03-29 20:24:57.945152: API: getEOpolicy   test result is Success 
+2016-03-29 20:24:57.966996: API: getODpolicy   test result is Success 
+2016-03-29 20:24:58.024761: API: getSOpolicy   test result is Success 
+2016-03-29 20:24:58.088031: API: list   test result is Success 
+2016-03-29 20:24:58.305864: API: clone   test result is Success 
+2016-03-29 20:24:58.393001: API: list   test result is Success 
+2016-03-29 20:24:58.434280: API: details   test result is Success 
+2016-03-29 20:24:58.638729: API: addPolicy   test result is Success 
+2016-03-29 20:24:58.829738: API: addPolicy   test result is Success 
+2016-03-29 20:24:58.921813: API: updatePolicy   test result is Success 
+2016-03-29 20:24:58.935121: API: matchCAS   test result is Success 
+2016-03-29 20:24:59.013019: API: list   test result is Success 
+2016-03-29 20:24:59.093806: API: getPolicy   test result is Success 
+2016-03-29 20:24:59.168378: API: list   test result is Success 
+2016-03-29 20:24:59.184162: API: policyEnabledInfo   test result is Success 
+2016-03-29 20:24:59.191837: API: getScanTarget   test result is Success 
+2016-03-29 20:24:59.197609: API: serverStatus   test result is Success 
+2016-03-29 20:24:59.205261: API: throttlingRatio   test result is Success 
+2016-03-29 20:24:59.213006: API: throttlingRatioType   test result is Success 
+2016-03-29 20:24:59.223152: API: taskStatus   test result is Success 
+2016-03-29 20:24:59.231006: API: Validation   test result is Success 
+2016-03-29 20:24:59.288954: API: upsertDpTemplate   test result is Success 
+2016-03-29 20:24:59.355828: API: cloneTemplate   test result is Success 
+2016-03-29 20:24:59.371818: API: deleteTemplate   test result is Success 
+2016-03-29 20:24:59.407058: API: upsertDpKeyword   test result is Success 
+2016-03-29 20:24:59.480912: API: cloneKeyword   test result is Success 
+2016-03-29 20:24:59.529863: API: deleteKeyword   test result is Success 
+2016-03-29 20:24:59.571682: API: upsertDpExpression   test result is Success 
+2016-03-29 20:24:59.630241: API: cloneExpression   test result is Success 
+2016-03-29 20:24:59.680115: API: deleteExpression   test result is Success 
+2016-03-29 20:24:59.757115: API: list   test result is Success 
+2016-03-29 20:24:59.986807: API: clone   test result is Success 
+2016-03-29 20:25:00.016218: API: deletePolicy   test result is Success 
+2016-03-29 20:25:00.057762: API: upsertDpTemplate   test result is Success 
+2016-03-29 20:25:00.126355: API: cloneTemplate   test result is Success 
+2016-03-29 20:42:30.377621: API: addDefaultPolicyForProduct   test result is Success 
+2016-03-29 20:42:30.459694: API: getDpTemplate   test result is Success 
+2016-03-29 20:42:30.588216: API: getDpKeyword   test result is Success 
+2016-03-29 20:42:30.726926: API: getDpExpression   test result is Success 
+2016-03-29 20:42:30.759676: API: getEOpolicy   test result is Success 
+2016-03-29 20:42:30.782023: API: getODpolicy   test result is Success 
+2016-03-29 20:42:30.845614: API: getSOpolicy   test result is Success 
+2016-03-29 20:42:30.910558: API: list   test result is Success 
+2016-03-29 20:42:31.135469: API: clone   test result is Success 
+2016-03-29 20:42:31.209896: API: list   test result is Success 
+2016-03-29 20:42:31.245277: API: details   test result is Success 
+2016-03-29 20:42:31.444222: API: addPolicy   test result is Success 
+2016-03-29 20:42:31.668521: API: addPolicy   test result is Success 
+2016-03-29 20:42:31.752217: API: updatePolicy   test result is Success 
+2016-03-29 20:42:31.766271: API: matchCAS   test result is Success 
+2016-03-29 20:42:31.881281: API: list   test result is Success 
+2016-03-29 20:42:31.916872: API: getPolicy   test result is Success 
+2016-03-29 20:42:31.983653: API: list   test result is Success 
+2016-03-29 20:42:31.997849: API: policyEnabledInfo   test result is Success 
+2016-03-29 20:42:32.005395: API: getScanTarget   test result is Success 
+2016-03-29 20:42:32.010509: API: serverStatus   test result is Success 
+2016-03-29 20:42:32.017801: API: throttlingRatio   test result is Success 
+2016-03-29 20:42:32.025351: API: throttlingRatioType   test result is Success 
+2016-03-29 20:42:32.034180: API: taskStatus   test result is Success 
+2016-03-29 20:42:32.041356: API: Validation   test result is Success 
+2016-03-29 20:42:32.091503: API: upsertDpTemplate   test result is Success 
+2016-03-29 20:42:32.158116: API: cloneTemplate   test result is Success 
+2016-03-29 20:42:32.174315: API: deleteTemplate   test result is Success 
+2016-03-29 20:42:32.208183: API: upsertDpKeyword   test result is Success 
+2016-03-29 20:42:32.266734: API: cloneKeyword   test result is Success 
+2016-03-29 20:42:32.316271: API: deleteKeyword   test result is Success 
+2016-03-29 20:42:32.358532: API: upsertDpExpression   test result is Success 
+2016-03-29 20:42:32.408041: API: cloneExpression   test result is Success 
+2016-03-29 20:42:32.458707: API: deleteExpression   test result is Success 
+2016-03-29 20:42:32.541952: API: list   test result is Success 
+2016-03-29 20:42:32.758288: API: clone   test result is Success 
+2016-03-29 20:42:32.800202: API: deletePolicy   test result is Success 
+2016-03-29 20:47:24.488076: API: addDefaultPolicyForProduct   test result is Success 
+2016-03-29 20:47:24.567117: API: getDpTemplate   test result is Success 
+2016-03-29 20:47:24.665958: API: getDpKeyword   test result is Success 
+2016-03-29 20:47:24.797771: API: getDpExpression   test result is Success 
+2016-03-29 20:47:24.824432: API: getEOpolicy   test result is Success 
+2016-03-29 20:47:24.846299: API: getODpolicy   test result is Success 
+2016-03-29 20:47:24.898099: API: getSOpolicy   test result is Success 
+2016-03-29 20:47:25.037908: API: list   test result is Success 
+2016-03-29 20:47:25.262766: API: clone   test result is Success 
+2016-03-29 20:47:25.353403: API: list   test result is Success 
+2016-03-29 20:47:25.385233: API: details   test result is Success 
+2016-03-29 20:47:25.579258: API: addPolicy   test result is Success 
+2016-03-29 20:47:25.745841: API: addPolicy   test result is Success 
+2016-03-29 20:47:25.829481: API: updatePolicy   test result is Success 
+2016-03-29 20:47:25.842067: API: matchCAS   test result is Success 
+2016-03-29 20:47:25.950146: API: list   test result is Success 
+2016-03-29 20:47:25.980808: API: getPolicy   test result is Success 
+2016-03-29 20:47:26.052870: API: list   test result is Success 
+2016-03-29 20:47:26.066425: API: policyEnabledInfo   test result is Success 
+2016-03-29 20:47:26.073482: API: getScanTarget   test result is Success 
+2016-03-29 20:47:26.078339: API: serverStatus   test result is Success 
+2016-03-29 20:47:26.086025: API: throttlingRatio   test result is Success 
+2016-03-29 20:47:26.093296: API: throttlingRatioType   test result is Success 
+2016-03-29 20:47:26.101557: API: taskStatus   test result is Success 
+2016-03-29 20:47:26.108721: API: Validation   test result is Success 
+2016-03-29 20:47:26.154125: API: upsertDpTemplate   test result is Success 
+2016-03-29 20:47:26.221753: API: cloneTemplate   test result is Success 
+2016-03-29 20:47:26.238112: API: deleteTemplate   test result is Success 
+2016-03-29 20:47:26.270992: API: upsertDpKeyword   test result is Success 
+2016-03-29 20:47:26.330327: API: cloneKeyword   test result is Success 
+2016-03-29 20:47:26.389523: API: deleteKeyword   test result is Success 
+2016-03-29 20:47:26.432984: API: upsertDpExpression   test result is Success 
+2016-03-29 20:47:26.491288: API: cloneExpression   test result is Success 
+2016-03-29 20:47:26.548593: API: deleteExpression   test result is Success 
+2016-03-29 20:47:26.642599: API: list   test result is Success 
+2016-03-29 20:47:26.890921: API: clone   test result is Success 
+2016-03-29 20:47:26.915893: API: deletePolicy   test result is Success 
+2016-03-29 20:54:11.369564: API: deletePolicyByType   test result is No JSON object could be decoded 
+2016-03-29 20:56:18.003759: API: addDefaultPolicyForProduct   test result is Success 
+2016-03-29 23:02:10.446431: API: addDefaultPolicyForProduct   test result is Success 
+2016-03-30 10:20:48.425338: API: addDefaultPolicyForProduct   test result is Failed 
+2016-03-30 10:20:48.425420: API: 404   test result is error code 
+2016-03-30 10:20:48.432357: API: getDpTemplate   test result is Failed 
+2016-03-30 10:20:48.432437: API: 404   test result is error code 
+2016-03-30 10:20:48.432661: API: getDpTemplate   test result is No JSON object could be decoded 
+2016-03-30 10:20:48.440311: API: getDpKeyword   test result is Failed 
+2016-03-30 10:20:48.440400: API: 404   test result is error code 
+2016-03-30 10:20:48.445672: API: getDpExpression   test result is Failed 
+2016-03-30 10:20:48.445750: API: 404   test result is error code 
+2016-03-30 10:20:48.450749: API: getEOpolicy   test result is Failed 
+2016-03-30 10:20:48.450821: API: 404   test result is error code 
+2016-03-30 10:20:48.457081: API: getODpolicy   test result is Failed 
+2016-03-30 10:20:48.457162: API: 404   test result is error code 
+2016-03-30 10:20:48.464508: API: getSOpolicy   test result is Failed 
+2016-03-30 10:20:48.464609: API: 404   test result is error code 
+2016-03-30 10:20:48.469958: API: list   test result is Failed 
+2016-03-30 10:20:48.470042: API: 404   test result is error code 
+2016-03-30 10:20:48.470207: API: list   test result is No JSON object could be decoded 
+2016-03-30 10:20:48.476871: API: clone   test result is Failed 
+2016-03-30 10:20:48.476948: API: 404   test result is error code 
+2016-03-30 10:20:48.477107: API: clone   test result is No JSON object could be decoded 
+2016-03-30 10:20:48.482116: API: list   test result is Failed 
+2016-03-30 10:20:48.482193: API: 404   test result is error code 
+2016-03-30 10:20:48.482354: API: list   test result is No JSON object could be decoded 
+2016-03-30 10:20:48.483137: API: details   test result is expected a string or other character buffer object 
+2016-03-30 10:20:48.489005: API: addPolicy   test result is Failed 
+2016-03-30 10:20:48.489085: API: 404   test result is error code 
+2016-03-30 10:20:48.489241: API: addPolicy   test result is No JSON object could be decoded 
+2016-03-30 10:20:48.494710: API: addPolicy   test result is Failed 
+2016-03-30 10:20:48.494806: API: 404   test result is error code 
+2016-03-30 10:20:48.494965: API: addPolicy   test result is No JSON object could be decoded 
+2016-03-30 10:20:48.501820: API: updatePolicy   test result is Failed 
+2016-03-30 10:20:48.501894: API: 404   test result is error code 
+2016-03-30 10:20:48.506738: API: matchCAS   test result is Failed 
+2016-03-30 10:20:48.506841: API: 404   test result is error code 
+2016-03-30 10:20:48.511372: API: list   test result is Failed 
+2016-03-30 10:20:48.511445: API: 404   test result is error code 
+2016-03-30 10:20:48.511604: API: list   test result is No JSON object could be decoded 
+2016-03-30 10:20:48.512338: API: getPolicy   test result is expected a string or other character buffer object 
+2016-03-30 10:20:48.517129: API: list   test result is Failed 
+2016-03-30 10:20:48.517202: API: 404   test result is error code 
+2016-03-30 10:20:48.517361: API: list   test result is No JSON object could be decoded 
+2016-03-30 10:20:48.518110: API: policyEnabledInfo   test result is expected a string or other character buffer object 
+2016-03-30 10:20:48.522871: API: getScanTarget   test result is Failed 
+2016-03-30 10:20:48.522945: API: 404   test result is error code 
+2016-03-30 10:20:48.527924: API: serverStatus   test result is Failed 
+2016-03-30 10:20:48.528002: API: 404   test result is error code 
+2016-03-30 10:20:48.535489: API: throttlingRatio   test result is Failed 
+2016-03-30 10:20:48.535627: API: 404   test result is error code 
+2016-03-30 10:20:48.541057: API: throttlingRatioType   test result is Failed 
+2016-03-30 10:20:48.541133: API: 404   test result is error code 
+2016-03-30 10:20:48.546660: API: taskStatus   test result is Failed 
+2016-03-30 10:20:48.546739: API: 404   test result is error code 
+2016-03-30 10:20:48.552450: API: Validation   test result is Failed 
+2016-03-30 10:20:48.552526: API: 404   test result is error code 
+2016-03-30 10:20:48.559167: API: upsertDpTemplate   test result is Failed 
+2016-03-30 10:20:48.559234: API: 404   test result is error code 
+2016-03-30 10:20:48.559389: API: upsertDpTemplate   test result is No JSON object could be decoded 
+2016-03-30 10:20:48.573084: API: cloneTemplate   test result is Failed 
+2016-03-30 10:20:48.573157: API: 404   test result is error code 
+2016-03-30 10:20:48.573315: API: cloneTemplate   test result is No JSON object could be decoded 
+2016-03-30 10:20:48.574113: API: deleteTemplate   test result is expected a string or other character buffer object 
+2016-03-30 10:20:48.583701: API: upsertDpKeyword   test result is Failed 
+2016-03-30 10:20:48.583797: API: 404   test result is error code 
+2016-03-30 10:20:48.583960: API: upsertDpKeyword   test result is No JSON object could be decoded 
+2016-03-30 10:20:48.590871: API: cloneKeyword   test result is Failed 
+2016-03-30 10:20:48.590944: API: 404   test result is error code 
+2016-03-30 10:20:48.591100: API: cloneKeyword   test result is No JSON object could be decoded 
+2016-03-30 10:20:48.591943: API: deleteKeyword   test result is expected a string or other character buffer object 
+2016-03-30 10:20:48.609762: API: upsertDpExpression   test result is Failed 
+2016-03-30 10:20:48.609868: API: 404   test result is error code 
+2016-03-30 10:20:48.610042: API: upsertDpExpression   test result is No JSON object could be decoded 
+2016-03-30 10:20:48.616274: API: cloneExpression   test result is Failed 
+2016-03-30 10:20:48.616346: API: 404   test result is error code 
+2016-03-30 10:20:48.616503: API: cloneExpression   test result is No JSON object could be decoded 
+2016-03-30 10:20:48.617286: API: deleteExpression   test result is expected a string or other character buffer object 
+2016-03-30 10:20:48.622152: API: list   test result is Failed 
+2016-03-30 10:20:48.622234: API: 404   test result is error code 
+2016-03-30 10:20:48.622399: API: list   test result is No JSON object could be decoded 
+2016-03-30 10:20:48.628107: API: clone   test result is Failed 
+2016-03-30 10:20:48.628179: API: 404   test result is error code 
+2016-03-30 10:20:48.628332: API: clone   test result is No JSON object could be decoded 
+2016-03-30 10:20:48.629082: API: deletePolicy   test result is expected a string or other character buffer object 
+2016-03-30 10:20:48.634008: API: addDefaultPolicyForProduct   test result is Failed 
+2016-03-30 10:20:48.634074: API: 404   test result is error code 
+2016-03-30 10:29:08.525247: API: addDefaultPolicyForProduct   test result is Failed 
+2016-03-30 10:29:08.525320: API: 503   test result is error code 
+2016-03-30 10:29:08.530842: API: getDpTemplate   test result is Failed 
+2016-03-30 10:29:08.530930: API: 503   test result is error code 
+2016-03-30 10:29:08.531106: API: getDpTemplate   test result is No JSON object could be decoded 
+2016-03-30 10:29:08.536529: API: getDpKeyword   test result is Failed 
+2016-03-30 10:29:08.536611: API: 503   test result is error code 
+2016-03-30 10:29:08.541992: API: getDpExpression   test result is Failed 
+2016-03-30 10:29:08.542069: API: 503   test result is error code 
+2016-03-30 10:29:08.549250: API: getEOpolicy   test result is Failed 
+2016-03-30 10:29:08.549332: API: 503   test result is error code 
+2016-03-30 10:29:08.554344: API: getODpolicy   test result is Failed 
+2016-03-30 10:29:08.554476: API: 503   test result is error code 
+2016-03-30 10:29:08.559631: API: getSOpolicy   test result is Failed 
+2016-03-30 10:29:08.559709: API: 503   test result is error code 
+2016-03-30 10:29:08.564229: API: list   test result is Failed 
+2016-03-30 10:29:08.564305: API: 503   test result is error code 
+2016-03-30 10:29:08.564470: API: list   test result is No JSON object could be decoded 
+2016-03-30 10:29:08.570511: API: clone   test result is Failed 
+2016-03-30 10:29:08.570592: API: 503   test result is error code 
+2016-03-30 10:29:08.570754: API: clone   test result is No JSON object could be decoded 
+2016-03-30 10:29:08.576332: API: list   test result is Failed 
+2016-03-30 10:29:08.576492: API: 503   test result is error code 
+2016-03-30 10:29:08.578305: API: list   test result is No JSON object could be decoded 
+2016-03-30 10:29:08.579296: API: details   test result is expected a string or other character buffer object 
+2016-03-30 10:29:08.586189: API: addPolicy   test result is Failed 
+2016-03-30 10:29:08.586263: API: 503   test result is error code 
+2016-03-30 10:29:08.586597: API: addPolicy   test result is No JSON object could be decoded 
+2016-03-30 10:29:08.592857: API: addPolicy   test result is Failed 
+2016-03-30 10:29:08.592927: API: 503   test result is error code 
+2016-03-30 10:29:08.593084: API: addPolicy   test result is No JSON object could be decoded 
+2016-03-30 10:29:08.604199: API: updatePolicy   test result is Failed 
+2016-03-30 10:29:08.604276: API: 503   test result is error code 
+2016-03-30 10:29:08.614211: API: matchCAS   test result is Failed 
+2016-03-30 10:29:08.614309: API: 503   test result is error code 
+2016-03-30 10:29:08.620301: API: list   test result is Failed 
+2016-03-30 10:29:08.620489: API: 503   test result is error code 
+2016-03-30 10:29:08.620660: API: list   test result is No JSON object could be decoded 
+2016-03-30 10:29:08.621654: API: getPolicy   test result is expected a string or other character buffer object 
+2016-03-30 10:29:08.629226: API: list   test result is Failed 
+2016-03-30 10:29:08.629324: API: 503   test result is error code 
+2016-03-30 10:29:08.629595: API: list   test result is No JSON object could be decoded 
+2016-03-30 10:29:08.630604: API: policyEnabledInfo   test result is expected a string or other character buffer object 
+2016-03-30 10:29:08.636302: API: getScanTarget   test result is Failed 
+2016-03-30 10:29:08.636388: API: 503   test result is error code 
+2016-03-30 10:29:08.641758: API: serverStatus   test result is Failed 
+2016-03-30 10:29:08.641848: API: 503   test result is error code 
+2016-03-30 10:29:08.651130: API: throttlingRatio   test result is Failed 
+2016-03-30 10:29:08.651229: API: 503   test result is error code 
+2016-03-30 10:29:08.658411: API: throttlingRatioType   test result is Failed 
+2016-03-30 10:29:08.658508: API: 503   test result is error code 
+2016-03-30 10:29:08.664203: API: taskStatus   test result is Failed 
+2016-03-30 10:29:08.664289: API: 503   test result is error code 
+2016-03-30 10:29:08.673094: API: Validation   test result is Failed 
+2016-03-30 10:29:08.673197: API: 503   test result is error code 
+2016-03-30 10:29:08.680432: API: upsertDpTemplate   test result is Failed 
+2016-03-30 10:29:08.680515: API: 503   test result is error code 
+2016-03-30 10:29:08.680708: API: upsertDpTemplate   test result is No JSON object could be decoded 
+2016-03-30 10:29:08.688139: API: cloneTemplate   test result is Failed 
+2016-03-30 10:29:08.688216: API: 503   test result is error code 
+2016-03-30 10:29:08.688376: API: cloneTemplate   test result is No JSON object could be decoded 
+2016-03-30 10:29:08.689190: API: deleteTemplate   test result is expected a string or other character buffer object 
+2016-03-30 10:29:08.695713: API: upsertDpKeyword   test result is Failed 
+2016-03-30 10:29:08.695790: API: 503   test result is error code 
+2016-03-30 10:29:08.695962: API: upsertDpKeyword   test result is No JSON object could be decoded 
+2016-03-30 10:29:08.708300: API: cloneKeyword   test result is Failed 
+2016-03-30 10:29:08.708731: API: 503   test result is error code 
+2016-03-30 10:29:08.708941: API: cloneKeyword   test result is No JSON object could be decoded 
+2016-03-30 10:29:08.710210: API: deleteKeyword   test result is expected a string or other character buffer object 
+2016-03-30 10:29:08.718162: API: upsertDpExpression   test result is Failed 
+2016-03-30 10:29:08.718238: API: 503   test result is error code 
+2016-03-30 10:29:08.718472: API: upsertDpExpression   test result is No JSON object could be decoded 
+2016-03-30 10:29:08.726075: API: cloneExpression   test result is Failed 
+2016-03-30 10:29:08.726148: API: 503   test result is error code 
+2016-03-30 10:29:08.726307: API: cloneExpression   test result is No JSON object could be decoded 
+2016-03-30 10:29:08.727241: API: deleteExpression   test result is expected a string or other character buffer object 
+2016-03-30 10:29:08.732543: API: list   test result is Failed 
+2016-03-30 10:29:08.732632: API: 503   test result is error code 
+2016-03-30 10:29:08.732844: API: list   test result is No JSON object could be decoded 
+2016-03-30 10:29:08.739360: API: clone   test result is Failed 
+2016-03-30 10:29:08.739432: API: 503   test result is error code 
+2016-03-30 10:29:08.739590: API: clone   test result is No JSON object could be decoded 
+2016-03-30 10:29:08.740395: API: deletePolicy   test result is expected a string or other character buffer object 
+2016-03-30 10:29:08.746144: API: addDefaultPolicyForProduct   test result is Failed 
+2016-03-30 10:29:08.746215: API: 503   test result is error code 
+2016-03-30 13:43:59.219405: API: addDefaultPolicyForProduct   test result is Success 
+2016-03-30 13:43:59.490361: API: getDpTemplate   test result is Success 
+2016-03-30 13:43:59.678055: API: getDpKeyword   test result is Success 
+2016-03-30 13:44:00.072486: API: getDpExpression   test result is Success 
+2016-03-30 13:44:00.195540: API: getEOpolicy   test result is Success 
+2016-03-30 13:44:00.292015: API: getODpolicy   test result is Success 
+2016-03-30 13:44:00.495200: API: getSOpolicy   test result is Success 
+2016-03-30 13:44:00.832780: API: list   test result is Success 
+2016-03-30 13:44:01.149664: API: clone   test result is Success 
+2016-03-30 13:44:01.261718: API: list   test result is Success 
+2016-03-30 13:44:01.314694: API: details   test result is Success 
+2016-03-30 13:44:01.581676: API: addPolicy   test result is Success 
+2016-03-30 13:44:01.822890: API: addPolicy   test result is Success 
+2016-03-30 13:44:01.940002: API: updatePolicy   test result is Success 
+2016-03-30 13:44:01.961300: API: matchCAS   test result is Success 
+2016-03-30 13:44:02.092545: API: list   test result is Success 
+2016-03-30 13:44:02.196861: API: getPolicy   test result is Success 
+2016-03-30 13:44:02.375969: API: list   test result is Success 
+2016-03-30 13:44:02.400980: API: policyEnabledInfo   test result is Success 
+2016-03-30 13:44:02.411101: API: getScanTarget   test result is Success 
+2016-03-30 13:44:02.417089: API: serverStatus   test result is Success 
+2016-03-30 13:44:02.432380: API: throttlingRatio   test result is Success 
+2016-03-30 13:44:02.442640: API: throttlingRatioType   test result is Success 
+2016-03-30 13:44:02.453001: API: taskStatus   test result is Success 
+2016-03-30 13:44:02.505332: API: Validation   test result is Success 
+2016-03-30 13:44:02.564688: API: upsertDpTemplate   test result is Success 
+2016-03-30 13:44:02.631278: API: cloneTemplate   test result is Success 
+2016-03-30 13:44:02.647585: API: deleteTemplate   test result is Success 
+2016-03-30 13:44:02.689746: API: upsertDpKeyword   test result is Success 
+2016-03-30 13:44:02.748021: API: cloneKeyword   test result is Success 
+2016-03-30 13:44:02.839352: API: deleteKeyword   test result is Success 
+2016-03-30 13:44:02.897818: API: upsertDpExpression   test result is Success 
+2016-03-30 13:44:02.956318: API: cloneExpression   test result is Success 
+2016-03-30 13:44:03.073038: API: deleteExpression   test result is Success 
+2016-03-30 13:44:03.231329: API: list   test result is Success 
+2016-03-30 13:44:03.498235: API: clone   test result is Success 
+2016-03-30 13:44:03.531407: API: deletePolicy   test result is Success 
+2016-03-30 13:44:03.585631: API: addDefaultPolicyForProduct   test result is Success 
+2016-03-30 13:46:24.357123: API: addDefaultPolicyForProduct   test result is Success 
+2016-03-30 13:46:24.485165: API: getDpTemplate   test result is Success 
+2016-03-30 13:46:24.603859: API: getDpKeyword   test result is Success 
+2016-03-30 13:46:24.734314: API: getDpExpression   test result is Success 
+2016-03-30 13:46:24.762647: API: getEOpolicy   test result is Success 
+2016-03-30 13:46:24.788307: API: getODpolicy   test result is Success 
+2016-03-30 13:46:24.856095: API: getSOpolicy   test result is Success 
+2016-03-30 13:46:24.952043: API: list   test result is Success 
+2016-03-30 13:46:25.197844: API: clone   test result is Success 
+2016-03-30 13:46:25.348625: API: list   test result is Success 
+2016-03-30 13:46:25.407922: API: details   test result is Success 
+2016-03-30 13:46:25.614389: API: addPolicy   test result is Success 
+2016-03-30 13:46:25.797637: API: addPolicy   test result is Success 
+2016-03-30 13:46:25.898458: API: updatePolicy   test result is Success 
+2016-03-30 13:46:25.912659: API: matchCAS   test result is Success 
+2016-03-30 13:46:26.028887: API: list   test result is Success 
+2016-03-30 13:46:26.069631: API: getPolicy   test result is Success 
+2016-03-30 13:46:26.174674: API: list   test result is Success 
+2016-03-30 13:46:26.190898: API: policyEnabledInfo   test result is Success 
+2016-03-30 13:46:26.198911: API: getScanTarget   test result is Success 
+2016-03-30 13:46:26.204518: API: serverStatus   test result is Success 
+2016-03-30 13:46:26.214815: API: throttlingRatio   test result is Success 
+2016-03-30 13:46:26.222297: API: throttlingRatioType   test result is Success 
+2016-03-30 13:46:26.231488: API: taskStatus   test result is Success 
+2016-03-30 13:46:26.239668: API: Validation   test result is Success 
+2016-03-30 13:46:26.287465: API: upsertDpTemplate   test result is Success 
+2016-03-30 13:46:26.353884: API: cloneTemplate   test result is Success 
+2016-03-30 13:46:26.370762: API: deleteTemplate   test result is Success 
+2016-03-30 13:46:26.411765: API: upsertDpKeyword   test result is Success 
+2016-03-30 13:46:26.470232: API: cloneKeyword   test result is Success 
+2016-03-30 13:46:26.528382: API: deleteKeyword   test result is Success 
+2016-03-30 13:46:26.569935: API: upsertDpExpression   test result is Success 
+2016-03-30 13:46:26.628536: API: cloneExpression   test result is Success 
+2016-03-30 13:46:26.686971: API: deleteExpression   test result is Success 
+2016-03-30 13:46:26.788433: API: list   test result is Success 
+2016-03-30 13:46:27.020521: API: clone   test result is Success 
+2016-03-30 13:46:27.046073: API: deletePolicy   test result is Success 
+2016-03-30 13:46:27.089985: API: addDefaultPolicyForProduct   test result is Success 
+2016-03-30 13:46:27.502893: API: deletePolicyByType   test result is Success 
+2016-03-30 18:18:31.274997: API: addDefaultPolicyForProduct   test result is Success 
+2016-03-30 19:16:28.453555: API: addDefaultPolicyForProduct   test result is Success 
+2016-03-30 19:16:28.484418: API: policyList   test result is Failed 
+2016-03-30 19:18:43.327434: API: addDefaultPolicyForProduct   test result is Success 
+2016-03-30 19:18:43.348107: API: policyList   test result is Failed 
+2016-03-30 19:36:13.582351: API: list   test result is Success 
+2016-03-30 19:36:13.641251: API: policyContent   test result is Failed 
+2016-03-30 23:01:48.369058: API: list   test result is Failed 
+2016-03-30 23:01:48.369147: API: 503   test result is error code 
+2016-03-30 23:01:48.369552: API: list   test result is No JSON object could be decoded 
+2016-03-30 23:01:48.370361: API: policyContent   test result is expected a string or other character buffer object 
+2016-03-31 18:49:01.151494: API: list   test result is Success 
+2016-03-31 18:49:01.418741: API: policyContent   test result is Failed 
+2016-03-31 18:50:01.840364: API: list   test result is Success 
+2016-03-31 18:50:01.859084: API: policyContent   test result is Failed 
+2016-03-31 18:52:53.502216: API: list   test result is Success 
+2016-03-31 18:52:53.521327: API: policyContent   test result is Success 
+2016-03-31 18:53:29.441109: API: addDefaultPolicyForProduct   test result is Success 
+2016-03-31 18:53:29.663517: API: getDpTemplate   test result is Success 
+2016-03-31 18:53:29.868292: API: getDpKeyword   test result is Success 
+2016-03-31 18:53:30.200566: API: getDpExpression   test result is Success 
+2016-03-31 18:53:30.285753: API: getEOpolicy   test result is Success 
+2016-03-31 18:53:30.381978: API: getODpolicy   test result is Success 
+2016-03-31 18:53:30.439863: API: getSOpolicy   test result is Success 
+2016-03-31 18:53:30.477928: API: list   test result is Success 
+2016-03-31 18:53:30.824337: API: clone   test result is Success 
+2016-03-31 18:53:30.861717: API: list   test result is Success 
+2016-03-31 18:53:30.903936: API: details   test result is Success 
+2016-03-31 18:53:31.164499: API: addPolicy   test result is Success 
+2016-03-31 18:53:31.431314: API: addPolicy   test result is Success 
+2016-03-31 18:53:31.572980: API: updatePolicy   test result is Success 
+2016-03-31 18:53:31.588949: API: matchCAS   test result is Success 
+2016-03-31 18:53:31.620204: API: list   test result is Success 
+2016-03-31 18:53:31.675259: API: getPolicy   test result is Success 
+2016-03-31 18:53:31.776313: API: list   test result is Success 
+2016-03-31 18:53:31.797259: API: policyEnabledInfo   test result is Success 
+2016-03-31 18:53:31.806477: API: getScanTarget   test result is Success 
+2016-03-31 18:53:31.812322: API: serverStatus   test result is Success 
+2016-03-31 18:53:31.832098: API: throttlingRatio   test result is Success 
+2016-03-31 18:53:31.840860: API: throttlingRatioType   test result is Success 
+2016-03-31 18:53:31.852995: API: taskStatus   test result is Success 
+2016-03-31 18:53:31.892440: API: Validation   test result is Success 
+2016-03-31 18:53:31.940217: API: upsertDpTemplate   test result is Success 
+2016-03-31 18:53:32.006283: API: cloneTemplate   test result is Success 
+2016-03-31 18:53:32.022745: API: deleteTemplate   test result is Success 
+2016-03-31 18:53:32.055842: API: upsertDpKeyword   test result is Success 
+2016-03-31 18:53:32.114687: API: cloneKeyword   test result is Success 
+2016-03-31 18:53:32.197795: API: deleteKeyword   test result is Success 
+2016-03-31 18:53:32.256315: API: upsertDpExpression   test result is Success 
+2016-03-31 18:53:32.314629: API: cloneExpression   test result is Success 
+2016-03-31 18:53:32.389839: API: deleteExpression   test result is Success 
+2016-03-31 18:53:32.448559: API: list   test result is Success 
+2016-03-31 18:53:32.698455: API: clone   test result is Success 
+2016-03-31 18:53:32.732324: API: deletePolicy   test result is Success 
+2016-03-31 18:53:32.771200: API: list   test result is Success 
+2016-03-31 18:53:32.816675: API: policyContent   test result is Success 
+2016-03-31 18:53:32.838470: API: policyList   test result is Failed 
+2016-03-31 18:53:32.892372: API: deletePolicyByType   test result is Success 
+2016-03-31 18:56:45.914790: API: addDefaultPolicyForProduct   test result is Success 
+2016-03-31 18:56:46.072489: API: getDpTemplate   test result is Success 
+2016-03-31 18:56:46.176507: API: getDpKeyword   test result is Success 
+2016-03-31 18:56:46.295588: API: getDpExpression   test result is Success 
+2016-03-31 18:56:46.310823: API: getEOpolicy   test result is Success 
+2016-03-31 18:56:46.324876: API: getODpolicy   test result is Success 
+2016-03-31 18:56:46.594728: API: getSOpolicy   test result is Success 
+2016-03-31 18:56:46.623968: API: list   test result is Success 
+2016-03-31 18:56:46.850335: API: clone   test result is Success 
+2016-03-31 18:56:46.884965: API: list   test result is Success 
+2016-03-31 18:56:46.920750: API: details   test result is Success 
+2016-03-31 18:56:47.117335: API: addPolicy   test result is Success 
+2016-03-31 18:56:47.307915: API: addPolicy   test result is Success 
+2016-03-31 18:56:47.408388: API: updatePolicy   test result is Success 
+2016-03-31 18:56:47.421131: API: matchCAS   test result is Success 
+2016-03-31 18:56:47.451596: API: list   test result is Success 
+2016-03-31 18:56:47.487601: API: getPolicy   test result is Success 
+2016-03-31 18:56:47.517153: API: list   test result is Success 
+2016-03-31 18:56:47.533013: API: policyEnabledInfo   test result is Success 
+2016-03-31 18:56:47.540821: API: getScanTarget   test result is Success 
+2016-03-31 18:56:47.545988: API: serverStatus   test result is Success 
+2016-03-31 18:56:47.554077: API: throttlingRatio   test result is Success 
+2016-03-31 18:56:47.561516: API: throttlingRatioType   test result is Success 
+2016-03-31 18:56:47.570723: API: taskStatus   test result is Success 
+2016-03-31 18:56:47.581645: API: Validation   test result is Success 
+2016-03-31 18:56:47.650139: API: upsertDpTemplate   test result is Success 
+2016-03-31 18:56:47.716859: API: cloneTemplate   test result is Success 
+2016-03-31 18:56:47.733322: API: deleteTemplate   test result is Success 
+2016-03-31 18:56:47.766755: API: upsertDpKeyword   test result is Success 
+2016-03-31 18:56:47.825131: API: cloneKeyword   test result is Success 
+2016-03-31 18:56:47.899996: API: deleteKeyword   test result is Success 
+2016-03-31 18:56:47.941618: API: upsertDpExpression   test result is Success 
+2016-03-31 18:56:47.991684: API: cloneExpression   test result is Success 
+2016-03-31 18:56:48.058140: API: deleteExpression   test result is Success 
+2016-03-31 18:56:48.087299: API: list   test result is Success 
+2016-03-31 18:56:48.317068: API: clone   test result is Success 
+2016-03-31 18:56:48.359141: API: deletePolicy   test result is Success 
+2016-03-31 18:56:48.374549: API: policyList   test result is Failed 
+2016-03-31 18:56:48.405614: API: list   test result is Success 
+2016-03-31 18:56:48.444130: API: policyContent   test result is Success 
+2016-03-31 18:59:45.156541: API: addDefaultPolicyForProduct   test result is Success 
+2016-03-31 18:59:45.265909: API: getDpTemplate   test result is Success 
+2016-03-31 18:59:45.360438: API: getDpKeyword   test result is Success 
+2016-03-31 18:59:45.465721: API: getDpExpression   test result is Success 
+2016-03-31 18:59:45.488090: API: getEOpolicy   test result is Success 
+2016-03-31 18:59:45.510539: API: getODpolicy   test result is Success 
+2016-03-31 18:59:45.564977: API: getSOpolicy   test result is Success 
+2016-03-31 18:59:45.598199: API: list   test result is Success 
+2016-03-31 18:59:45.822577: API: clone   test result is Success 
+2016-03-31 18:59:45.861571: API: list   test result is Success 
+2016-03-31 18:59:45.958191: API: details   test result is Success 
+2016-03-31 18:59:46.172629: API: addPolicy   test result is Success 
+2016-03-31 18:59:46.347122: API: addPolicy   test result is Success 
+2016-03-31 18:59:46.361828: API: updatePolicy   test result is Failed 
+2016-03-31 18:59:46.361907: API: 400   test result is error code 
+2016-03-31 18:59:46.375370: API: matchCAS   test result is Success 
+2016-03-31 18:59:46.410643: API: list   test result is Success 
+2016-03-31 18:59:46.447113: API: getPolicy   test result is Success 
+2016-03-31 18:59:46.495771: API: list   test result is Success 
+2016-03-31 18:59:46.509174: API: policyEnabledInfo   test result is Success 
+2016-03-31 18:59:46.517926: API: getScanTarget   test result is Success 
+2016-03-31 18:59:46.523346: API: serverStatus   test result is Success 
+2016-03-31 18:59:46.531056: API: throttlingRatio   test result is Success 
+2016-03-31 18:59:46.538862: API: throttlingRatioType   test result is Success 
+2016-03-31 18:59:46.548599: API: taskStatus   test result is Success 
+2016-03-31 18:59:46.556142: API: Validation   test result is Success 
+2016-03-31 18:59:46.597344: API: upsertDpTemplate   test result is Success 
+2016-03-31 18:59:46.664277: API: cloneTemplate   test result is Success 
+2016-03-31 18:59:46.680922: API: deleteTemplate   test result is Success 
+2016-03-31 18:59:46.723533: API: upsertDpKeyword   test result is Success 
+2016-03-31 18:59:46.780941: API: cloneKeyword   test result is Success 
+2016-03-31 18:59:46.856018: API: deleteKeyword   test result is Success 
+2016-03-31 18:59:46.898090: API: upsertDpExpression   test result is Success 
+2016-03-31 18:59:46.956094: API: cloneExpression   test result is Success 
+2016-03-31 18:59:47.031390: API: deleteExpression   test result is Success 
+2016-03-31 18:59:47.071271: API: list   test result is Success 
+2016-03-31 18:59:47.281400: API: clone   test result is Success 
+2016-03-31 18:59:47.315710: API: deletePolicy   test result is Success 
+2016-03-31 18:59:47.333502: API: policyList   test result is Failed 
+2016-03-31 18:59:47.381805: API: list   test result is Success 
+2016-03-31 18:59:47.435425: API: policyContent   test result is Success 
+2016-03-31 19:27:47.550142: API: addDefaultPolicyForProduct   test result is Success 
+2016-03-31 19:27:47.659777: API: getDpTemplate   test result is Success 
+2016-03-31 19:27:47.758756: API: getDpKeyword   test result is Success 
+2016-03-31 19:27:47.871195: API: getDpExpression   test result is Success 
+2016-03-31 19:27:47.893027: API: getEOpolicy   test result is Success 
+2016-03-31 19:27:47.914731: API: getODpolicy   test result is Success 
+2016-03-31 19:27:47.967432: API: getSOpolicy   test result is Success 
+2016-03-31 19:27:48.002803: API: list   test result is Success 
+2016-03-31 19:27:48.236861: API: clone   test result is Success 
+2016-03-31 19:27:48.280593: API: list   test result is Success 
+2016-03-31 19:27:48.316661: API: details   test result is Success 
+2016-03-31 19:27:48.511795: API: addPolicy   test result is Success 
+2016-03-31 19:27:48.695519: API: addPolicy   test result is Success 
+2016-03-31 19:27:48.710194: API: updatePolicy   test result is Failed 
+2016-03-31 19:27:48.710270: API: 400   test result is error code 
+2016-03-31 19:27:48.723473: API: matchCAS   test result is Success 
+2016-03-31 19:27:48.782324: API: list   test result is Success 
+2016-03-31 19:27:48.817986: API: getPolicy   test result is Success 
+2016-03-31 19:27:48.877540: API: list   test result is Success 
+2016-03-31 19:27:48.895247: API: policyEnabledInfo   test result is Success 
+2016-03-31 19:27:48.903150: API: getScanTarget   test result is Success 
+2016-03-31 19:27:48.908743: API: serverStatus   test result is Success 
+2016-03-31 19:27:48.916155: API: throttlingRatio   test result is Success 
+2016-03-31 19:27:48.926738: API: throttlingRatioType   test result is Success 
+2016-03-31 19:27:48.937168: API: taskStatus   test result is Success 
+2016-03-31 19:27:48.945081: API: Validation   test result is Success 
+2016-03-31 19:27:48.986936: API: upsertDpTemplate   test result is Success 
+2016-03-31 19:27:49.045605: API: cloneTemplate   test result is Success 
+2016-03-31 19:27:49.064919: API: deleteTemplate   test result is Success 
+2016-03-31 19:27:49.097902: API: upsertDpKeyword   test result is Success 
+2016-03-31 19:27:49.156874: API: cloneKeyword   test result is Success 
+2016-03-31 19:27:49.239992: API: deleteKeyword   test result is Success 
+2016-03-31 19:27:49.281633: API: upsertDpExpression   test result is Success 
+2016-03-31 19:27:49.333112: API: cloneExpression   test result is Success 
+2016-03-31 19:27:49.406569: API: deleteExpression   test result is Success 
+2016-03-31 19:27:49.461929: API: list   test result is Success 
+2016-03-31 19:27:49.648208: API: clone   test result is Success 
+2016-03-31 19:27:49.664802: API: deletePolicy   test result is Success 
+2016-03-31 19:27:49.685442: API: policyList   test result is Failed 
+2016-03-31 19:27:49.744526: API: list   test result is Success 
+2016-03-31 19:27:49.792334: API: policyContent   test result is Success 
+2016-03-31 19:29:32.305502: API: addDefaultPolicyForProduct   test result is Success 
+2016-03-31 19:29:32.431422: API: getDpTemplate   test result is Success 
+2016-03-31 19:29:32.526434: API: getDpKeyword   test result is Success 
+2016-03-31 19:29:32.643054: API: getDpExpression   test result is Success 
+2016-03-31 19:29:32.679754: API: getEOpolicy   test result is Success 
+2016-03-31 19:29:32.705676: API: getODpolicy   test result is Success 
+2016-03-31 19:29:32.760294: API: getSOpolicy   test result is Success 
+2016-03-31 19:29:32.820319: API: list   test result is Success 
+2016-03-31 19:29:33.026093: API: clone   test result is Success 
+2016-03-31 19:29:33.096534: API: list   test result is Success 
+2016-03-31 19:29:33.153348: API: details   test result is Success 
+2016-03-31 19:29:33.378290: API: addPolicy   test result is Success 
+2016-03-31 19:29:33.544416: API: addPolicy   test result is Success 
+2016-03-31 19:29:33.558029: API: updatePolicy   test result is Failed 
+2016-03-31 19:29:33.558104: API: 400   test result is error code 
+2016-03-31 19:29:33.571288: API: matchCAS   test result is Success 
+2016-03-31 19:29:33.644173: API: list   test result is Success 
+2016-03-31 19:29:33.676752: API: getPolicy   test result is Success 
+2016-03-31 19:29:33.757446: API: list   test result is Success 
+2016-03-31 19:29:33.775438: API: policyEnabledInfo   test result is Success 
+2016-03-31 19:29:33.784554: API: getScanTarget   test result is Success 
+2016-03-31 19:29:33.789905: API: serverStatus   test result is Success 
+2016-03-31 19:29:33.798130: API: throttlingRatio   test result is Success 
+2016-03-31 19:29:33.806503: API: throttlingRatioType   test result is Success 
+2016-03-31 19:29:33.816230: API: taskStatus   test result is Success 
+2016-03-31 19:29:33.823738: API: Validation   test result is Success 
+2016-03-31 19:29:33.869856: API: upsertDpTemplate   test result is Success 
+2016-03-31 19:29:33.936590: API: cloneTemplate   test result is Success 
+2016-03-31 19:29:33.953187: API: deleteTemplate   test result is Success 
+2016-03-31 19:29:33.988222: API: upsertDpKeyword   test result is Success 
+2016-03-31 19:29:34.045067: API: cloneKeyword   test result is Success 
+2016-03-31 19:29:34.120550: API: deleteKeyword   test result is Success 
+2016-03-31 19:29:34.161531: API: upsertDpExpression   test result is Success 
+2016-03-31 19:29:34.211763: API: cloneExpression   test result is Success 
+2016-03-31 19:29:34.295171: API: deleteExpression   test result is Success 
+2016-03-31 19:29:34.376887: API: list   test result is Success 
+2016-03-31 19:29:34.578463: API: clone   test result is Success 
+2016-03-31 19:29:34.595088: API: deletePolicy   test result is Success 
+2016-03-31 19:29:34.613690: API: policyList   test result is Failed 
+2016-03-31 19:29:34.705106: API: list   test result is Success 
+2016-03-31 19:29:34.745414: API: policyContent   test result is Success 
+2016-03-31 19:29:34.786882: API: upsertDpTemplate   test result is Success 
+2016-03-31 19:29:34.854067: API: cloneTemplate   test result is Success 
+2016-03-31 19:30:25.808805: API: addDefaultPolicyForProduct   test result is Success 
+2016-03-31 19:30:25.951507: API: getDpTemplate   test result is Success 
+2016-03-31 19:30:26.039526: API: getDpKeyword   test result is Success 
+2016-03-31 19:30:26.150782: API: getDpExpression   test result is Success 
+2016-03-31 19:30:26.172009: API: getEOpolicy   test result is Success 
+2016-03-31 19:30:26.192234: API: getODpolicy   test result is Success 
+2016-03-31 19:30:26.235903: API: getSOpolicy   test result is Success 
+2016-03-31 19:30:26.307687: API: list   test result is Success 
+2016-03-31 19:30:26.521982: API: clone   test result is Success 
+2016-03-31 19:30:26.603344: API: list   test result is Success 
+2016-03-31 19:30:26.636861: API: details   test result is Success 
+2016-03-31 19:30:26.813765: API: addPolicy   test result is Success 
+2016-03-31 19:30:26.980424: API: addPolicy   test result is Success 
+2016-03-31 19:30:26.993509: API: updatePolicy   test result is Failed 
+2016-03-31 19:30:26.993586: API: 400   test result is error code 
+2016-03-31 19:30:27.006922: API: matchCAS   test result is Success 
+2016-03-31 19:30:27.112316: API: list   test result is Success 
+2016-03-31 19:30:27.150155: API: getPolicy   test result is Success 
+2016-03-31 19:30:27.454073: API: list   test result is Success 
+2016-03-31 19:30:27.495308: API: policyEnabledInfo   test result is Success 
+2016-03-31 19:30:27.503755: API: getScanTarget   test result is Success 
+2016-03-31 19:30:27.509777: API: serverStatus   test result is Success 
+2016-03-31 19:30:27.517740: API: throttlingRatio   test result is Success 
+2016-03-31 19:30:27.525136: API: throttlingRatioType   test result is Success 
+2016-03-31 19:30:27.534817: API: taskStatus   test result is Success 
+2016-03-31 19:30:27.542966: API: Validation   test result is Success 
+2016-03-31 19:30:27.597265: API: upsertDpTemplate   test result is Success 
+2016-03-31 19:30:27.673463: API: cloneTemplate   test result is Success 
+2016-03-31 19:30:27.706279: API: deleteTemplate   test result is Success 
+2016-03-31 19:30:27.764023: API: upsertDpKeyword   test result is Success 
+2016-03-31 19:30:27.822804: API: cloneKeyword   test result is Success 
+2016-03-31 19:30:27.888698: API: deleteKeyword   test result is Success 
+2016-03-31 19:30:27.947803: API: upsertDpExpression   test result is Success 
+2016-03-31 19:30:27.997387: API: cloneExpression   test result is Success 
+2016-03-31 19:30:28.063901: API: deleteExpression   test result is Success 
+2016-03-31 19:30:28.175126: API: list   test result is Success 
+2016-03-31 19:30:28.381095: API: clone   test result is Success 
+2016-03-31 19:30:28.405844: API: deletePolicy   test result is Success 
+2016-03-31 19:30:28.427595: API: policyList   test result is Failed 
+2016-03-31 19:30:28.569349: API: list   test result is Success 
+2016-03-31 19:30:28.607986: API: policyContent   test result is Success 
+2016-03-31 19:41:17.495250: API: addPolicy   test result is Success 
+2016-03-31 19:56:14.911445: API: addPolicy   test result is Success 
+2016-03-31 19:56:15.003995: API: updatePolicy   test result is Success 
+2016-03-31 19:57:02.367484: API: policyList   test result is Success 
+2016-03-31 23:02:54.378800: API: policyList   test result is Failed 
+2016-03-31 23:02:54.378899: API: 503   test result is error code 
+2016-04-01 23:01:36.913929: API: addDefaultPolicyForProduct   test result is Failed 
+2016-04-01 23:01:36.914009: API: 503   test result is error code 
+2016-04-01 23:01:36.918123: API: getDpTemplate   test result is Failed 
+2016-04-01 23:01:36.918191: API: 503   test result is error code 
+2016-04-01 23:01:36.918306: API: getDpTemplate   test result is No JSON object could be decoded 
+2016-04-01 23:01:36.922120: API: getDpKeyword   test result is Failed 
+2016-04-01 23:01:36.922187: API: 503   test result is error code 
+2016-04-01 23:01:36.925955: API: getDpExpression   test result is Failed 
+2016-04-01 23:01:36.926023: API: 503   test result is error code 
+2016-04-01 23:01:36.930315: API: getEOpolicy   test result is Failed 
+2016-04-01 23:01:36.930386: API: 503   test result is error code 
+2016-04-01 23:01:36.934311: API: getODpolicy   test result is Failed 
+2016-04-01 23:01:36.934381: API: 503   test result is error code 
+2016-04-01 23:01:36.938227: API: getSOpolicy   test result is Failed 
+2016-04-01 23:01:36.938295: API: 503   test result is error code 
+2016-04-01 23:01:36.942090: API: list   test result is Failed 
+2016-04-01 23:01:36.942157: API: 503   test result is error code 
+2016-04-01 23:01:36.942267: API: list   test result is No JSON object could be decoded 
+2016-04-01 23:01:36.947302: API: clone   test result is Failed 
+2016-04-01 23:01:36.947373: API: 503   test result is error code 
+2016-04-01 23:01:36.947506: API: clone   test result is No JSON object could be decoded 
+2016-04-01 23:01:36.951466: API: list   test result is Failed 
+2016-04-01 23:01:36.951536: API: 503   test result is error code 
+2016-04-01 23:01:36.951646: API: list   test result is No JSON object could be decoded 
+2016-04-01 23:01:36.952362: API: details   test result is expected a string or other character buffer object 
+2016-04-01 23:01:36.956720: API: addPolicy   test result is Failed 
+2016-04-01 23:01:36.956785: API: 503   test result is error code 
+2016-04-01 23:01:36.956889: API: addPolicy   test result is No JSON object could be decoded 
+2016-04-01 23:01:36.961399: API: addPolicy   test result is Failed 
+2016-04-01 23:01:36.961467: API: 503   test result is error code 
+2016-04-01 23:01:36.961622: API: addPolicy   test result is No JSON object could be decoded 
+2016-04-01 23:01:36.966451: API: updatePolicy   test result is Failed 
+2016-04-01 23:01:36.966516: API: 503   test result is error code 
+2016-04-01 23:01:36.970507: API: matchCAS   test result is Failed 
+2016-04-01 23:01:36.970576: API: 503   test result is error code 
+2016-04-01 23:01:36.974325: API: list   test result is Failed 
+2016-04-01 23:01:36.974392: API: 503   test result is error code 
+2016-04-01 23:01:36.974520: API: list   test result is No JSON object could be decoded 
+2016-04-01 23:01:36.975235: API: getPolicy   test result is expected a string or other character buffer object 
+2016-04-01 23:01:36.979093: API: list   test result is Failed 
+2016-04-01 23:01:36.979164: API: 503   test result is error code 
+2016-04-01 23:01:36.979284: API: list   test result is No JSON object could be decoded 
+2016-04-01 23:01:36.980012: API: policyEnabledInfo   test result is expected a string or other character buffer object 
+2016-04-01 23:01:36.983869: API: getScanTarget   test result is Failed 
+2016-04-01 23:01:36.983936: API: 503   test result is error code 
+2016-04-01 23:01:36.987640: API: serverStatus   test result is Failed 
+2016-04-01 23:01:36.987706: API: 503   test result is error code 
+2016-04-01 23:01:36.991434: API: throttlingRatio   test result is Failed 
+2016-04-01 23:01:36.991504: API: 503   test result is error code 
+2016-04-01 23:01:36.995422: API: throttlingRatioType   test result is Failed 
+2016-04-01 23:01:36.995488: API: 503   test result is error code 
+2016-04-01 23:01:36.999247: API: taskStatus   test result is Failed 
+2016-04-01 23:01:36.999313: API: 503   test result is error code 
+2016-04-01 23:01:37.003068: API: Validation   test result is Failed 
+2016-04-01 23:01:37.003134: API: 503   test result is error code 
+2016-04-01 23:01:37.007548: API: upsertDpTemplate   test result is Failed 
+2016-04-01 23:01:37.007619: API: 503   test result is error code 
+2016-04-01 23:01:37.007728: API: upsertDpTemplate   test result is No JSON object could be decoded 
+2016-04-01 23:01:37.013065: API: cloneTemplate   test result is Failed 
+2016-04-01 23:01:37.013135: API: 503   test result is error code 
+2016-04-01 23:01:37.013267: API: cloneTemplate   test result is No JSON object could be decoded 
+2016-04-01 23:01:37.014045: API: deleteTemplate   test result is expected a string or other character buffer object 
+2016-04-01 23:01:37.018785: API: upsertDpKeyword   test result is Failed 
+2016-04-01 23:01:37.018854: API: 503   test result is error code 
+2016-04-01 23:01:37.018961: API: upsertDpKeyword   test result is No JSON object could be decoded 
+2016-04-01 23:01:37.024064: API: cloneKeyword   test result is Failed 
+2016-04-01 23:01:37.024130: API: 503   test result is error code 
+2016-04-01 23:01:37.024238: API: cloneKeyword   test result is No JSON object could be decoded 
+2016-04-01 23:01:37.024976: API: deleteKeyword   test result is expected a string or other character buffer object 
+2016-04-01 23:01:37.029400: API: upsertDpExpression   test result is Failed 
+2016-04-01 23:01:37.029463: API: 503   test result is error code 
+2016-04-01 23:01:37.029588: API: upsertDpExpression   test result is No JSON object could be decoded 
+2016-04-01 23:01:37.034479: API: cloneExpression   test result is Failed 
+2016-04-01 23:01:37.034544: API: 503   test result is error code 
+2016-04-01 23:01:37.034670: API: cloneExpression   test result is No JSON object could be decoded 
+2016-04-01 23:01:37.035372: API: deleteExpression   test result is expected a string or other character buffer object 
+2016-04-01 23:01:37.039262: API: list   test result is Failed 
+2016-04-01 23:01:37.039332: API: 503   test result is error code 
+2016-04-01 23:01:37.039440: API: list   test result is No JSON object could be decoded 
+2016-04-01 23:01:37.044136: API: clone   test result is Failed 
+2016-04-01 23:01:37.044201: API: 503   test result is error code 
+2016-04-01 23:01:37.044326: API: clone   test result is No JSON object could be decoded 
+2016-04-01 23:01:37.045055: API: deletePolicy   test result is expected a string or other character buffer object 
+2016-04-01 23:01:37.048916: API: policyList   test result is Failed 
+2016-04-01 23:01:37.048982: API: 503   test result is error code 
+2016-04-01 23:01:37.052755: API: list   test result is Failed 
+2016-04-01 23:01:37.052821: API: 503   test result is error code 
+2016-04-01 23:01:37.052937: API: list   test result is No JSON object could be decoded 
+2016-04-01 23:01:37.053738: API: policyContent   test result is expected a string or other character buffer object 
+2016-04-01 23:01:37.058192: API: deletePolicyByType   test result is Failed 
+2016-04-01 23:01:37.058256: API: 503   test result is error code 
+2016-04-02 23:00:58.357551: API: addDefaultPolicyForProduct   test result is Failed 
+2016-04-02 23:00:58.357684: API: 503   test result is error code 
+2016-04-02 23:00:58.362521: API: getDpTemplate   test result is Failed 
+2016-04-02 23:00:58.362598: API: 503   test result is error code 
+2016-04-02 23:00:58.362746: API: getDpTemplate   test result is No JSON object could be decoded 
+2016-04-02 23:00:58.367106: API: getDpKeyword   test result is Failed 
+2016-04-02 23:00:58.367185: API: 503   test result is error code 
+2016-04-02 23:00:58.371503: API: getDpExpression   test result is Failed 
+2016-04-02 23:00:58.371578: API: 503   test result is error code 
+2016-04-02 23:00:58.375900: API: getEOpolicy   test result is Failed 
+2016-04-02 23:00:58.375982: API: 503   test result is error code 
+2016-04-02 23:00:58.380682: API: getODpolicy   test result is Failed 
+2016-04-02 23:00:58.380759: API: 503   test result is error code 
+2016-04-02 23:00:58.384973: API: getSOpolicy   test result is Failed 
+2016-04-02 23:00:58.385046: API: 503   test result is error code 
+2016-04-02 23:00:58.389094: API: list   test result is Failed 
+2016-04-02 23:00:58.389165: API: 503   test result is error code 
+2016-04-02 23:00:58.389279: API: list   test result is No JSON object could be decoded 
+2016-04-02 23:00:58.394273: API: clone   test result is Failed 
+2016-04-02 23:00:58.394341: API: 503   test result is error code 
+2016-04-02 23:00:58.394478: API: clone   test result is No JSON object could be decoded 
+2016-04-02 23:00:58.398498: API: list   test result is Failed 
+2016-04-02 23:00:58.398573: API: 503   test result is error code 
+2016-04-02 23:00:58.398710: API: list   test result is No JSON object could be decoded 
+2016-04-02 23:00:58.399408: API: details   test result is expected a string or other character buffer object 
+2016-04-02 23:00:58.404177: API: addPolicy   test result is Failed 
+2016-04-02 23:00:58.404244: API: 503   test result is error code 
+2016-04-02 23:00:58.404351: API: addPolicy   test result is No JSON object could be decoded 
+2016-04-02 23:00:58.409294: API: addPolicy   test result is Failed 
+2016-04-02 23:00:58.409362: API: 503   test result is error code 
+2016-04-02 23:00:58.409492: API: addPolicy   test result is No JSON object could be decoded 
+2016-04-02 23:00:58.414730: API: updatePolicy   test result is Failed 
+2016-04-02 23:00:58.414801: API: 503   test result is error code 
+2016-04-02 23:00:58.418914: API: matchCAS   test result is Failed 
+2016-04-02 23:00:58.418986: API: 503   test result is error code 
+2016-04-02 23:00:58.423187: API: list   test result is Failed 
+2016-04-02 23:00:58.423262: API: 503   test result is error code 
+2016-04-02 23:00:58.423398: API: list   test result is No JSON object could be decoded 
+2016-04-02 23:00:58.424139: API: getPolicy   test result is expected a string or other character buffer object 
+2016-04-02 23:00:58.428068: API: list   test result is Failed 
+2016-04-02 23:00:58.428140: API: 503   test result is error code 
+2016-04-02 23:00:58.428253: API: list   test result is No JSON object could be decoded 
+2016-04-02 23:00:58.428977: API: policyEnabledInfo   test result is expected a string or other character buffer object 
+2016-04-02 23:00:58.432975: API: getScanTarget   test result is Failed 
+2016-04-02 23:00:58.433046: API: 503   test result is error code 
+2016-04-02 23:00:58.437034: API: serverStatus   test result is Failed 
+2016-04-02 23:00:58.437105: API: 503   test result is error code 
+2016-04-02 23:00:58.441146: API: throttlingRatio   test result is Failed 
+2016-04-02 23:00:58.441217: API: 503   test result is error code 
+2016-04-02 23:00:58.445208: API: throttlingRatioType   test result is Failed 
+2016-04-02 23:00:58.445278: API: 503   test result is error code 
+2016-04-02 23:00:58.449211: API: taskStatus   test result is Failed 
+2016-04-02 23:00:58.449281: API: 503   test result is error code 
+2016-04-02 23:00:58.453154: API: Validation   test result is Failed 
+2016-04-02 23:00:58.453225: API: 503   test result is error code 
+2016-04-02 23:00:58.457873: API: upsertDpTemplate   test result is Failed 
+2016-04-02 23:00:58.457938: API: 503   test result is error code 
+2016-04-02 23:00:58.458046: API: upsertDpTemplate   test result is No JSON object could be decoded 
+2016-04-02 23:00:58.463076: API: cloneTemplate   test result is Failed 
+2016-04-02 23:00:58.463149: API: 503   test result is error code 
+2016-04-02 23:00:58.463279: API: cloneTemplate   test result is No JSON object could be decoded 
+2016-04-02 23:00:58.464007: API: deleteTemplate   test result is expected a string or other character buffer object 
+2016-04-02 23:00:58.468486: API: upsertDpKeyword   test result is Failed 
+2016-04-02 23:00:58.468553: API: 503   test result is error code 
+2016-04-02 23:00:58.468661: API: upsertDpKeyword   test result is No JSON object could be decoded 
+2016-04-02 23:00:58.473537: API: cloneKeyword   test result is Failed 
+2016-04-02 23:00:58.473605: API: 503   test result is error code 
+2016-04-02 23:00:58.473713: API: cloneKeyword   test result is No JSON object could be decoded 
+2016-04-02 23:00:58.474435: API: deleteKeyword   test result is expected a string or other character buffer object 
+2016-04-02 23:00:58.479060: API: upsertDpExpression   test result is Failed 
+2016-04-02 23:00:58.479127: API: 503   test result is error code 
+2016-04-02 23:00:58.479254: API: upsertDpExpression   test result is No JSON object could be decoded 
+2016-04-02 23:00:58.484104: API: cloneExpression   test result is Failed 
+2016-04-02 23:00:58.484171: API: 503   test result is error code 
+2016-04-02 23:00:58.484279: API: cloneExpression   test result is No JSON object could be decoded 
+2016-04-02 23:00:58.485016: API: deleteExpression   test result is expected a string or other character buffer object 
+2016-04-02 23:00:58.489164: API: list   test result is Failed 
+2016-04-02 23:00:58.489235: API: 503   test result is error code 
+2016-04-02 23:00:58.489349: API: list   test result is No JSON object could be decoded 
+2016-04-02 23:00:58.494160: API: clone   test result is Failed 
+2016-04-02 23:00:58.494229: API: 503   test result is error code 
+2016-04-02 23:00:58.494360: API: clone   test result is No JSON object could be decoded 
+2016-04-02 23:00:58.495083: API: deletePolicy   test result is expected a string or other character buffer object 
+2016-04-02 23:00:58.499136: API: policyList   test result is Failed 
+2016-04-02 23:00:58.499207: API: 503   test result is error code 
+2016-04-02 23:00:58.503248: API: list   test result is Failed 
+2016-04-02 23:00:58.503319: API: 503   test result is error code 
+2016-04-02 23:00:58.503431: API: list   test result is No JSON object could be decoded 
+2016-04-02 23:00:58.504154: API: policyContent   test result is expected a string or other character buffer object 
+2016-04-02 23:00:58.508682: API: deletePolicyByType   test result is Failed 
+2016-04-02 23:00:58.508750: API: 503   test result is error code 
+2016-04-03 23:01:16.713522: API: addDefaultPolicyForProduct   test result is Failed 
+2016-04-03 23:01:16.713614: API: 404   test result is error code 
+2016-04-03 23:01:17.287943: API: getDpTemplate   test result is Failed 
+2016-04-03 23:01:17.288031: API: 404   test result is error code 
+2016-04-03 23:01:17.288159: API: getDpTemplate   test result is No JSON object could be decoded 
+2016-04-03 23:01:18.157055: API: getDpKeyword   test result is Failed 
+2016-04-03 23:01:18.157141: API: 404   test result is error code 
+2016-04-03 23:01:18.161621: API: getDpExpression   test result is Failed 
+2016-04-03 23:01:18.161699: API: 404   test result is error code 
+2016-04-03 23:01:18.745676: API: getEOpolicy   test result is Failed 
+2016-04-03 23:01:18.745754: API: 404   test result is error code 
+2016-04-03 23:01:20.179506: API: getODpolicy   test result is Failed 
+2016-04-03 23:01:20.179613: API: 404   test result is error code 
+2016-04-03 23:01:20.185347: API: getSOpolicy   test result is Failed 
+2016-04-03 23:01:20.185425: API: 404   test result is error code 
+2016-04-03 23:01:20.191505: API: list   test result is Failed 
+2016-04-03 23:01:20.191587: API: 404   test result is error code 
+2016-04-03 23:01:20.191705: API: list   test result is No JSON object could be decoded 
+2016-04-03 23:01:20.197145: API: clone   test result is Failed 
+2016-04-03 23:01:20.197224: API: 404   test result is error code 
+2016-04-03 23:01:20.197357: API: clone   test result is No JSON object could be decoded 
+2016-04-03 23:01:20.204429: API: list   test result is Failed 
+2016-04-03 23:01:20.204516: API: 404   test result is error code 
+2016-04-03 23:01:20.204635: API: list   test result is No JSON object could be decoded 
+2016-04-03 23:01:20.205407: API: details   test result is expected a string or other character buffer object 
+2016-04-03 23:01:20.219967: API: addPolicy   test result is Failed 
+2016-04-03 23:01:20.220046: API: 404   test result is error code 
+2016-04-03 23:01:20.220158: API: addPolicy   test result is No JSON object could be decoded 
+2016-04-03 23:01:20.230346: API: addPolicy   test result is Failed 
+2016-04-03 23:01:20.230417: API: 404   test result is error code 
+2016-04-03 23:01:20.230531: API: addPolicy   test result is No JSON object could be decoded 
+2016-04-03 23:01:20.241273: API: updatePolicy   test result is Failed 
+2016-04-03 23:01:20.241345: API: 404   test result is error code 
+2016-04-03 23:01:20.251314: API: matchCAS   test result is Failed 
+2016-04-03 23:01:20.251398: API: 404   test result is error code 
+2016-04-03 23:01:20.545755: API: list   test result is Failed 
+2016-04-03 23:01:20.545842: API: 404   test result is error code 
+2016-04-03 23:01:20.545985: API: list   test result is No JSON object could be decoded 
+2016-04-03 23:01:20.546931: API: getPolicy   test result is expected a string or other character buffer object 
+2016-04-03 23:01:20.551412: API: list   test result is Failed 
+2016-04-03 23:01:20.551492: API: 404   test result is error code 
+2016-04-03 23:01:20.551636: API: list   test result is No JSON object could be decoded 
+2016-04-03 23:01:20.552384: API: policyEnabledInfo   test result is expected a string or other character buffer object 
+2016-04-03 23:01:20.556689: API: getScanTarget   test result is Failed 
+2016-04-03 23:01:20.556765: API: 404   test result is error code 
+2016-04-03 23:01:20.577879: API: serverStatus   test result is Failed 
+2016-04-03 23:01:20.577986: API: 404   test result is error code 
+2016-04-03 23:01:20.582803: API: throttlingRatio   test result is Failed 
+2016-04-03 23:01:20.582887: API: 404   test result is error code 
+2016-04-03 23:01:20.587918: API: throttlingRatioType   test result is Failed 
+2016-04-03 23:01:20.588011: API: 404   test result is error code 
+2016-04-03 23:01:22.004457: API: taskStatus   test result is Failed 
+2016-04-03 23:01:22.004537: API: 404   test result is error code 
+2016-04-03 23:01:22.010681: API: Validation   test result is Failed 
+2016-04-03 23:01:22.010754: API: 404   test result is error code 
+2016-04-03 23:01:22.023934: API: upsertDpTemplate   test result is Failed 
+2016-04-03 23:01:22.024012: API: 404   test result is error code 
+2016-04-03 23:01:22.024167: API: upsertDpTemplate   test result is No JSON object could be decoded 
+2016-04-03 23:01:22.032795: API: cloneTemplate   test result is Failed 
+2016-04-03 23:01:22.032868: API: 404   test result is error code 
+2016-04-03 23:01:22.033001: API: cloneTemplate   test result is No JSON object could be decoded 
+2016-04-03 23:01:22.033761: API: deleteTemplate   test result is expected a string or other character buffer object 
+2016-04-03 23:01:22.325797: API: upsertDpKeyword   test result is Failed 
+2016-04-03 23:01:22.325869: API: 404   test result is error code 
+2016-04-03 23:01:22.325980: API: upsertDpKeyword   test result is No JSON object could be decoded 
+2016-04-03 23:01:22.331561: API: cloneKeyword   test result is Failed 
+2016-04-03 23:01:22.331636: API: 404   test result is error code 
+2016-04-03 23:01:22.331748: API: cloneKeyword   test result is No JSON object could be decoded 
+2016-04-03 23:01:22.332472: API: deleteKeyword   test result is expected a string or other character buffer object 
+2016-04-03 23:01:22.896675: API: upsertDpExpression   test result is Failed 
+2016-04-03 23:01:22.896749: API: 404   test result is error code 
+2016-04-03 23:01:22.896881: API: upsertDpExpression   test result is No JSON object could be decoded 
+2016-04-03 23:01:22.902446: API: cloneExpression   test result is Failed 
+2016-04-03 23:01:22.902523: API: 404   test result is error code 
+2016-04-03 23:01:22.902635: API: cloneExpression   test result is No JSON object could be decoded 
+2016-04-03 23:01:22.903392: API: deleteExpression   test result is expected a string or other character buffer object 
+2016-04-03 23:01:23.194257: API: list   test result is Failed 
+2016-04-03 23:01:23.194337: API: 404   test result is error code 
+2016-04-03 23:01:23.194458: API: list   test result is No JSON object could be decoded 
+2016-04-03 23:01:24.324261: API: clone   test result is Failed 
+2016-04-03 23:01:24.324337: API: 404   test result is error code 
+2016-04-03 23:01:24.324470: API: clone   test result is No JSON object could be decoded 
+2016-04-03 23:01:24.325263: API: deletePolicy   test result is expected a string or other character buffer object 
+2016-04-03 23:01:24.330188: API: policyList   test result is Failed 
+2016-04-03 23:01:24.330260: API: 404   test result is error code 
+2016-04-03 23:01:24.338521: API: list   test result is Failed 
+2016-04-03 23:01:24.338607: API: 404   test result is error code 
+2016-04-03 23:01:24.338725: API: list   test result is No JSON object could be decoded 
+2016-04-03 23:01:24.339515: API: policyContent   test result is expected a string or other character buffer object 
+2016-04-03 23:01:24.625787: API: deletePolicyByType   test result is Failed 
+2016-04-03 23:01:24.625861: API: 404   test result is error code 
+2016-04-04 23:01:30.486758: API: addDefaultPolicyForProduct   test result is Failed 
+2016-04-04 23:01:30.486854: API: 404   test result is error code 
+2016-04-04 23:01:36.484368: API: getDpTemplate   test result is Failed 
+2016-04-04 23:01:36.484453: API: 404   test result is error code 
+2016-04-04 23:01:36.484623: API: getDpTemplate   test result is No JSON object could be decoded 
+2016-04-04 23:01:48.961626: API: getDpKeyword   test result is Failed 
+2016-04-04 23:01:48.961715: API: 404   test result is error code 
+2016-04-04 23:02:08.765149: API: getDpExpression   test result is Failed 
+2016-04-04 23:02:08.765232: API: 404   test result is error code 
+2016-04-04 23:02:24.211050: API: getEOpolicy   test result is Failed 
+2016-04-04 23:02:24.211137: API: 404   test result is error code 
+2016-04-04 23:02:39.497571: API: getODpolicy   test result is Failed 
+2016-04-04 23:02:39.497676: API: 404   test result is error code 
+2016-04-04 23:02:53.349186: API: getSOpolicy   test result is Failed 
+2016-04-04 23:02:53.349280: API: 404   test result is error code 
+2016-04-04 23:03:13.572017: API: list   test result is Failed 
+2016-04-04 23:03:13.572106: API: 404   test result is error code 
+2016-04-04 23:03:13.572225: API: list   test result is No JSON object could be decoded 
+2016-04-04 23:03:30.221669: API: clone   test result is Failed 
+2016-04-04 23:03:30.221752: API: 404   test result is error code 
+2016-04-04 23:03:30.221888: API: clone   test result is No JSON object could be decoded 
+2016-04-04 23:03:46.806509: API: list   test result is Failed 
+2016-04-04 23:03:46.806639: API: 404   test result is error code 
+2016-04-04 23:03:46.806773: API: list   test result is No JSON object could be decoded 
+2016-04-04 23:03:46.807619: API: details   test result is expected a string or other character buffer object 
+2016-04-04 23:03:57.062210: API: addPolicy   test result is Failed 
+2016-04-04 23:03:57.062292: API: 404   test result is error code 
+2016-04-04 23:03:57.062405: API: addPolicy   test result is No JSON object could be decoded 
+2016-04-04 23:04:13.677527: API: addPolicy   test result is Failed 
+2016-04-04 23:04:13.677609: API: 404   test result is error code 
+2016-04-04 23:04:13.677723: API: addPolicy   test result is No JSON object could be decoded 
+2016-04-04 23:04:29.972070: API: updatePolicy   test result is Failed 
+2016-04-04 23:04:29.972153: API: 404   test result is error code 
+2016-04-04 23:04:49.033918: API: matchCAS   test result is Failed 
+2016-04-04 23:04:49.034016: API: 404   test result is error code 
+2016-04-04 23:05:09.933068: API: list   test result is Failed 
+2016-04-04 23:05:09.933153: API: 404   test result is error code 
+2016-04-04 23:05:09.933315: API: list   test result is No JSON object could be decoded 
+2016-04-04 23:05:09.934104: API: getPolicy   test result is expected a string or other character buffer object 
+2016-04-04 23:05:21.381869: API: list   test result is Failed 
+2016-04-04 23:05:21.381976: API: 404   test result is error code 
+2016-04-04 23:05:21.382099: API: list   test result is No JSON object could be decoded 
+2016-04-04 23:05:21.383003: API: policyEnabledInfo   test result is expected a string or other character buffer object 
+2016-04-04 23:05:41.406680: API: getScanTarget   test result is Failed 
+2016-04-04 23:05:41.406792: API: 404   test result is error code 
+2016-04-04 23:05:57.358868: API: serverStatus   test result is Failed 
+2016-04-04 23:05:57.358970: API: 404   test result is error code 
+2016-04-04 23:06:11.661250: API: throttlingRatio   test result is Failed 
+2016-04-04 23:06:11.661339: API: 404   test result is error code 
+2016-04-04 23:06:33.761527: API: throttlingRatioType   test result is Failed 
+2016-04-04 23:06:33.761617: API: 404   test result is error code 
+2016-04-04 23:06:48.262623: API: taskStatus   test result is Failed 
+2016-04-04 23:06:48.262747: API: 404   test result is error code 
+2016-04-04 23:07:02.255429: API: Validation   test result is Failed 
+2016-04-04 23:07:02.255510: API: 404   test result is error code 
+2016-04-04 23:07:20.461547: API: upsertDpTemplate   test result is Failed 
+2016-04-04 23:07:20.461631: API: 404   test result is error code 
+2016-04-04 23:07:20.461773: API: upsertDpTemplate   test result is No JSON object could be decoded 
+2016-04-04 23:07:35.512507: API: cloneTemplate   test result is Failed 
+2016-04-04 23:07:35.512588: API: 404   test result is error code 
+2016-04-04 23:07:35.512756: API: cloneTemplate   test result is No JSON object could be decoded 
+2016-04-04 23:07:35.513500: API: deleteTemplate   test result is expected a string or other character buffer object 
+2016-04-04 23:07:48.863412: API: upsertDpKeyword   test result is Failed 
+2016-04-04 23:07:48.863549: API: 404   test result is error code 
+2016-04-04 23:07:48.863673: API: upsertDpKeyword   test result is No JSON object could be decoded 
+2016-04-04 23:07:58.978014: API: cloneKeyword   test result is Failed 
+2016-04-04 23:07:58.978149: API: 404   test result is error code 
+2016-04-04 23:07:58.978294: API: cloneKeyword   test result is No JSON object could be decoded 
+2016-04-04 23:07:58.979183: API: deleteKeyword   test result is expected a string or other character buffer object 
+2016-04-04 23:08:14.033553: API: upsertDpExpression   test result is Failed 
+2016-04-04 23:08:14.033637: API: 404   test result is error code 
+2016-04-04 23:08:14.033806: API: upsertDpExpression   test result is No JSON object could be decoded 
+2016-04-04 23:08:28.807003: API: cloneExpression   test result is Failed 
+2016-04-04 23:08:28.807085: API: 404   test result is error code 
+2016-04-04 23:08:28.807198: API: cloneExpression   test result is No JSON object could be decoded 
+2016-04-04 23:08:28.831834: API: deleteExpression   test result is expected a string or other character buffer object 
+2016-04-04 23:08:43.419524: API: list   test result is Failed 
+2016-04-04 23:08:43.419627: API: 404   test result is error code 
+2016-04-04 23:08:43.419803: API: list   test result is No JSON object could be decoded 
+2016-04-04 23:08:57.583198: API: clone   test result is Failed 
+2016-04-04 23:08:57.583305: API: 404   test result is error code 
+2016-04-04 23:08:57.583451: API: clone   test result is No JSON object could be decoded 
+2016-04-04 23:08:57.584230: API: deletePolicy   test result is expected a string or other character buffer object 
+2016-04-04 23:09:13.538261: API: policyList   test result is Failed 
+2016-04-04 23:09:13.538351: API: 404   test result is error code 
+2016-04-04 23:09:25.180243: API: list   test result is Failed 
+2016-04-04 23:09:25.180353: API: 404   test result is error code 
+2016-04-04 23:09:25.180498: API: list   test result is No JSON object could be decoded 
+2016-04-04 23:09:25.181307: API: policyContent   test result is expected a string or other character buffer object 
+2016-04-04 23:09:43.904944: API: deletePolicyByType   test result is Failed 
+2016-04-04 23:09:43.905041: API: 404   test result is error code 
+2016-04-05 23:01:47.740034: API: addDefaultPolicyForProduct   test result is Failed 
+2016-04-05 23:01:47.740116: API: 404   test result is error code 
+2016-04-05 23:01:59.751327: API: getDpTemplate   test result is Failed 
+2016-04-05 23:01:59.751422: API: 404   test result is error code 
+2016-04-05 23:01:59.751558: API: getDpTemplate   test result is No JSON object could be decoded 
+2016-04-05 23:02:16.846108: API: getDpKeyword   test result is Failed 
+2016-04-05 23:02:16.846212: API: 404   test result is error code 
+2016-04-05 23:02:27.735898: API: getDpExpression   test result is Failed 
+2016-04-05 23:02:27.735998: API: 404   test result is error code 
+2016-04-05 23:02:47.323056: API: getEOpolicy   test result is Failed 
+2016-04-05 23:02:47.323167: API: 404   test result is error code 
+2016-04-05 23:03:03.445083: API: getODpolicy   test result is Failed 
+2016-04-05 23:03:03.445196: API: 404   test result is error code 
+2016-04-05 23:03:18.716961: API: getSOpolicy   test result is Failed 
+2016-04-05 23:03:18.717078: API: 404   test result is error code 
+2016-04-05 23:03:31.824549: API: list   test result is Failed 
+2016-04-05 23:03:31.824764: API: 404   test result is error code 
+2016-04-05 23:03:31.824921: API: list   test result is No JSON object could be decoded 
+2016-04-05 23:03:46.926515: API: clone   test result is Failed 
+2016-04-05 23:03:46.926604: API: 404   test result is error code 
+2016-04-05 23:03:46.926807: API: clone   test result is No JSON object could be decoded 
+2016-04-05 23:03:59.580318: API: list   test result is Failed 
+2016-04-05 23:03:59.580422: API: 404   test result is error code 
+2016-04-05 23:03:59.580576: API: list   test result is No JSON object could be decoded 
+2016-04-05 23:03:59.581419: API: details   test result is expected a string or other character buffer object 
+2016-04-05 23:04:16.530958: API: addPolicy   test result is Failed 
+2016-04-05 23:04:16.531038: API: 404   test result is error code 
+2016-04-05 23:04:16.531151: API: addPolicy   test result is No JSON object could be decoded 
+2016-04-05 23:04:33.883206: API: addPolicy   test result is Failed 
+2016-04-05 23:04:33.883286: API: 404   test result is error code 
+2016-04-05 23:04:33.883401: API: addPolicy   test result is No JSON object could be decoded 
+2016-04-05 23:04:53.132952: API: updatePolicy   test result is Failed 
+2016-04-05 23:04:53.133039: API: 404   test result is error code 
+2016-04-05 23:05:10.949384: API: matchCAS   test result is Failed 
+2016-04-05 23:05:10.949476: API: 404   test result is error code 
+2016-04-05 23:05:23.754137: API: list   test result is Failed 
+2016-04-05 23:05:23.754256: API: 404   test result is error code 
+2016-04-05 23:05:23.754408: API: list   test result is No JSON object could be decoded 
+2016-04-05 23:05:23.755173: API: getPolicy   test result is expected a string or other character buffer object 
+2016-04-05 23:05:36.168657: API: list   test result is Failed 
+2016-04-05 23:05:36.168735: API: 404   test result is error code 
+2016-04-05 23:05:36.169011: API: list   test result is No JSON object could be decoded 
+2016-04-05 23:05:36.169724: API: policyEnabledInfo   test result is expected a string or other character buffer object 
+2016-04-05 23:05:51.243842: API: getScanTarget   test result is Failed 
+2016-04-05 23:05:51.243962: API: 404   test result is error code 
+2016-04-05 23:06:06.172557: API: serverStatus   test result is Failed 
+2016-04-05 23:06:06.172648: API: 404   test result is error code 
+2016-04-05 23:06:25.345337: API: throttlingRatio   test result is Failed 
+2016-04-05 23:06:25.345422: API: 404   test result is error code 
+2016-04-05 23:06:42.659793: API: throttlingRatioType   test result is Failed 
+2016-04-05 23:06:42.659923: API: 404   test result is error code 
+2016-04-05 23:06:55.214746: API: taskStatus   test result is Failed 
+2016-04-05 23:06:55.214836: API: 404   test result is error code 
+2016-04-05 23:07:11.542554: API: Validation   test result is Failed 
+2016-04-05 23:07:11.542675: API: 404   test result is error code 
+2016-04-05 23:07:29.507877: API: upsertDpTemplate   test result is Failed 
+2016-04-05 23:07:29.507962: API: 404   test result is error code 
+2016-04-05 23:07:29.508079: API: upsertDpTemplate   test result is No JSON object could be decoded 
+2016-04-05 23:07:47.726624: API: cloneTemplate   test result is Failed 
+2016-04-05 23:07:47.726736: API: 404   test result is error code 
+2016-04-05 23:07:47.726892: API: cloneTemplate   test result is No JSON object could be decoded 
+2016-04-05 23:07:47.727634: API: deleteTemplate   test result is expected a string or other character buffer object 
+2016-04-05 23:08:05.546283: API: upsertDpKeyword   test result is Failed 
+2016-04-05 23:08:05.546371: API: 404   test result is error code 
+2016-04-05 23:08:05.546487: API: upsertDpKeyword   test result is No JSON object could be decoded 
+2016-04-05 23:08:23.951074: API: cloneKeyword   test result is Failed 
+2016-04-05 23:08:23.951152: API: 404   test result is error code 
+2016-04-05 23:08:23.951266: API: cloneKeyword   test result is No JSON object could be decoded 
+2016-04-05 23:08:23.951999: API: deleteKeyword   test result is expected a string or other character buffer object 
+2016-04-05 23:08:46.023504: API: upsertDpExpression   test result is Failed 
+2016-04-05 23:08:46.023619: API: 404   test result is error code 
+2016-04-05 23:08:46.023763: API: upsertDpExpression   test result is No JSON object could be decoded 
+2016-04-05 23:09:13.274333: API: cloneExpression   test result is Failed 
+2016-04-05 23:09:13.274416: API: 404   test result is error code 
+2016-04-05 23:09:13.274545: API: cloneExpression   test result is No JSON object could be decoded 
+2016-04-05 23:09:13.275384: API: deleteExpression   test result is expected a string or other character buffer object 
+2016-04-05 23:09:31.087549: API: list   test result is Failed 
+2016-04-05 23:09:31.087643: API: 404   test result is error code 
+2016-04-05 23:09:31.087796: API: list   test result is No JSON object could be decoded 
+2016-04-05 23:09:50.390747: API: clone   test result is Failed 
+2016-04-05 23:09:50.390836: API: 404   test result is error code 
+2016-04-05 23:09:50.390980: API: clone   test result is No JSON object could be decoded 
+2016-04-05 23:09:50.391727: API: deletePolicy   test result is expected a string or other character buffer object 
+2016-04-05 23:10:06.444342: API: policyList   test result is Failed 
+2016-04-05 23:10:06.444446: API: 404   test result is error code 
+2016-04-05 23:10:24.115154: API: list   test result is Failed 
+2016-04-05 23:10:24.115246: API: 404   test result is error code 
+2016-04-05 23:10:24.115371: API: list   test result is No JSON object could be decoded 
+2016-04-05 23:10:24.116133: API: policyContent   test result is expected a string or other character buffer object 
+2016-04-05 23:10:50.489169: API: deletePolicyByType   test result is Failed 
+2016-04-05 23:10:50.489253: API: 404   test result is error code 
+2016-04-06 20:00:47.789926: API: addDefaultPolicyForProduct   test result is Failed 
+2016-04-06 20:00:47.790013: API: 404   test result is error code 
+2016-04-06 20:01:06.126453: API: getDpTemplate   test result is Failed 
+2016-04-06 20:01:06.126548: API: 404   test result is error code 
+2016-04-06 20:01:06.126749: API: getDpTemplate   test result is No JSON object could be decoded 
+2016-04-06 20:01:25.384498: API: getDpKeyword   test result is Failed 
+2016-04-06 20:01:25.384655: API: 404   test result is error code 
+2016-04-06 23:02:21.689749: API: addDefaultPolicyForProduct   test result is Failed 
+2016-04-06 23:02:21.689821: API: 404   test result is error code 
+2016-04-06 23:02:45.546820: API: getDpTemplate   test result is Failed 
+2016-04-06 23:02:45.546923: API: 404   test result is error code 
+2016-04-06 23:02:45.547090: API: getDpTemplate   test result is No JSON object could be decoded 
+2016-04-06 23:03:02.543989: API: getDpKeyword   test result is Failed 
+2016-04-06 23:03:02.544075: API: 404   test result is error code 
+2016-04-06 23:03:22.240168: API: getDpExpression   test result is Failed 
+2016-04-06 23:03:22.240279: API: 404   test result is error code 
+2016-04-06 23:03:36.011653: API: getEOpolicy   test result is Failed 
+2016-04-06 23:03:36.011748: API: 404   test result is error code 
+2016-04-06 23:03:58.865808: API: getODpolicy   test result is Failed 
+2016-04-06 23:03:58.865918: API: 404   test result is error code 
+2016-04-06 23:04:12.213188: API: getSOpolicy   test result is Failed 
+2016-04-06 23:04:12.213280: API: 404   test result is error code 
+2016-04-06 23:04:24.213425: API: list   test result is Failed 
+2016-04-06 23:04:24.213517: API: 404   test result is error code 
+2016-04-06 23:04:24.213639: API: list   test result is No JSON object could be decoded 
+2016-04-06 23:04:50.464963: API: clone   test result is Failed 
+2016-04-06 23:04:50.465054: API: 404   test result is error code 
+2016-04-06 23:04:50.465237: API: clone   test result is No JSON object could be decoded 
+2016-04-06 23:05:07.773996: API: list   test result is Failed 
+2016-04-06 23:05:07.774102: API: 404   test result is error code 
+2016-04-06 23:05:07.774223: API: list   test result is No JSON object could be decoded 
+2016-04-06 23:05:07.775152: API: details   test result is expected a string or other character buffer object 
+2016-04-06 23:05:46.494285: API: addPolicy   test result is Failed 
+2016-04-06 23:05:46.494378: API: 404   test result is error code 
+2016-04-06 23:05:46.494505: API: addPolicy   test result is No JSON object could be decoded 
+2016-04-06 23:06:23.902681: API: addPolicy   test result is Failed 
+2016-04-06 23:06:23.902764: API: 404   test result is error code 
+2016-04-06 23:06:23.902924: API: addPolicy   test result is No JSON object could be decoded 
+2016-04-06 23:06:52.381526: API: updatePolicy   test result is Failed 
+2016-04-06 23:06:52.381663: API: 404   test result is error code 
+2016-04-06 23:07:10.348761: API: matchCAS   test result is Failed 
+2016-04-06 23:07:10.348891: API: 404   test result is error code 
+2016-04-06 23:07:27.623707: API: list   test result is Failed 
+2016-04-06 23:07:27.623789: API: 404   test result is error code 
+2016-04-06 23:07:27.623937: API: list   test result is No JSON object could be decoded 
+2016-04-06 23:07:27.624692: API: getPolicy   test result is expected a string or other character buffer object 
+2016-04-06 23:07:44.078914: API: list   test result is Failed 
+2016-04-06 23:07:44.079008: API: 404   test result is error code 
+2016-04-06 23:07:44.079132: API: list   test result is No JSON object could be decoded 
+2016-04-06 23:07:44.104898: API: policyEnabledInfo   test result is expected a string or other character buffer object 
+2016-04-06 23:08:03.367919: API: getScanTarget   test result is Failed 
+2016-04-06 23:08:03.368013: API: 404   test result is error code 
+2016-04-06 23:08:21.894208: API: serverStatus   test result is Failed 
+2016-04-06 23:08:21.894306: API: 404   test result is error code 
+2016-04-06 23:08:38.335957: API: throttlingRatio   test result is Failed 
+2016-04-06 23:08:38.336070: API: 404   test result is error code 
+2016-04-06 23:08:56.005538: API: throttlingRatioType   test result is Failed 
+2016-04-06 23:08:56.005674: API: 404   test result is error code 
+2016-04-06 23:09:11.591093: API: taskStatus   test result is Failed 
+2016-04-06 23:09:11.591188: API: 404   test result is error code 
+2016-04-06 23:09:29.051195: API: Validation   test result is Failed 
+2016-04-06 23:09:29.051305: API: 404   test result is error code 
+2016-04-06 23:09:56.789607: API: upsertDpTemplate   test result is Failed 
+2016-04-06 23:09:56.789701: API: 404   test result is error code 
+2016-04-06 23:09:56.789818: API: upsertDpTemplate   test result is No JSON object could be decoded 
+2016-04-06 23:10:21.130329: API: cloneTemplate   test result is Failed 
+2016-04-06 23:10:21.130554: API: 404   test result is error code 
+2016-04-06 23:10:21.130733: API: cloneTemplate   test result is No JSON object could be decoded 
+2016-04-06 23:10:21.131815: API: deleteTemplate   test result is expected a string or other character buffer object 
+2016-04-06 23:10:45.079077: API: upsertDpKeyword   test result is Failed 
+2016-04-06 23:10:45.079231: API: 404   test result is error code 
+2016-04-06 23:10:45.079355: API: upsertDpKeyword   test result is No JSON object could be decoded 
+2016-04-06 23:11:12.051866: API: cloneKeyword   test result is Failed 
+2016-04-06 23:11:12.052040: API: 404   test result is error code 
+2016-04-06 23:11:12.052214: API: cloneKeyword   test result is No JSON object could be decoded 
+2016-04-06 23:11:12.053081: API: deleteKeyword   test result is expected a string or other character buffer object 
+2016-04-06 23:11:33.550448: API: upsertDpExpression   test result is Failed 
+2016-04-06 23:11:33.550540: API: 404   test result is error code 
+2016-04-06 23:11:33.550690: API: upsertDpExpression   test result is No JSON object could be decoded 
+2016-04-06 23:11:57.418956: API: cloneExpression   test result is Failed 
+2016-04-06 23:11:57.419062: API: 404   test result is error code 
+2016-04-06 23:11:57.419181: API: cloneExpression   test result is No JSON object could be decoded 
+2016-04-06 23:11:57.420106: API: deleteExpression   test result is expected a string or other character buffer object 
+2016-04-06 23:12:13.221021: API: list   test result is Failed 
+2016-04-06 23:12:13.221128: API: 404   test result is error code 
+2016-04-06 23:12:13.221261: API: list   test result is No JSON object could be decoded 
+2016-04-06 23:12:36.402827: API: clone   test result is Failed 
+2016-04-06 23:12:36.402919: API: 404   test result is error code 
+2016-04-06 23:12:36.403058: API: clone   test result is No JSON object could be decoded 
+2016-04-06 23:12:36.403949: API: deletePolicy   test result is expected a string or other character buffer object 
+2016-04-06 23:12:50.613497: API: policyList   test result is Failed 
+2016-04-06 23:12:50.613628: API: 404   test result is error code 
+2016-04-06 23:13:06.903013: API: list   test result is Failed 
+2016-04-06 23:13:06.903153: API: 404   test result is error code 
+2016-04-06 23:13:06.903280: API: list   test result is No JSON object could be decoded 
+2016-04-06 23:13:06.904140: API: policyContent   test result is expected a string or other character buffer object 
+2016-04-06 23:13:36.961127: API: deletePolicyByType   test result is Failed 
+2016-04-06 23:13:36.961228: API: 404   test result is error code 
+2016-04-07 16:35:43.389664: API: addDefaultPolicyForProduct   test result is HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /policy/addDefaultPolicyForProduct (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x7fb70f94a490>: Failed to establish a new connection: [Errno 111] Connection refused',)) 
+2016-04-07 16:35:43.411703: API: getDpTemplate   test result is HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /policy/getDpTemplate/TestCompanyForPolicySimulate/ (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x7fb70f94a410>: Failed to establish a new connection: [Errno 111] Connection refused',)) 
+2016-04-07 16:35:43.414584: API: getDpKeyword   test result is HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /policy/getDpKeyword/TestCompanyForPolicySimulate/ (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x7fb70f94a490>: Failed to establish a new connection: [Errno 111] Connection refused',)) 
+2016-04-07 16:35:43.417353: API: getDpExpression   test result is HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /policy/getDpExpression/TestCompanyForPolicySimulate/ (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x7fb70f94a410>: Failed to establish a new connection: [Errno 111] Connection refused',)) 
+2016-04-07 16:35:43.420051: API: getEOpolicy   test result is HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /policy/match/EO/TestCompanyForPolicySimulate/testusername1@testabcsite.onmicrosoft.com (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x7fb70f94a490>: Failed to establish a new connection: [Errno 111] Connection refused',)) 
+2016-04-07 16:35:43.422775: API: getODpolicy   test result is HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /policy/match/OD/TestCompanyForPolicySimulate/https%253A%252F%252Ftestabcsite-my.sharepoint.com%252Fpersonal%252Ftestusername1_testabcsite_onmicrosoft_com%252F (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x7fb70f94a410>: Failed to establish a new connection: [Errno 111] Connection refused',)) 
+2016-04-07 16:35:43.425282: API: getSOpolicy   test result is HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /policy/match/SO/http%253a%252f%252ftestabcsite.sharepoint.com%252flevelA1%252f (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x7fb70f94a490>: Failed to establish a new connection: [Errno 111] Connection refused',)) 
+2016-04-07 16:35:43.427847: API: list   test result is HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /policy/list/TestCompanyForPolicySimulate/1 (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x7fb70f94a410>: Failed to establish a new connection: [Errno 111] Connection refused',)) 
+2016-04-07 16:35:43.437877: API: clone   test result is HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /policy/clonePolicy (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x7fb70f94a350>: Failed to establish a new connection: [Errno 111] Connection refused',)) 
+2016-04-07 16:35:43.440641: API: list   test result is HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /policy/list/TestCompanyForPolicySimulate/1 (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x7fb70f94a390>: Failed to establish a new connection: [Errno 111] Connection refused',)) 
+2016-04-07 16:35:43.441350: API: details   test result is expected a string or other character buffer object 
+2016-04-07 16:35:43.450472: API: addPolicy   test result is HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /policy/addPolicy (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x7fb70f94a990>: Failed to establish a new connection: [Errno 111] Connection refused',)) 
+2016-04-07 16:35:43.453542: API: addPolicy   test result is HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /policy/addPolicy (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x7fb70f94a890>: Failed to establish a new connection: [Errno 111] Connection refused',)) 
+2016-04-07 16:35:43.471284: API: updatePolicy   test result is HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /policy/updatePolicy (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x7fb70f94a490>: Failed to establish a new connection: [Errno 111] Connection refused',)) 
+2016-04-07 16:35:43.474044: API: matchCAS   test result is HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /policy/match/CAS/TestCompanyForPolicySimulate/EO?userId=testusername1@testabcsite.onmicrosoft.com (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x7fb70f94a390>: Failed to establish a new connection: [Errno 111] Connection refused',)) 
+2016-04-07 16:35:43.476695: API: list   test result is HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /policy/list/TestCompanyForPolicySimulate/1 (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x7fb70f94a890>: Failed to establish a new connection: [Errno 111] Connection refused',)) 
+2016-04-07 16:35:43.477482: API: getPolicy   test result is expected a string or other character buffer object 
+2016-04-07 16:35:43.480030: API: list   test result is HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /policy/list/TestCompanyForPolicySimulate/1 (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x7fb70f94a390>: Failed to establish a new connection: [Errno 111] Connection refused',)) 
+2016-04-07 16:35:43.480753: API: policyEnabledInfo   test result is expected a string or other character buffer object 
+2016-04-07 16:35:43.483184: API: getScanTarget   test result is HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /policy/targets/SCAN/TestCompanyForPolicySimulate (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x7fb70f94a890>: Failed to establish a new connection: [Errno 111] Connection refused',)) 
+2016-04-07 16:35:43.485703: API: serverStatus   test result is HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /policy/serverStatus (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x7fb70f94a4d0>: Failed to establish a new connection: [Errno 111] Connection refused',)) 
+2016-04-07 16:35:43.488350: API: throttlingRatio   test result is HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /policy/throttlingRatio/TestCompanyForPolicySimulate (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x7fb70f94a490>: Failed to establish a new connection: [Errno 111] Connection refused',)) 
+2016-04-07 16:35:43.491254: API: throttlingRatioType   test result is HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /policy/throttlingRatio/TestCompanyForPolicySimulate/2 (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x7fb70f94a4d0>: Failed to establish a new connection: [Errno 111] Connection refused',)) 
+2016-04-07 16:35:43.494714: API: taskStatus   test result is HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /policy/taskStatus/TestCompanyForPolicySimulate (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x7fb70f94a490>: Failed to establish a new connection: [Errno 111] Connection refused',)) 
+2016-04-07 16:35:43.497940: API: Validation   test result is HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /policy/listDict/Validation (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x7fb70f94a350>: Failed to establish a new connection: [Errno 111] Connection refused',)) 
+2016-04-07 16:35:43.502222: API: upsertDpTemplate   test result is HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /policy/upsertDpTemplate (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x7fb70f94a910>: Failed to establish a new connection: [Errno 111] Connection refused',)) 
+2016-04-07 16:35:43.513580: API: cloneTemplate   test result is HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /policy/cloneTemplate (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x7fb70f94aa10>: Failed to establish a new connection: [Errno 111] Connection refused',)) 
+2016-04-07 16:35:43.514311: API: deleteTemplate   test result is expected a string or other character buffer object 
+2016-04-07 16:35:43.518249: API: upsertDpKeyword   test result is HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /policy/upsertDpKeyword (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x7fb70f94a390>: Failed to establish a new connection: [Errno 111] Connection refused',)) 
+2016-04-07 16:35:43.534729: API: cloneKeyword   test result is HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /policy/cloneKeyword (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x7fb70f94a4d0>: Failed to establish a new connection: [Errno 111] Connection refused',)) 
+2016-04-07 16:35:43.535550: API: deleteKeyword   test result is expected a string or other character buffer object 
+2016-04-07 16:35:43.539223: API: upsertDpExpression   test result is HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /policy/upsertDpExpression (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x7fb70f94a850>: Failed to establish a new connection: [Errno 111] Connection refused',)) 
+2016-04-07 16:35:43.554644: API: cloneExpression   test result is HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /policy/cloneExpression (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x7fb70f94a510>: Failed to establish a new connection: [Errno 111] Connection refused',)) 
+2016-04-07 16:35:43.555402: API: deleteExpression   test result is expected a string or other character buffer object 
+2016-04-07 16:35:43.558052: API: list   test result is HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /policy/list/TestCompanyForPolicySimulate/1 (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x7fb70f94a990>: Failed to establish a new connection: [Errno 111] Connection refused',)) 
+2016-04-07 16:35:43.561287: API: clone   test result is HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /policy/clonePolicy (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x7fb70f94a350>: Failed to establish a new connection: [Errno 111] Connection refused',)) 
+2016-04-07 16:35:43.562026: API: deletePolicy   test result is expected a string or other character buffer object 
+2016-04-07 16:35:43.564695: API: policyList   test result is HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /policy/policyList/TestCompanyForPolicySimulate?policyType=1&policyHolderType=1&realtimeEnabled=true (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x7fb70f94aa10>: Failed to establish a new connection: [Errno 111] Connection refused',)) 
+2016-04-07 16:35:43.567252: API: list   test result is HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /policy/list/TestCompanyForPolicySimulate/1 (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x7fb70f94a350>: Failed to establish a new connection: [Errno 111] Connection refused',)) 
+2016-04-07 16:35:43.567966: API: policyContent   test result is expected a string or other character buffer object 
+2016-04-07 16:35:43.583021: API: deletePolicyByType   test result is HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /policy/deletePolicyByType (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x7fb70f94a8d0>: Failed to establish a new connection: [Errno 111] Connection refused',)) 
+2016-04-08 11:32:57.441939: API: addDefaultPolicyForProduct   test result is Success 
+2016-04-08 11:32:57.806166: API: getDpTemplate   test result is Success 
+2016-04-08 11:32:57.991813: API: getDpKeyword   test result is Success 
+2016-04-08 11:32:58.386180: API: getDpExpression   test result is Success 
+2016-04-08 11:32:58.742903: API: getEOpolicy   test result is Success 
+2016-04-08 11:32:58.838893: API: getODpolicy   test result is Success 
+2016-04-08 11:32:58.963919: API: getSOpolicy   test result is Success 
+2016-04-08 11:32:59.434537: API: list   test result is Success 
+2016-04-08 11:32:59.742223: API: clone   test result is Success 
+2016-04-08 11:32:59.973848: API: list   test result is Success 
+2016-04-08 11:33:00.029038: API: details   test result is Success 
+2016-04-08 11:33:00.241999: API: addPolicy   test result is Success 
+2016-04-08 11:33:00.475200: API: addPolicy   test result is Success 
+2016-04-08 11:33:00.588200: API: updatePolicy   test result is Success 
+2016-04-08 11:33:00.603767: API: matchCAS   test result is Success 
+2016-04-08 11:33:00.780205: API: list   test result is Success 
+2016-04-08 11:33:00.871595: API: getPolicy   test result is Success 
+2016-04-08 11:33:01.140266: API: list   test result is Success 
+2016-04-08 11:33:01.167016: API: policyEnabledInfo   test result is Success 
+2016-04-08 11:33:01.238339: API: getScanTarget   test result is Success 
+2016-04-08 11:33:01.247295: API: serverStatus   test result is Success 
+2016-04-08 11:33:01.261339: API: throttlingRatio   test result is Success 
+2016-04-08 11:33:01.272749: API: throttlingRatioType   test result is Success 
+2016-04-08 11:33:01.284132: API: taskStatus   test result is Success 
+2016-04-08 11:33:01.346278: API: Validation   test result is Success 
+2016-04-08 11:33:01.409032: API: upsertDpTemplate   test result is Success 
+2016-04-08 11:33:01.475235: API: cloneTemplate   test result is Success 
+2016-04-08 11:33:01.491635: API: deleteTemplate   test result is Success 
+2016-04-08 11:33:01.533593: API: upsertDpKeyword   test result is Success 
+2016-04-08 11:33:01.591798: API: cloneKeyword   test result is Success 
+2016-04-08 11:33:01.674753: API: deleteKeyword   test result is Success 
+2016-04-08 11:33:01.725411: API: upsertDpExpression   test result is Success 
+2016-04-08 11:33:01.783623: API: cloneExpression   test result is Success 
+2016-04-08 11:33:01.877714: API: deleteExpression   test result is Success 
+2016-04-08 11:33:02.102771: API: list   test result is Success 
+2016-04-08 11:33:02.344787: API: clone   test result is Success 
+2016-04-08 11:33:02.386330: API: deletePolicy   test result is Success 
+2016-04-08 11:33:02.404880: API: policyList   test result is Success 
+2016-04-08 11:33:02.588853: API: list   test result is Success 
+2016-04-08 11:33:02.623849: API: policyContent   test result is Success 
+2016-04-08 11:33:02.688867: API: deletePolicyByType   test result is Success 
+2016-04-08 13:37:04.807614: API: addDefaultPolicyForProduct   test result is Success 
+2016-04-08 13:37:05.186843: API: getDpTemplate   test result is Success 
+2016-04-08 13:37:05.385622: API: getDpKeyword   test result is Success 
+2016-04-08 13:37:05.752278: API: getDpExpression   test result is Success 
+2016-04-08 13:37:05.854822: API: getEOpolicy   test result is Success 
+2016-04-08 13:37:05.909353: API: getODpolicy   test result is Success 
+2016-04-08 13:37:05.955714: API: getSOpolicy   test result is Success 
+2016-04-08 13:37:06.195782: API: list   test result is Success 
+2016-04-08 13:37:06.443646: API: clone   test result is Success 
+2016-04-08 13:37:06.486271: API: list   test result is Success 
+2016-04-08 13:37:06.527114: API: details   test result is Success 
+2016-04-08 13:37:06.734376: API: addPolicy   test result is Success 
+2016-04-08 13:37:07.118195: API: addPolicy   test result is Success 
+2016-04-08 13:37:07.244691: API: updatePolicy   test result is Success 
+2016-04-08 13:37:07.258092: API: matchCAS   test result is Success 
+2016-04-08 13:37:07.329156: API: list   test result is Success 
+2016-04-08 13:37:07.377427: API: getPolicy   test result is Success 
+2016-04-08 13:37:07.428264: API: list   test result is Success 
+2016-04-08 13:37:07.447730: API: policyEnabledInfo   test result is Success 
+2016-04-08 13:37:07.473698: API: getScanTarget   test result is Success 
+2016-04-08 13:37:07.479701: API: serverStatus   test result is Success 
+2016-04-08 13:37:07.494180: API: throttlingRatio   test result is Success 
+2016-04-08 13:37:07.505642: API: throttlingRatioType   test result is Success 
+2016-04-08 13:37:07.517876: API: taskStatus   test result is Success 
+2016-04-08 13:37:07.561481: API: Validation   test result is Success 
+2016-04-08 13:37:07.643099: API: upsertDpTemplate   test result is Success 
+2016-04-08 13:37:07.701487: API: cloneTemplate   test result is Success 
+2016-04-08 13:37:07.737396: API: deleteTemplate   test result is Success 
+2016-04-08 13:37:07.779082: API: upsertDpKeyword   test result is Success 
+2016-04-08 13:37:07.837346: API: cloneKeyword   test result is Success 
+2016-04-08 13:37:07.920953: API: deleteKeyword   test result is Success 
+2016-04-08 13:37:07.962286: API: upsertDpExpression   test result is Success 
+2016-04-08 13:37:08.012833: API: cloneExpression   test result is Success 
+2016-04-08 13:37:08.087367: API: deleteExpression   test result is Success 
+2016-04-08 13:37:08.130713: API: list   test result is Success 
+2016-04-08 13:37:08.337657: API: clone   test result is Success 
+2016-04-08 13:37:08.362349: API: deletePolicy   test result is Success 
+2016-04-08 13:37:08.377810: API: policyList   test result is Success 
+2016-04-08 13:37:08.447328: API: list   test result is Success 
+2016-04-08 13:37:08.480599: API: policyContent   test result is Success 
+2016-04-08 13:37:08.572673: API: deletePolicyByType   test result is Success 
+2016-04-08 13:41:56.263393: API: addDefaultPolicyForProduct   test result is Success 
+2016-04-08 13:41:56.626386: API: getDpTemplate   test result is Success 
+2016-04-08 13:41:56.783290: API: getDpKeyword   test result is Success 
+2016-04-08 13:41:57.156899: API: getDpExpression   test result is Success 
+2016-04-08 13:41:57.261421: API: getEOpolicy   test result is Success 
+2016-04-08 13:41:57.324467: API: getODpolicy   test result is Success 
+2016-04-08 13:41:57.377073: API: getSOpolicy   test result is Success 
+2016-04-08 13:41:57.591248: API: list   test result is Success 
+2016-04-08 13:41:57.849119: API: clone   test result is Success 
+2016-04-08 13:41:57.875902: API: list   test result is Success 
+2016-04-08 13:41:57.914297: API: details   test result is Success 
+2016-04-08 13:41:58.106729: API: addPolicy   test result is Success 
+2016-04-08 13:41:58.365620: API: addPolicy   test result is Success 
+2016-04-08 13:41:58.474141: API: updatePolicy   test result is Success 
+2016-04-08 13:41:58.487498: API: matchCAS   test result is Success 
+2016-04-08 13:41:58.558386: API: list   test result is Success 
+2016-04-08 13:41:58.616435: API: getPolicy   test result is Success 
+2016-04-08 13:41:58.683532: API: list   test result is Success 
+2016-04-08 13:41:58.701713: API: policyEnabledInfo   test result is Success 
+2016-04-08 13:41:58.723489: API: getScanTarget   test result is Success 
+2016-04-08 13:41:58.730073: API: serverStatus   test result is Success 
+2016-04-08 13:41:58.744164: API: throttlingRatio   test result is Success 
+2016-04-08 13:41:58.754244: API: throttlingRatioType   test result is Success 
+2016-04-08 13:41:58.768229: API: taskStatus   test result is Success 
+2016-04-08 13:41:58.815322: API: Validation   test result is Success 
+2016-04-08 13:41:58.880582: API: upsertDpTemplate   test result is Success 
+2016-04-08 13:41:58.948784: API: cloneTemplate   test result is Success 
+2016-04-08 13:41:58.966259: API: deleteTemplate   test result is Success 
+2016-04-08 13:41:59.006888: API: upsertDpKeyword   test result is Success 
+2016-04-08 13:41:59.215256: API: cloneKeyword   test result is Success 
+2016-04-08 13:41:59.806752: API: deleteKeyword   test result is Success 
+2016-04-08 13:42:00.049862: API: upsertDpExpression   test result is Success 
+2016-04-08 13:42:00.118213: API: cloneExpression   test result is Success 
+2016-04-08 13:42:00.193305: API: deleteExpression   test result is Success 
+2016-04-08 13:42:00.234612: API: list   test result is Success 
+2016-04-08 13:42:00.434821: API: clone   test result is Success 
+2016-04-08 13:42:00.451153: API: deletePolicy   test result is Success 
+2016-04-08 13:42:00.462556: API: policyList   test result is Success 
+2016-04-08 13:42:00.501203: API: list   test result is Success 
+2016-04-08 13:42:00.534925: API: policyContent   test result is Success 
+2016-04-08 13:42:00.567154: API: deletePolicyByType   test result is Success 
+2016-04-08 23:01:44.879079: API: addDefaultPolicyForProduct   test result is Success 
+2016-04-08 23:01:45.249363: API: getDpTemplate   test result is Success 
+2016-04-08 23:01:45.250154: API: getDpTemplate   test result is 'ascii' codec can't encode character u'\u010d' in position 40654: ordinal not in range(128) 
+2016-04-08 23:01:45.382968: API: getDpKeyword   test result is Success 
+2016-04-08 23:01:45.806826: API: getDpExpression   test result is Success 
+2016-04-08 23:01:45.912797: API: getEOpolicy   test result is Success 
+2016-04-08 23:01:45.975546: API: getODpolicy   test result is Success 
+2016-04-08 23:01:46.032653: API: getSOpolicy   test result is Success 
+2016-04-08 23:01:46.319850: API: list   test result is Success 
+2016-04-08 23:01:46.581729: API: clone   test result is Success 
+2016-04-08 23:01:46.613450: API: list   test result is Success 
+2016-04-08 23:01:46.660842: API: details   test result is Success 
+2016-04-08 23:01:46.872516: API: addPolicy   test result is Success 
+2016-04-08 23:01:47.064309: API: addPolicy   test result is Success 
+2016-04-08 23:01:47.224079: API: updatePolicy   test result is Success 
+2016-04-08 23:01:47.239193: API: matchCAS   test result is Success 
+2016-04-08 23:01:47.320611: API: list   test result is Success 
+2016-04-08 23:01:47.685424: API: getPolicy   test result is Success 
+2016-04-08 23:01:47.770125: API: list   test result is Success 
+2016-04-08 23:01:47.814782: API: policyEnabledInfo   test result is Success 
+2016-04-08 23:01:47.843508: API: getScanTarget   test result is Success 
+2016-04-08 23:01:47.849693: API: serverStatus   test result is Success 
+2016-04-08 23:01:47.863732: API: throttlingRatio   test result is Success 
+2016-04-08 23:01:47.872382: API: throttlingRatioType   test result is Success 
+2016-04-08 23:01:47.885416: API: taskStatus   test result is Success 
+2016-04-08 23:01:47.926317: API: Validation   test result is Success 
+2016-04-08 23:01:47.980958: API: upsertDpTemplate   test result is Success 
+2016-04-08 23:01:48.039437: API: cloneTemplate   test result is Success 
+2016-04-08 23:01:48.055412: API: deleteTemplate   test result is Success 
+2016-04-08 23:01:48.090759: API: upsertDpKeyword   test result is Success 
+2016-04-08 23:01:48.148178: API: cloneKeyword   test result is Success 
+2016-04-08 23:01:48.230836: API: deleteKeyword   test result is Success 
+2016-04-08 23:01:48.272261: API: upsertDpExpression   test result is Success 
+2016-04-08 23:01:48.322915: API: cloneExpression   test result is Success 
+2016-04-08 23:01:48.398160: API: deleteExpression   test result is Success 
+2016-04-08 23:01:48.449935: API: list   test result is Success 
+2016-04-08 23:01:48.672861: API: clone   test result is Success 
+2016-04-08 23:01:48.714203: API: deletePolicy   test result is Success 
+2016-04-08 23:01:48.728771: API: policyList   test result is Success 
+2016-04-08 23:01:48.861995: API: list   test result is Success 
+2016-04-08 23:01:49.036386: API: policyContent   test result is Success 
+2016-04-08 23:01:49.090537: API: deletePolicyByType   test result is Success 
+2016-04-09 23:01:24.567124: API: addDefaultPolicyForProduct   test result is Success 
+2016-04-09 23:01:24.955135: API: getDpTemplate   test result is Success 
+2016-04-09 23:01:24.955943: API: getDpTemplate   test result is 'ascii' codec can't encode character u'\u010d' in position 40945: ordinal not in range(128) 
+2016-04-09 23:01:25.097033: API: getDpKeyword   test result is Success 
+2016-04-09 23:01:25.473731: API: getDpExpression   test result is Success 
+2016-04-09 23:01:25.583848: API: getEOpolicy   test result is Success 
+2016-04-09 23:01:25.640249: API: getODpolicy   test result is Success 
+2016-04-09 23:01:25.685456: API: getSOpolicy   test result is Success 
+2016-04-09 23:01:25.906666: API: list   test result is Success 
+2016-04-09 23:01:26.185457: API: clone   test result is Success 
+2016-04-09 23:01:26.214384: API: list   test result is Success 
+2016-04-09 23:01:26.261009: API: details   test result is Success 
+2016-04-09 23:01:26.467870: API: addPolicy   test result is Success 
+2016-04-09 23:01:26.667948: API: addPolicy   test result is Success 
+2016-04-09 23:01:26.794315: API: updatePolicy   test result is Success 
+2016-04-09 23:01:26.809727: API: matchCAS   test result is Success 
+2016-04-09 23:01:26.893389: API: list   test result is Success 
+2016-04-09 23:01:26.948787: API: getPolicy   test result is Success 
+2016-04-09 23:01:27.028974: API: list   test result is Success 
+2016-04-09 23:01:27.059483: API: policyEnabledInfo   test result is Success 
+2016-04-09 23:01:27.082007: API: getScanTarget   test result is Success 
+2016-04-09 23:01:27.090638: API: serverStatus   test result is Success 
+2016-04-09 23:01:27.104264: API: throttlingRatio   test result is Success 
+2016-04-09 23:01:27.113484: API: throttlingRatioType   test result is Success 
+2016-04-09 23:01:27.134809: API: taskStatus   test result is Success 
+2016-04-09 23:01:27.186103: API: Validation   test result is Success 
+2016-04-09 23:01:27.242832: API: upsertDpTemplate   test result is Success 
+2016-04-09 23:01:27.301285: API: cloneTemplate   test result is Success 
+2016-04-09 23:01:27.317610: API: deleteTemplate   test result is Success 
+2016-04-09 23:01:27.360638: API: upsertDpKeyword   test result is Success 
+2016-04-09 23:01:27.418303: API: cloneKeyword   test result is Success 
+2016-04-09 23:01:28.301348: API: deleteKeyword   test result is Success 
+2016-04-09 23:01:28.351221: API: upsertDpExpression   test result is Success 
+2016-04-09 23:01:28.401194: API: cloneExpression   test result is Success 
+2016-04-09 23:01:28.468510: API: deleteExpression   test result is Success 
+2016-04-09 23:01:28.523468: API: list   test result is Success 
+2016-04-09 23:01:28.777438: API: clone   test result is Success 
+2016-04-09 23:01:28.862112: API: deletePolicy   test result is Success 
+2016-04-09 23:01:28.874699: API: policyList   test result is Success 
+2016-04-09 23:01:28.922271: API: list   test result is Success 
+2016-04-09 23:01:28.957798: API: policyContent   test result is Success 
+2016-04-09 23:01:29.020059: API: deletePolicyByType   test result is Success 
+2016-04-10 23:01:22.985699: API: addDefaultPolicyForProduct   test result is Success 
+2016-04-10 23:01:23.340833: API: getDpTemplate   test result is Success 
+2016-04-10 23:01:23.341628: API: getDpTemplate   test result is 'ascii' codec can't encode character u'\u010d' in position 41236: ordinal not in range(128) 
+2016-04-10 23:01:23.480661: API: getDpKeyword   test result is Success 
+2016-04-10 23:01:23.861028: API: getDpExpression   test result is Success 
+2016-04-10 23:01:23.972737: API: getEOpolicy   test result is Success 
+2016-04-10 23:01:24.021885: API: getODpolicy   test result is Success 
+2016-04-10 23:01:24.073858: API: getSOpolicy   test result is Success 
+2016-04-10 23:01:24.299559: API: list   test result is Success 
+2016-04-10 23:01:24.554642: API: clone   test result is Success 
+2016-04-10 23:01:24.583380: API: list   test result is Success 
+2016-04-10 23:01:24.660062: API: details   test result is Success 
+2016-04-10 23:01:24.895314: API: addPolicy   test result is Success 
+2016-04-10 23:01:25.087121: API: addPolicy   test result is Success 
+2016-04-10 23:01:25.213020: API: updatePolicy   test result is Success 
+2016-04-10 23:01:25.228893: API: matchCAS   test result is Success 
+2016-04-10 23:01:25.303599: API: list   test result is Success 
+2016-04-10 23:01:25.358785: API: getPolicy   test result is Success 
+2016-04-10 23:01:25.435913: API: list   test result is Success 
+2016-04-10 23:01:25.462445: API: policyEnabledInfo   test result is Success 
+2016-04-10 23:01:25.489036: API: getScanTarget   test result is Success 
+2016-04-10 23:01:25.495603: API: serverStatus   test result is Success 
+2016-04-10 23:01:25.512289: API: throttlingRatio   test result is Success 
+2016-04-10 23:01:25.523084: API: throttlingRatioType   test result is Success 
+2016-04-10 23:01:25.539311: API: taskStatus   test result is Success 
+2016-04-10 23:01:25.584404: API: Validation   test result is Success 
+2016-04-10 23:01:25.646133: API: upsertDpTemplate   test result is Success 
+2016-04-10 23:01:25.728987: API: cloneTemplate   test result is Success 
+2016-04-10 23:01:25.745296: API: deleteTemplate   test result is Success 
+2016-04-10 23:01:25.787397: API: upsertDpKeyword   test result is Success 
+2016-04-10 23:01:25.845607: API: cloneKeyword   test result is Success 
+2016-04-10 23:01:25.929910: API: deleteKeyword   test result is Success 
+2016-04-10 23:01:25.970862: API: upsertDpExpression   test result is Success 
+2016-04-10 23:01:26.021745: API: cloneExpression   test result is Success 
+2016-04-10 23:01:26.812718: API: deleteExpression   test result is Success 
+2016-04-10 23:01:26.858537: API: list   test result is Success 
+2016-04-10 23:01:27.062291: API: clone   test result is Success 
+2016-04-10 23:01:27.087057: API: deletePolicy   test result is Success 
+2016-04-10 23:01:27.098641: API: policyList   test result is Success 
+2016-04-10 23:01:27.137987: API: list   test result is Success 
+2016-04-10 23:01:27.171440: API: policyContent   test result is Success 
+2016-04-10 23:01:27.207046: API: deletePolicyByType   test result is Success 
+2016-04-11 23:02:08.092990: API: addDefaultPolicyForProduct   test result is Success 
+2016-04-11 23:02:09.082386: API: getDpTemplate   test result is Success 
+2016-04-11 23:02:09.083199: API: getDpTemplate   test result is 'ascii' codec can't encode character u'\u010d' in position 41527: ordinal not in range(128) 
+2016-04-11 23:02:09.229170: API: getDpKeyword   test result is Success 
+2016-04-11 23:02:09.608821: API: getDpExpression   test result is Success 
+2016-04-11 23:02:09.724497: API: getEOpolicy   test result is Success 
+2016-04-11 23:02:09.773199: API: getODpolicy   test result is Success 
+2016-04-11 23:02:09.817581: API: getSOpolicy   test result is Success 
+2016-04-11 23:02:10.064604: API: list   test result is Success 
+2016-04-11 23:02:10.319825: API: clone   test result is Success 
+2016-04-11 23:02:10.351516: API: list   test result is Success 
+2016-04-11 23:02:10.396845: API: details   test result is Success 
+2016-04-11 23:02:10.652576: API: addPolicy   test result is Success 
+2016-04-11 23:02:10.968702: API: addPolicy   test result is Success 
+2016-04-11 23:02:11.808044: API: updatePolicy   test result is Success 
+2016-04-11 23:02:11.819481: API: matchCAS   test result is Success 
+2016-04-11 23:02:11.864296: API: list   test result is Success 
+2016-04-11 23:02:11.905326: API: getPolicy   test result is Success 
+2016-04-11 23:02:11.957764: API: list   test result is Success 
+2016-04-11 23:02:11.979368: API: policyEnabledInfo   test result is Success 
+2016-04-11 23:02:12.003471: API: getScanTarget   test result is Success 
+2016-04-11 23:02:12.009156: API: serverStatus   test result is Success 
+2016-04-11 23:02:12.022491: API: throttlingRatio   test result is Success 
+2016-04-11 23:02:12.031664: API: throttlingRatioType   test result is Success 
+2016-04-11 23:02:12.042649: API: taskStatus   test result is Success 
+2016-04-11 23:02:12.085195: API: Validation   test result is Success 
+2016-04-11 23:02:12.132871: API: upsertDpTemplate   test result is Success 
+2016-04-11 23:02:12.191484: API: cloneTemplate   test result is Success 
+2016-04-11 23:02:12.208362: API: deleteTemplate   test result is Success 
+2016-04-11 23:02:12.242477: API: upsertDpKeyword   test result is Success 
+2016-04-11 23:02:12.299555: API: cloneKeyword   test result is Success 
+2016-04-11 23:02:12.424600: API: deleteKeyword   test result is Success 
+2016-04-11 23:02:12.466764: API: upsertDpExpression   test result is Success 
+2016-04-11 23:02:12.566724: API: cloneExpression   test result is Success 
+2016-04-11 23:02:12.659695: API: deleteExpression   test result is Success 
+2016-04-11 23:02:12.710489: API: list   test result is Success 
+2016-04-11 23:02:12.924635: API: clone   test result is Success 
+2016-04-11 23:02:12.949621: API: deletePolicy   test result is Success 
+2016-04-11 23:02:12.976849: API: policyList   test result is Success 
+2016-04-11 23:02:13.062659: API: list   test result is Success 
+2016-04-11 23:02:13.098504: API: policyContent   test result is Success 
+2016-04-11 23:02:13.161082: API: deletePolicyByType   test result is Success 
